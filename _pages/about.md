@@ -1,28 +1,29 @@
 ---
 
-title: "About David Florian"
+title: "About Isabelle Pham"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Isabelle prides herself on her diverse skill set. Her most prominent fields of expertise are software engineering and financial analysis. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+* Vanderbilt University (Class of 2027)
+  * Cornelius Vanderbilt Scholar 
+  * BS Human and Organizational Development
+  * BS Computer Science 
+* C. Leon King High School
+  * International Baccalaureate Diploma
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Isabelle can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. Isabelle has experience with the following applications:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* C++
+* Java
+* Python
+* Computer Aided Design 
+* Figma 
 
 ## Press 
 
