@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/IsabellePham_Headshot.JPEG"
+  avatar           : "/assets/img/IsabellePham_Headshot.JPEG"
   bio              : "A junior at Vanderbilt University majoring in Computer Science and Human and Organizational Development with a minor in Digital Fabrication! "
   location         : "Nashville, TN"
   links:
