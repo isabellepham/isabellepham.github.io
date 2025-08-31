@@ -1,10 +1,10 @@
 ---
-title: "Example Web Page"
+title: "Isabelle Pham's Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: assets/img/Vandy_Homepage_Banner.jpg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
@@ -13,14 +13,11 @@ feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
     title: "Syringe Pump"
-    excerpt: "Built for fabricating aluminum and steel parts."
+    excerpt: "Collaborated with a team to build a syringe pump capable of delivering precise, programmable flow rates by combining skills in CAD, 3D printing, wiring and coding."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    title: "3D Printed iPhone 15 Case"
+    excerpt: "Designed and fabricated a custom TPU iPhone case using parametric modeling and FFF printing."
 ---
 
 {% include feature_row %}
