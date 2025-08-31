@@ -8,11 +8,11 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Isabelle Pham is a junior at Vanderbilt University studying Human and Organizational Development and Computer Science, with a minor in Digital Fabrication. She is passionate about the intersection of design and technology. Her interests span software engineering, 3D printing, and human-centered development. Isabelle is excited about continually learning and using her skills to design thoughtful solutions that drive meaningful change."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
+    title: "Syringe Pump"
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
