@@ -17,16 +17,25 @@ Isabelle prides herself on her diverse skill set. Her most prominent fields of e
 
 ## Technical Skills
 
-Isabelle can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. Isabelle has experience with the following applications:
+Isabelle brings a diverse skill set developed through experience in software engineering, prototyping, and financial analysis.
 
+Programming Languages: 
 * C++
 * Java
 * Python
-* Computer Aided Design 
-* Figma 
+
+Digital Fabrication Tools: 
+* Computer Aided Design (Fusion360)
+* Fused Filament Fabrication (3D Printing)
+* Electrical Prototyping
+* Laser Cutting
 
 ## Press 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+Won the Second Harvest Middle Tennessee (SCNO x Bain & Co.) 2025 Case Competition (https://www.instagram.com/p/DGtWzmVSsja/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
+
+<img src="assets/img/IsabellePham_Headshot.JPEG" alt="David Florian" style="width:200px;"/>
+
+Won the AKPsi x Boston Consulting Group 2025 Case Competition (https://www.instagram.com/p/DHyhia8x-mI/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==).
 
 <img src="assets/img/IsabellePham_Headshot.JPEG" alt="David Florian" style="width:200px;"/>
