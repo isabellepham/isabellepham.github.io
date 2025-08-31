@@ -32,10 +32,10 @@ Digital Fabrication Tools:
 
 ## Press 
 
-Won the Second Harvest Middle Tennessee (SCNO x Bain & Co.) 2025 Case Competition (https://www.instagram.com/p/DGtWzmVSsja/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
+Won the [Second Harvest Middle Tennessee (SCNO x Bain & Co.) 2025 Case Competition](https://www.instagram.com/p/DGtWzmVSsja/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
 
-<img src="assets/img/SCNOCaseComp.JPG" alt="SCNO Case Comp" style="width:200px;"/>
+<img src="/assets/img/SCNOCaseComp.JPG" alt="SCNO Case Comp" style="width:200px;"/>
 
-Won the AKPsi x Boston Consulting Group 2025 Case Competition (https://www.instagram.com/p/DHyhia8x-mI/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==).
+Won the [AKPsi x Boston Consulting Group 2025 Case Competition](https://www.instagram.com/p/DHyhia8x-mI/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==).
 
-<img src="assets/img/AKPsiCaseComp.JPG" alt="AKPsi Case Comp" style="width:200px;"/>
+<img src="/assets/img/AKPsiCaseComp.JPG" alt="AKPsi Case Comp" style="width:200px;"/>
