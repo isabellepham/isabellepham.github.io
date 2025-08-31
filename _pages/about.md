@@ -6,12 +6,12 @@ title: "About Isabelle Pham"
 
 ## Education
 
-Isabelle prides herself on her diverse skill set. Her most prominent fields of expertise are software engineering and financial analysis. 
+Isabelle is a Cornelius Vanderbilt Scholar at Vanderbilt in Peabody College. She has a 3.90/4.00 GPA and is involved with numerous campus organizations including Alpha Kappa Psi Business Fraternity, Student Consulting for Nonprofit Organizations, Kappa Theta Pi Technology Fratnerity, and Commodore Capital Group. 
 
 * Vanderbilt University (Class of 2027)
-  * Cornelius Vanderbilt Scholar 
   * BS Human and Organizational Development
-  * BS Computer Science 
+  * BS Computer Science
+  * Minor in Digital Fabrication
 * C. Leon King High School
   * International Baccalaureate Diploma
 
@@ -29,6 +29,12 @@ Digital Fabrication Tools:
 * Fused Filament Fabrication (3D Printing)
 * Electrical Prototyping
 * Laser Cutting
+
+Certifications: 
+* Goldman Sachs Insights Series (2024)
+* Wall Street Prep Microsoft Excel (2024)
+* Morgan Stanley JumpStart Scholars in Finance (2023)
+* Massachusetts Institute of Technology Women's Technology Program (2022)
 
 ## Press 
 
