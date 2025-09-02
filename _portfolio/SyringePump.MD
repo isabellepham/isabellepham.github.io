@@ -10,7 +10,7 @@ gallery:
     alt: "Final SP"
   - url: /assets/img/Profile SP.JPG
     image_path: assets/img/Profile SP.JPG
-    alt: "Profile SP"
+    alt: "Assembling SP"
   - url: /assets/img/CAD model SP.JPG
     image_path: assets/img/CAD model SP.JPG
     alt: "CAD model SP"
@@ -20,6 +20,9 @@ gallery:
   - url: /assets/img/Dimensional Drawing SP.JPG
     image_path: assets/img/Dimensional Drawing SP.JPG
     alt: "Dimensional Drawing SP"
+  - url: /assets/img/Dimensional Drawing SP.JPG
+    image_path: assets/img/Dimensional Drawing SP.JPG
+    alt: "Enclosure SP"
 ---
 
 I worked on a team to design and build a custom syringe pump capable of delivering precise flow rates between 0.1 mL/min and 5 mL/min with compatibility across two syringe sizes. This makes it well-suited for applications in microfluidics, biomedial reasearch, or controlled drug delivery. 
