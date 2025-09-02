@@ -22,7 +22,38 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 * **Parametric Customization.** The CAD model was fully parameterized, allowing rapid resizing of key dimensions (length, width, thickness) within ±2 mm to compensate for printer tolerances or different iPhone models. This adaptability makes it easy to iterate on prototypes and ensures a perfect fit across variations.
 * **Functional / Aesthetic Enhancements.** Beyond protection, the design incorporates a unique functional or aesthetic element (e.g., integrated grip, stand, or patterned backplate) to improve usability and distinguish the case from generic designs.
 
+
+---
+
+# Off-The-Shelf Parts
+
+| Component                                                                 | Quantity |
+|---------------------------------------------------------------------------|----------|
+| TPU Filament | Supplied in Lab |
+| 3D Printer | Supplied in Lab |
+| [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
+
+---
+
+# 3D Printed Parts
+
+| 3D Printed Part        | Purpose / Function |
+|-------------------------|--------------------|
+| Phone Case v1     | Initial iteration for fit testing |
+| Phone Case v2+ | Refined design with adjusted dimensions | 
+
+---
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d7bf6289862090a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+---
+
+# How to Operate the iPhone 15 Case
+1. Align the phone with the case.
+2. Press the phone into the TPU case, starting from one side (typically button-side first).
+3. Ensure all corners snap into place.
+4. Verify that buttons, ports, and cameras are unobstructed and functional.
+---
 
 {% include gallery caption="3D Printed iPhone 15 Case Gallery" %}
