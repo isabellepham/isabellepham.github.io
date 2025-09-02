@@ -14,6 +14,8 @@ gallery:
 
 I created my own design of an iPhone 15 case using Fusion 360 and additive manufacturing. The case includes protective features around the screen and camera, while also integrating a unique design element of cut out flower for aesthetics. Through iterative prototyping and testing, I explored the benefits and limitations of flexible TPU filament in FFF printing. This project gave me hands-on experience in CAD modeling, parametric design, and design-for-manufacturing - resulting in a functional, customized phone case. 
 
+---
+
 # Features
 
 * **Precision Fit & Full Protection.** The phone case was modeled using Apple’s official accessory design guidelines to ensure an exact fit for the iPhone. All sides of the device, including the camera bump and touchscreen edges, are fully protected while maintaining access to essential functions. The snug fit ensures drop and impact resistance without adding unnecessary bulk.
@@ -54,6 +56,7 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 2. Press the phone into the TPU case, starting from one side (typically button-side first).
 3. Ensure all corners snap into place.
 4. Verify that buttons, ports, and cameras are unobstructed and functional.
+
 ---
 
 {% include gallery caption="3D Printed iPhone 15 Case Gallery" %}
