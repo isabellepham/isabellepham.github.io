@@ -1,14 +1,15 @@
 ---
-title: "Large Format 3D Printer"
+title: "Custom iPhone 15 Case"
 excerpt: "A custom TPU iPhone 15 case that provides full protection while maintaining accessability to all buttons, cameras, and ports."
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: /assets/img/3DPrinting_PhoneCase.JPG
+  teaser: /assets/img/3DPrinting_PhoneCase.JPG
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-   
+  - image_path: assets/img/Orange & Blue PC.JPG
+  - image_path: assets/img/Comparisons PC.JPG
+  - image_path: assets/img/Printing PC.JPG
+  - image_path: assets/img/Modeling PC.JPG
+  
 ---
 
 I created my own design of an iPhone 15 case using Fusion 360 and additive manufacturing. The case includes protective features around the screen and camera, while also integrating a unique design element of cut out flower for aesthetics. Through iterative prototyping and testing, I explored the benefits and limitations of flexible TPU filament in FFF printing. This project gave me hands-on experience in CAD modeling, parametric design, and design-for-manufacturing - resulting in a functional, customized phone case. 
