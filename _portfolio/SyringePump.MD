@@ -80,6 +80,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 
 
 # 3D Printed Parts
+
 | 3D Printed Part        | Purpose / Function |
 |-------------------------|--------------------|
 | Stepper Motor Mount     | Secures the Nema 17 stepper motor to the aluminum extrusion |
