@@ -23,6 +23,6 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 * **Functional / Aesthetic Enhancements.** Beyond protection, the design incorporates a unique functional or aesthetic element (e.g., integrated grip, stand, or patterned backplate) to improve usability and distinguish the case from generic designs.
 
 # CAD Model
-<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d7bf6289862090a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="3D Printed iPhone 15 Case Gallery" %}
