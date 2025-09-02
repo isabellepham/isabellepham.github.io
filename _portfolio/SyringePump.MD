@@ -4,12 +4,6 @@ excerpt: "This syringe pump can deliver precise, programmable flow of fluids con
 header:
   image: /assets/img/banner SP.JPG
   teaser: /assets/img/banner SP.JPG
----
-
-I worked on a team to design and build a custom syringe pump capable of delivering precise flow rates between 0.1 mL/min and 5 mL/min with compatibility across two syringe sizes. This makes it well-suited for applications in microfluidics, biomedial reasearch, or controlled drug delivery. 
-
-Commercial syringe pumps can cost several hundred dollars, so instead of buying one, our team engineeringed a DIY version. We combined CAD modeling, 3D printing, electrical wiring and Arduino programming to create a reliable device powered by a stepper motor and lead screw. The system integrates flow rate control, limit switches, and LED indicators. These features make it safe, accurate, and user-friendly. 
-
 gallery:
   - image_path: assets/img/SyringePump_Project.JPG
   - image_path: assets/img/Assembling SP.JPG
@@ -17,6 +11,13 @@ gallery:
   - image_path: assets/img/Wiring SP.JPG
   - image_path: assets/img/CAD model SP.JPG
   - image_path: assets/img/Enclosure SP.JPG
+
+---
+
+I worked on a team to design and build a custom syringe pump capable of delivering precise flow rates between 0.1 mL/min and 5 mL/min with compatibility across two syringe sizes. This makes it well-suited for applications in microfluidics, biomedial reasearch, or controlled drug delivery. 
+
+Commercial syringe pumps can cost several hundred dollars, so instead of buying one, our team engineeringed a DIY version. We combined CAD modeling, 3D printing, electrical wiring and Arduino programming to create a reliable device powered by a stepper motor and lead screw. The system integrates flow rate control, limit switches, and LED indicators. These features make it safe, accurate, and user-friendly. 
+
 
 # Features
 
@@ -29,7 +30,7 @@ gallery:
 
 | Component                                                                 | Quantity        |
 |---------------------------------------------------------------------------|-----------------|
-| 250 mm lead screw with 2 mm pitch and 2 mm lead                           | 1               |
+| [250 mm lead screw with 2 mm pitch and 2 mm lead](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) | 1               |
 | 250 mm lead screw with 2 mm pitch and 8 mm lead                           | 1               |
 | 1/4" x 8 mm Flexible Coupling                                              | 1               |
 | 200 mm linear rod with 8 mm diameter                                      | 2               |
