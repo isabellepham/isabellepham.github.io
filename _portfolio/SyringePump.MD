@@ -40,4 +40,4 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 <iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="Syringe Pump Project Gallery" %}
