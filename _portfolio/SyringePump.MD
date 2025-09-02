@@ -29,77 +29,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf95ba431c8819cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Arduino Code
-//Syringe Pump Arduino Code 
-```cpp
-#include <AccelStepper.h>
-
-// Establishes what pins control what functionality
-#define DIR_PIN 2
-#define STEP_PIN 3
-#define BUTTON_PIN 4
-#define LIMIT_SWITCH_PIN 5
-#define LED_RED 8
-#define LED_GREEN 9
-#define LED_BLUE 10
-
-float setFlowRate = 20; // Flow rate in mL/min 
-float setDiameter = 19.2; // Syringe diameter in mm
-bool pumpRunning = false; // Pump is off by default
-float stepsPerRevolution = 800; // Steps per Revolution
-float leadScrewPitch = 2.0; // Lead Screw Pitch of mm per revolution
-
-AccelStepper stepperX(AccelStepper::DRIVER,STEP_PIN,DIR_PIN); // Interfaces with motor driver
-
-void setup() {
-  // Sets the following pins as read pins
-  pinMode(BUTTON_PIN, INPUT_PULLUP);
-  pinMode(LIMIT_SWITCH_PIN, INPUT_PULLUP);
-  // Sets the following pins as write pins
-  pinMode(LED_RED, OUTPUT);
-  pinMode(LED_GREEN, OUTPUT);
-  pinMode(LED_BLUE, OUTPUT);
-
-  stepperX.setMaxSpeed(1000);
-  stepperX.setSpeed(convertFlowRate(setFlowRate,setDiameter)); //Converts from flow rate to step speed
-}
-
-void loop() {
-    pumpRunning = digitalRead(BUTTON_PIN)==LOW; //Records in ON/OFF is pressed
-    if (digitalRead(LIMIT_SWITCH_PIN)==HIGH){// Checks if limit switch is pressed
-      pumpRunning = false;// Records pump not running
-      updateLEDs();
-    } else if (pumpRunning){// Checks if pump is running
-      stepperX.runSpeed();// Motor rotates
-      updateLEDs();
-    } else{
-      updateLEDs();
-    }
-}
-
-float calculateStepsPerSecond(float flowRate, float syringeDiameter) { 
-// Convert flow rate (mL/min) to steps per second 
-float linearSpeed = flowRate / (PI * (syringeDiameter / 2.0) * 
-(syringeDiameter / 2.0) * 1000.0); // mm/s 
-float stepsPerSecond = linearSpeed * stepsPerRevolution / leadScrewPitch; 
-return stepsPerSecond; 
-}
-
-// Updates the color of the LED
-void updateLEDs() {
-  if (pumpRunning) {
-    digitalWrite(LED_GREEN, HIGH); // Updates LED to green
-    digitalWrite(LED_BLUE, LOW);
-    digitalWrite(LED_RED, LOW);
-  }else if (digitalRead(LIMIT_SWITCH_PIN)==HIGH) {// If syringe is empty
-    digitalWrite(LED_GREEN, LOW);
-    digitalWrite(LED_BLUE, LOW);
-    digitalWrite(LED_RED, HIGH); // Updates LED to red
-  } else {
-    digitalWrite(LED_GREEN, HIGH); // Updates LED to yellow
-    digitalWrite(LED_BLUE, LOW);
-    digitalWrite(LED_RED, HIGH);
-  }
-}
+<script src="https://gist.github.com/isabellepham/ab79dc332fa49d3ba7b92814e5085d71.js"></script>
 
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
