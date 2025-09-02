@@ -12,7 +12,7 @@ Isabelle is a Cornelius Vanderbilt Scholar at Vanderbilt in Peabody College. She
   * BS Human and Organizational Development
   * BS Computer Science
   * Minor in Digital Fabrication
-* C. Leon King High School
+* C. Leon King High School (Class of 2023)
   * International Baccalaureate Diploma
 
 ## Technical Skills
