@@ -2,15 +2,15 @@
 title: "Syringe Pump"
 excerpt: "This syringe pump can deliver precise, programmable flow of fluids contained in a syringe, with support for multiple syringe sizes!"
 header:
-  image: /assets/img/banner SP.JPG
-  teaser: /assets/img/banner SP.JPG
+  image: /assets/img/1 Syringe Pump-Banner.jpg
+  teaser: /assets/img/1 Syringe Pump-Banner.jpg
 gallery:
-  - image_path: assets/img/SyringePump_Project.JPG
-  - image_path: assets/img/Assembling SP.JPG
-  - image_path: assets/img/Dimensional Drawing SP.JPG
-  - image_path: assets/img/Wiring SP.JPG
-  - image_path: assets/img/CAD model SP.JPG
-  - image_path: assets/img/Enclosure SP.JPG
+  - image_path: assets/img/1 Syringe Pump HomePicture.jpg
+  - image_path: assets/img/1 Syringe Pump-1.jpg
+  - image_path: assets/img/1 Syringe Pump-2.jpg
+  - image_path: assets/img/1 Syringe Pump-3.jpg
+  - image_path: assets/img/1 Syringe Pump-4.jpg
+  - image_path: assets/img/1 Syringe Pump-5.jpg
 
 ---
 
