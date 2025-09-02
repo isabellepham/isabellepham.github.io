@@ -5,24 +5,13 @@ header:
   image: /assets/img/banner SP.JPG
   teaser: /assets/img/banner SP.JPG
 gallery:
-  - url: /assets/img/SyringePump_Project.JPG
-    image_path: assets/img/SyringePump_Project.JPG
-    alt: "Final SP"
-  - url: /assets/img/Assembling SP.JPG
-    image_path: assets/img/Assembling SP.JPG
-    alt: "Assembling SP"
-  - url: /assets/img/Dimensional Drawing SP.JPG
-    image_path: assets/img/Dimensional Drawing SP.JPG
-    alt: "Dimensional Drawing SP"
-  - url: /assets/img/Wiring SP.JPG
-    image_path: assets/img/Wiring SP.JPG
-    alt: "Wiring SP"
-  - url: /assets/img/CAD model SP.JPG
-    image_path: assets/img/CAD model SP.JPG
-    alt: "CAD model SP"
-  - url: /assets/img/Enclosure SP.JPG
-    image_path: assets/img/Enclosure SP.JPG
-    alt: "Enclosure SP"
+  - image_path: assets/img/SyringePump_Project.JPG
+  - image_path: assets/img/Assembling SP.JPG
+  - image_path: assets/img/Dimensional Drawing SP.JPG
+  - image_path: assets/img/Wiring SP.JPG
+  - image_path: assets/img/CAD model SP.JPG
+  - image_path: assets/img/Enclosure SP.JPG
+
 ---
 
 I worked on a team to design and build a custom syringe pump capable of delivering precise flow rates between 0.1 mL/min and 5 mL/min with compatibility across two syringe sizes. This makes it well-suited for applications in microfluidics, biomedial reasearch, or controlled drug delivery. 
