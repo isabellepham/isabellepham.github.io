@@ -25,4 +25,4 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 # CAD Model
 <iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="3D Printed iPhone 15 Case Gallery" %}
