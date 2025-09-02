@@ -26,7 +26,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 * **Safe and Organized Electronics.** All electrical components, including the Arduino, motor driver, and power supply, are enclosed in a custom 3D-printed housing. Wiring is carefully routed with heat-shrink protection for durability and safety, preventing short circuits or accidental contact with liquids.
 
 # CAD Model
-<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf95ba431c8819cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
