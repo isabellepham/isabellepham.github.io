@@ -2,11 +2,11 @@
 title: "Custom iPhone 15 Case"
 excerpt: "A custom TPU iPhone 15 case that provides full protection while maintaining accessability to all buttons, cameras, and ports."
 header:
-  image: /assets/img/3DPrinting_PhoneCase.JPG
-  teaser: /assets/img/3DPrinting_PhoneCase.JPG
+  image: /assets/img/Comparisons PC.JPG
+  teaser: /assets/img/Comparisons PC.JPG
 gallery:
   - image_path: assets/img/Orange & Blue PC.JPG
-  - image_path: assets/img/Comparisons PC.JPG
+  - image_path: assets/img/3DPrinting_PhoneCase.JPG
   - image_path: assets/img/Printing PC.JPG
   - image_path: assets/img/Modeling PC.JPG
   
