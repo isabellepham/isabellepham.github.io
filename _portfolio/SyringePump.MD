@@ -19,6 +19,36 @@ I worked on a team to design and build a custom syringe pump capable of deliveri
 Commercial syringe pumps can cost several hundred dollars, so instead of buying one, our team engineeringed a DIY version. We combined CAD modeling, 3D printing, electrical wiring and Arduino programming to create a reliable device powered by a stepper motor and lead screw. The system integrates flow rate control, limit switches, and LED indicators. These features make it safe, accurate, and user-friendly. 
 
 
+# How to Operate the Syringe Pump 
+1. **Prepare the Syringe**  
+   - Fill a syringe (10–20 mL) with the desired liquid.  
+   - Secure the syringe into the printed holder so it is supported at both ends.  
+   - Insert the plunger into the carriage holder.  
+
+2. **Power On**  
+   - Connect the power supply to mains and ensure the Arduino is powered.  
+   - The RGB LED should light up, indicating the system status (Green = running, Yellow = paused, Red = empty).  
+
+3. **Set Flow Rate**  
+   - Open the Arduino IDE Serial Monitor (or adjust code variables if predefined).  
+   - Enter or confirm the desired flow rate (mL/min).  
+
+4. **Start the Pump**  
+   - Press the **latching push button** to begin pumping.  
+   - The carriage will move along the lead screw, pushing the syringe plunger.  
+
+5. **Pause / Resume**  
+   - Press the latching button again to pause pumping.  
+   - Press once more to resume.  
+
+6. **Limit Switch Safety**  
+   - The pump will automatically stop when the plunger reaches its end position.  
+
+7. **Shut Down**  
+   - After use, press the button to stop operation.  
+   - Turn off and unplug the power supply before removing the syringe.  
+
+
 # Features
 
 * **Precise Flow Control.** The syringe pump is driven by a NEMA 17 stepper motor coupled to a lead screw, allowing highly accurate and repeatable control of fluid flow. Flow rates ranging from 0.1 mL/min to 5 mL/min can be set directly in the Arduino program, ensuring flexibility across a wide range of applications.
