@@ -26,6 +26,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 * **User-Friendly Controls & Indicators.** Operation is managed through a single latching start/pause button, with a limit switch to automatically stop the motor when the syringe is empty. A tri-color LED provides real-time status feedback: green when running, yellow when paused, and red when out of liquid.
 * **Safe and Organized Electronics.** All electrical components, including the Arduino, motor driver, and power supply, are enclosed in a custom 3D-printed housing. Wiring is carefully routed with heat-shrink protection for durability and safety, preventing short circuits or accidental contact with liquids.
 
+
 # Off-The-Shelf Parts
 
 | Component                                                                 | Quantity |
@@ -48,8 +49,21 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 | Wires, fasteners, resistors, misc. lab supplies | Supplied in Lab |
 
 
+# 3D Printed Parts
+| 3D Printed Part          | Purpose / Function |
+|---------------------------|--------------------|
+| Stepper Motor Mount       | Secures the Nema 17 stepper motor to the aluminum extrusion |
+| Carriage / Plunger Holder | Connects the syringe plunger to the lead screw nut and moves along the rails |
+| Linear Bearing Holders    | Press-fit mounts for LM8UU linear bearings to support the moving carriage |
+| Syringe Clamp / Holder    | Holds syringes of 10–20 mL securely in place without tools |
+| Electronics Enclosure     | Protects Arduino, power supply, stepper driver, and wiring from users/liquids |
+| Limit Switch Mount        | Holds the endstop switch in position to detect plunger travel limits |
+| Structural Brackets       | Additional brackets/adapters needed for mounting and stability |
+
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf95ba431c8819cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 # Arduino Code
 <script src="https://gist.github.com/isabellepham/ab79dc332fa49d3ba7b92814e5085d71.js"></script>
