@@ -97,6 +97,6 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 
 
 # Arduino Code
-[Code] (https://github.com/isabellepham/isabellepham.github.io/blob/c34c52e08708b741211094d6f41af621a22731a7/code/syringe%20pump%20arduino) 
+[Code](https://github.com/isabellepham/isabellepham.github.io/blob/c34c52e08708b741211094d6f41af621a22731a7/code/syringe%20pump%20arduino) 
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
