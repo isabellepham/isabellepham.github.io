@@ -11,15 +11,15 @@ gallery:
   - url: /assets/img/Assembling SP.JPG
     image_path: assets/img/Assembling SP.JPG
     alt: "Assembling SP"
-  - url: /assets/img/CAD model SP.JPG
-    image_path: assets/img/CAD model SP.JPG
-    alt: "CAD model SP"
-  - url: /assets/img/Wiring SP.JPG
-    image_path: assets/img/Wiring SP.JPG
-    alt: "Wiring SP"
   - url: /assets/img/Dimensional Drawing SP.JPG
     image_path: assets/img/Dimensional Drawing SP.JPG
     alt: "Dimensional Drawing SP"
+  - url: /assets/img/Wiring SP.JPG
+    image_path: assets/img/Wiring SP.JPG
+    alt: "Wiring SP"
+  - url: /assets/img/CAD model SP.JPG
+    image_path: assets/img/CAD model SP.JPG
+    alt: "CAD model SP"
   - url: /assets/img/Enclosure SP.JPG
     image_path: assets/img/Enclosure SP.JPG
     alt: "Enclosure SP"
