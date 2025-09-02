@@ -18,7 +18,7 @@ I worked on a team to design and build a custom syringe pump capable of deliveri
 
 Commercial syringe pumps can cost several hundred dollars, so instead of buying one, our team engineeringed a DIY version. We combined CAD modeling, 3D printing, electrical wiring and Arduino programming to create a reliable device powered by a stepper motor and lead screw. The system integrates flow rate control, limit switches, and LED indicators. These features make it safe, accurate, and user-friendly. 
 
-
+---
 
 # Features
 
@@ -27,7 +27,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 * **User-Friendly Controls & Indicators:** Operation is managed through a single latching start/pause button, with a limit switch to automatically stop the motor when the syringe is empty. A tri-color LED provides real-time status feedback: green when running, yellow when paused, and red when out of liquid.
 * **Safe and Organized Electronics:** All electrical components, including the Arduino, motor driver, and power supply, are enclosed in a custom 3D-printed housing. Wiring is carefully routed with heat-shrink protection for durability and safety, preventing short circuits or accidental contact with liquids.
 
-
+---
 
 # Off-The-Shelf Parts
 
@@ -50,7 +50,7 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 | [RGB Common Cathode LED](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) | Supplied in Lab |
 | Wires, fasteners, resistors, misc. lab supplies | Supplied in Lab |
 
-
+---
 
 # 3D Printed Parts
 
@@ -64,17 +64,17 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 | Limit Switch Mount      | Holds the endstop switch in position to detect plunger travel limits |
 | Structural Brackets     | Additional brackets/adapters needed for mounting and stability |
 
-
+---
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf95ba431c8819cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-
+---
 
 # Arduino Code
 [View Arduino Code Here](https://github.com/isabellepham/isabellepham.github.io/blob/c34c52e08708b741211094d6f41af621a22731a7/code/syringe%20pump%20arduino) 
 
-
+---
 
 # How to Operate the Syringe Pump 
 1. **Prepare the Syringe**  
@@ -105,6 +105,6 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
    - After use, press the button to stop operation.  
    - Turn off and unplug the power supply before removing the syringe.  
 
-
+---
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
