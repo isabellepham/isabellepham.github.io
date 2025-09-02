@@ -6,7 +6,7 @@ title: "About Isabelle Pham"
 
 ## Education
 
-Isabelle is a Cornelius Vanderbilt Scholar at Vanderbilt in Peabody College. She has a 3.90/4.00 GPA and is involved with numerous campus organizations including Alpha Kappa Psi Business Fraternity, Student Consulting for Nonprofit Organizations, Kappa Theta Pi Technology Fratnerity, and Commodore Capital Group. 
+Isabelle is a Cornelius Vanderbilt Scholar at Vanderbilt in Peabody College. She has a 3.90/4.00 GPA and is involved with numerous campus organizations including Alpha Kappa Psi Business Fraternity, Student Consulting for Nonprofit Organizations, Kappa Theta Pi Technology Fratnerity, and Commodore Capital Group. Isabelle is seeking a role in finance where she can apply strong problem-solving, analytical, and technical skills. 
 
 * Vanderbilt University (Class of 2027)
   * BS Human and Organizational Development
