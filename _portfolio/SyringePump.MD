@@ -8,8 +8,8 @@ gallery:
   - url: /assets/img/SyringePump_Project.JPG
     image_path: assets/img/SyringePump_Project.JPG
     alt: "Final SP"
-  - url: /assets/img/Profile SP.JPG
-    image_path: assets/img/Profile SP.JPG
+  - url: /assets/img/Assembling SP.JPG
+    image_path: assets/img/Assembling SP.JPG
     alt: "Assembling SP"
   - url: /assets/img/CAD model SP.JPG
     image_path: assets/img/CAD model SP.JPG
@@ -20,8 +20,8 @@ gallery:
   - url: /assets/img/Dimensional Drawing SP.JPG
     image_path: assets/img/Dimensional Drawing SP.JPG
     alt: "Dimensional Drawing SP"
-  - url: /assets/img/Dimensional Drawing SP.JPG
-    image_path: assets/img/Dimensional Drawing SP.JPG
+  - url: /assets/img/Enclosure SP.JPG
+    image_path: assets/img/Enclosure SP.JPG
     alt: "Enclosure SP"
 ---
 
