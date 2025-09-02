@@ -2,23 +2,23 @@
 title: "Syringe Pump"
 excerpt: "This syringe pump can deliver precise, programmable flow of fluids contained in a syringe, with support for multiple syringe sizes!"
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
-  teaser: /assets/img/Cyber-Scooter-TH.jpg
+  image: /assets/img/Profile SP.JPG
+  teaser: /assets/img/Profile SP.JPG
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
+  - url: /assets/img/SyringePump_Project.JPG
+    image_path: assets/img/SyringePump_Project.JPG
     alt: "Final SP"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
+  - url: /assets/img/Profile SP.JPG
+    image_path: assets/img/Profile SP.JPG
     alt: "Profile SP"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: /assets/img/CAD model SP.JPG
+    image_path: assets/img/CAD model SP.JPG
     alt: "CAD model SP"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: /assets/img/Wiring SP.JPG
+    image_path: assets/img/Wiring SP.JPG
     alt: "Wiring SP"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: /assets/img/Dimensional Drawing SP.JPG
+    image_path: assets/img/Dimensional Drawing SP.JPG
     alt: "Dimensional Drawing SP"
 ---
 
