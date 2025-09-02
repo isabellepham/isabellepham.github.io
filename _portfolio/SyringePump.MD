@@ -28,24 +28,25 @@ Commercial syringe pumps can cost several hundred dollars, so instead of buying 
 
 # Off-The-Shelf Parts
 
-| Component                                                                 | Quantity        |
-|---------------------------------------------------------------------------|-----------------|
-| [250 mm lead screw with 2 mm pitch and 2 mm lead](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) | 1               |
-| 250 mm lead screw with 2 mm pitch and 8 mm lead                           | 1               |
-| 1/4" x 8 mm Flexible Coupling                                              | 1               |
-| 200 mm linear rod with 8 mm diameter                                      | 2               |
-| LM8UU Linear bearing for 8 mm diameter rod                                | 2               |
-| 2040 Aluminum Extrusion (1 ft length)                                     | 1               |
-| Nema 17 Stepper Motor                                                     | 1               |
-| MEAN WELL RQ-65D AC-DC Power Supply (Quad Output 5V / 12V / 24V / 12V, 4A)| 1               |
-| Arduino Uno                                                               | 1               |
-| A4988 Stepper Driver                                                      | 1               |
-| Small Breadboard                                                          | 1               |
-| Panel Mount Latching Push Button (On/Off)                                 | 1               |
-| Panel Mount Momentary Push Button (Bonus only)                            | 1               |
-| Limit Switch                                                              | 1               |
-| RGB Common Cathode LED                                                    | Supplied by group |
-| Wires, fasteners, resistors, misc. lab supplies                           | Supplied by lab  |
+| Component                                                                 | Quantity |
+|---------------------------------------------------------------------------|----------|
+| [250 mm Lead Screw (2 mm pitch, 2 mm lead)](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) | 1 |
+| [250 mm Lead Screw (2 mm pitch, 8 mm lead)](https://amzn.to/3infwI0) | 1 |
+| [1/4" x 8 mm Flexible Coupling](https://openbuildspartstore.com/1-4-x-8mm-flexible-coupling/) | 1 |
+| [200 mm Linear Rod (8 mm diameter)](https://www.amazon.com/dp/B07MPGWJMS/ref=cm_sw_em_r_mt_dp_X5AQS0ES7JH8JG83AAZ3) | 2 |
+| [LM8UU Linear Bearing (8 mm diameter rod)](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) | 2 |
+| [2040 Aluminum Extrusion (1 ft length)](https://openbuildspartstore.com/v-slot-20x40-linear-rail/) | 1 |
+| [Nema 17 Stepper Motor](https://www.amazon.com/gp/product/B07LF898KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) | 1 |
+| [MEAN WELL RQ-65D AC-DC Power Supply (Quad Output 5V/12V/24V/12V 4A)](https://grabcad.com/library/mean-well-rt-65-1) | 1 |
+| [Arduino Uno](https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) | 1 |
+| [A4988 Stepper Driver](https://www.amazon.com/dp/B007R9TUJE/ref=cm_sw_em_r_mt_dp_TY8JGK0CJD1JEJM4BNNJ) | 1 |
+| [Small Breadboard](https://www.amazon.com/dp/B01FFGAKK8/ref=cm_sw_em_r_mt_dp_V0YKTYKDWMR8WHTKA53T?_encoding=UTF8&psc=1) | 1 |
+| [Panel Mount Latching Push Button (On/Off)](https://www.amazon.com/dp/B082VYXDF1/ref=cm_sw_em_r_mt_dp_N6Q28CAGPAYCKCSJKDDC?_encoding=UTF8&psc=1) | 1 |
+| [Panel Mount Momentary Push Button (Bonus only)](https://amzn.to/3VxQ29h) | 1 |
+| [Limit Switch](https://www.amazon.com/gp/product/B07X142VGC) | 1 |
+| [RGB Common Cathode LED](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) | Supplied in Lab |
+| Wires, fasteners, resistors, misc. lab supplies | Supplied in Lab |
+
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4cf95ba431c8819cd?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
