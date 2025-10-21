@@ -18,6 +18,10 @@ feature_row:
     alt: "iPhone 15 Case"
     title: "3D Printed iPhone 15 Case"
     excerpt: "Designed and fabricated a custom TPU iPhone case using parametric modeling and FFF printing."
+  - image_path: assets/img/3 uFluidic Device HomePicture.jpg
+    alt: "uFluidic Device"
+    title: "Resin Printed uFluidic Device"
+    excerpt: "Created a microfluidic pinch flow fractionation (PFF) device that separates particles by size using controlled laminar flow. Model was calculated based on existing research and developed through CAD while the device was resin-printed with an SLA printer, cast it in PDMS, and tested how effectively it sorted microspheres into different outlets."
 ---
 
 {% include feature_row %}
