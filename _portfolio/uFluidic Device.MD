@@ -2,11 +2,11 @@
 title: "uFluidic Device"
 excerpt: "This microfluidic device leverages laminar flow principles to separatae particles by size using a custom-designed pinch flow fractionation (PFF) chip!"
 header:
-  image: /assets/img/3 uFluidic Device-Banner.JPG
-  teaser: /assets/img/3 uFluidic Device-Banner.JPG
+  image: assets/img/3 uFluidic Device-Banner.JPG
+  teaser: assets/img/3 uFluidic Device-Banner.JPG
 gallery:
-  - image_path: assets/img/3 uFluidic Device HomePicture.JPG
   - image_path: assets/img/3 uFluidic Device-1.JPG
+  - image_path: assets/img/3 uFluidic Device-2.JPG
   - image_path: assets/img/3 uFluidic Device-6.JPG
   - image_path: assets/img/3 uFluidic Device-3.JPG
   - image_path: assets/img/3 uFluidic Device-4.JPG
