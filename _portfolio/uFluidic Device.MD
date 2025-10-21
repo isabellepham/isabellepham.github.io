@@ -23,11 +23,8 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 # Features
 
 * **Size-Based Particle Sorting:** The device uses a pinched microchannel region to align particles based on size before redistributing them into separate outlet streams through controlled laminar flow.
-
 * **PDMS-on-Glass Construction:** The microchannels are cast in PDMS from a resin-printed mold and bonded to glass via plasma treatment, ensuring optical clarity and reliable sealing.
-
 * **High-Resolution Fabrication:** SLA resin printing enables microchannel features down to 85 µm, maintaining smooth surfaces critical for laminar flow and accurate sorting.
-
 * **Three-Outlet Flow Design:** Integrated flow resistance adjustments balance outlet pressures, preventing backflow and ensuring accurate particle separation.
 
 ---
