@@ -5,7 +5,7 @@ header:
   image: /assets/img/3 uFluidic Device-Banner.jpg
   teaser: /assets/img/3 uFluidic Device-Banner.jpg
 gallery:
-  - image_path: assets/img/3 uFluidic Device HomePicture.jpg
+  - image_path: assets/img/3 uFluidic Device HomePicture.JPG
   - image_path: assets/img/3 uFluidic Device-1.jpg
   - image_path: assets/img/3 uFluidic Device-2.jpg
   - image_path: assets/img/3 uFluidic Device-3.jpg
