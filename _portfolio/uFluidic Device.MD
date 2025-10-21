@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/3 uFluidic Device-Banner.JPG
 gallery:
   - image_path: assets/img/3 uFluidic Device HomePicture.JPG
-  - image_path: assets/img/3 uFluidic Device-1.JPG
+  - image_path: assets/img/3 uFluidic Device-2.JPG
   - image_path: assets/img/3 uFluidic Device-2.JPG
   - image_path: assets/img/3 uFluidic Device-3.JPG
   - image_path: assets/img/3 uFluidic Device-4.JPG
@@ -62,7 +62,7 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 ---
 
 # How to Operate the Syringe Pump 
-1. **Prepare Fluidse**  
+1. **Prepare Fluids**  
    - Load particle suspension and buffer solution into separate syringes.
 
 2. **Connect Tubing**  
