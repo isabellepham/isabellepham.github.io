@@ -2,15 +2,15 @@
 title: "uFluidic Device"
 excerpt: "This microfluidic device leverages laminar flow principles to separatae particles by size using a custom-designed pinch flow fractionation (PFF) chip!"
 header:
-  image: /assets/img/3 uFluidic Device-Banner.jpg
-  teaser: /assets/img/3 uFluidic Device-Banner.jpg
+  image: /assets/img/3 uFluidic Device-Banner.JPG
+  teaser: /assets/img/3 uFluidic Device-Banner.JPG
 gallery:
   - image_path: assets/img/3 uFluidic Device HomePicture.JPG
-  - image_path: assets/img/3 uFluidic Device-1.jpg
-  - image_path: assets/img/3 uFluidic Device-2.jpg
-  - image_path: assets/img/3 uFluidic Device-3.jpg
-  - image_path: assets/img/3 uFluidic Device-4.jpg
-  - image_path: assets/img/3 uFluidic Device-5.jpg
+  - image_path: assets/img/3 uFluidic Device-1.JPG
+  - image_path: assets/img/3 uFluidic Device-2.JPG
+  - image_path: assets/img/3 uFluidic Device-3.JPG
+  - image_path: assets/img/3 uFluidic Device-4.JPG
+  - image_path: assets/img/3 uFluidic Device-5.JPG
 
 ---
 
@@ -23,8 +23,11 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 # Features
 
 * **Size-Based Particle Sorting:** The device uses a pinched microchannel region to align particles based on size before redistributing them into separate outlet streams through controlled laminar flow.
+
 * **PDMS-on-Glass Construction:** The microchannels are cast in PDMS from a resin-printed mold and bonded to glass via plasma treatment, ensuring optical clarity and reliable sealing.
+
 * **High-Resolution Fabrication:** SLA resin printing enables microchannel features down to 85 µm, maintaining smooth surfaces critical for laminar flow and accurate sorting.
+
 * **Three-Outlet Flow Design:** Integrated flow resistance adjustments balance outlet pressures, preventing backflow and ensuring accurate particle separation.
 
 ---
