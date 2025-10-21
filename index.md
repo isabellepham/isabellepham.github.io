@@ -22,6 +22,7 @@ feature_row:
     alt: "uFluidic Device"
     title: "Resin Printed uFluidic Device"
     excerpt: "Created a microfluidic pinch flow fractionation (PFF) device that separates particles by size using controlled laminar flow. Model was calculated based on existing research and developed through CAD while the device was resin-printed with an SLA printer, cast it in PDMS, and tested how effectively it sorted microspheres into different outlets."
+    
 ---
 
 {% include feature_row %}
