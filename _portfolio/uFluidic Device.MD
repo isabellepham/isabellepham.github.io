@@ -17,6 +17,7 @@ gallery:
 I created a microfluidic pinch flow fractionation (PFF) device that separates particles of different sizes using controlled laminar flow. The process involved modeling the mold in Autodesk Fusion 360, resin printing it with a Form 3 SLA printer, casting the device in PDMS, and sealing it with glass before testing its ability to sort microspheres into separate outlets.
 
 Unlike filtration-based separation methods, PFF allows for continuous and gentle particle sorting, making it useful in biomedical research, diagnostics, and materials science. This project combined CAD design, precision fabrication, and experimental testing to explore the physics of microscale flow and particle behavior.
+
 ---
 
 # Features
@@ -25,6 +26,7 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 * **PDMS-on-Glass Construction:** The microchannels are cast in PDMS from a resin-printed mold and bonded to glass via plasma treatment, ensuring optical clarity and reliable sealing.
 * **High-Resolution Fabrication:** SLA resin printing enables microchannel features down to 85 µm, maintaining smooth surfaces critical for laminar flow and accurate sorting.
 * **Three-Outlet Flow Design:** Integrated flow resistance adjustments balance outlet pressures, preventing backflow and ensuring accurate particle separation.
+
 ---
 
 # Off-The-Shelf Parts
