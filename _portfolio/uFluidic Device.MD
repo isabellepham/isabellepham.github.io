@@ -189,7 +189,7 @@ $$
 Giving the large particle channel length: 
 
 $$
-18 x 1.47 = 26.4mm
+18 * 1.47 = 26.4mm
 $$
 
 The width ratio between the buffer and small particle outlets is:
@@ -201,7 +201,7 @@ $$
 Giving the small particle channel length: 
 
 $$
-18 x 3.67 = 66.06mm
+18 * 3.67 = 66.06mm
 $$
 
 Because these calculated lengths exceeded the available footprint of the uFluidic mold, I implemented **serpentine outlet channels** to achieve the required effective lengths within the compact device geometry. The serpentine layout preserves laminar flow while fitting long channels into limited space. All corners were filleted to minimize local turbulence, maintain stable flow paths, and avoid particle trapping.
