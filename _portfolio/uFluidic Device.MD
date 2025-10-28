@@ -99,13 +99,62 @@ Another way I would iterate on this design is using height as another way to adj
 
 ---
 
+# Parylene Coating and Hypothetical Applications 
+
+Resin-printed molds are coated with parylene before PDMS casting to create a thin, inert, and hydrophobic barrier that prevents unwanted chemical and mechanical interactions between the mold and the polymer. Without this coating, the PDMS can adhere to or react with the uncured resin surface, leading to defects such as tearing, warping, or incomplete demolding. The parylene layer serves as both a release agent and a chemical barrier, enabling the PDMS to cure properly and release cleanly while preserving the fine surface features of the mold. Additionally, the parylene coating improves the dimensional stability and surface smoothness of the printed mold, which is essential for maintaining laminar flow and accurate channel geometry in microfluidic applications.
+
+This PFF-based microfluidic sorter has a wide range of potential applications. In biomedical diagnostics, it could be used to isolate circulating tumor cells (CTCs) or exosomes from blood for cancer detection and monitoring. In environmental science, it could separate microplastics, bacteria, or other particulates from water samples for pollution analysis. Similarly, in materials research, the device could sort polymer microspheres or nanoparticles by size for manufacturing and coating processes. In cell biology, the same sorting principle could be applied to separate cells, vesicles, or organelles based on size or deformability, enabling single-cell analysis and other downstream studies.
+
+# Geometry Relation to Sorting 
+
+The geometry of my uFluidic device was carefully designed to support precise size-based separation consistent with Pinched Flow Fractionation (PFF) theory. The pinched region width (wp = 0.65 mm) was selected to be approximately 1.3 times the diameter of the largest particle (500 µm) to ensure effective focusing of particles against the wall without causing clogging. This confinement forces all particles into a narrow, well-defined region, aligning them along the same streamline before entering the broad section. The broad region width (wb = 40.65 mm) represents a roughly 62.5× expansion relative to the pinched width, allowing for significant streamline divergence and clear spatial separation between particles of different diameters as they flow outward.
+
+Outlet positions were determined using the PFF streamline equation to ensure that each size fraction exited through the correct channel with minimal cross-contamination. The buffer outlet was placed 10 mm from the wall, the large particle outlet at 26 mm, and the small particle outlet at 37 mm. Outlet widths were also chosen to reflect expected flow proportions, with the buffer outlet widest (2.20 mm), followed by the large particle (1.50 mm) and small particle (0.60 mm) outlets. These dimensions collectively ensure that laminar flow is preserved, streamlines remain stable, and particles follow their predicted trajectories based on size, resulting in accurate and continuous sorting.
+
+# Design Features To Ensure Consistent Flow Rate 
+
+To prevent disruptions to the streamlines and maintain proper separation, I focused on balancing the hydraulic resistance across all outlet channels. Because each outlet was designed to carry a different portion of the total flow, their channel widths and lengths were adjusted proportionally to achieve similar pressure drops at the outlet junctions. The buffer outlet, which carries the greatest flow, was set to 2.20 mm in width and 18 mm in length. The large particle outlet was made narrower (1.50 mm) but longer (26.4 mm) to increase its resistance, while the small particle outlet was narrowest (0.60 mm) and longest (66.6 mm) to further restrict flow and balance against the buffer channel.
+
+Since the longer outlet channels exceeded the available footprint of the device, I used serpentine paths to fit the required lengths while maintaining the intended hydraulic resistance. The serpentine channels were designed with smooth, filleted corners to preserve laminar flow and prevent the formation of vortices or dead zones that could disrupt sorting. Outlet boundaries were defined using the midpoints between outlet centers to ensure consistent streamline capture for each particle size fraction. Throughout the design process, I adjusted the spacing and routing of the serpentine channels through iterative refinement to prevent overlap and ensure that all channels remained well separated during resin printing. This combination of geometric tuning and controlled resistance produced a balanced flow distribution across all outlets, preserving the clean laminar separation that is critical to effective PFF operation.
+
+---
+
+# Off-The-Shelf Parts
+
+| Component                                                                 | Quantity |
+|---------------------------------------------------------------------------|----------|
+| Form 3 SLA Printer | 1 |
+| Autodesk Fusion 360 | 1 |
+| PDMS (Sylgard 184, 10:1 ratio) | 1 |
+| Plasma Cleaner | 1 |
+| Syringe Pumps | 2 |
+| Polyethylene Microspheres (125-150 µm, 425–500 µm)| 1 |
+| IPA (Isopropyl Alcohol) | 1 |
+| Compressed Air System | 1 |
+
+---
+
+# 3D Printed Parts
+
+| 3D Printed Part        | Purpose / Function |
+|-------------------------|--------------------|
+| uFluidic Device v1    | Initial interation |
+| uFluidic Device v2+ | Refined design with adjusted dimensions |
+
+---
+
+# CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eef13a8384cedcec?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+---
+
 # Instructions 
 
 * **Design the Microfluidic Geometry (CAD):** Create the channel layout in CAD software. Include inlet/outlet ports, bonding buffer margins, and any alignment features. Ensure minimum channel widths and wall thicknesses match printer resolution and resin manufacturer’s recommendations. 
 * **Export and Slice the Model:** Orient the device so that channels face upward to prevent resin pooling and print artifacts. Ensure the device is completely flush against the print bed. 
 * **Print the mold:** Use a resin printer to print the negative mold. 
 * **Post-Processing:** After printing, rinse the part in isopropyl alcohol to remove uncured resin. Use compressed air to remove debris. Then preform a 60 second surface-cure under UV light.
-* ** PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
+* **PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
 * **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
 * **Final Testing:** Performa test of the device. 
 
@@ -153,43 +202,13 @@ Pinch flow fractionation is useful in a wide range of biomedical and materials a
 
 ---
 
-# Off-The-Shelf Parts
-
-| Component                                                                 | Quantity |
-|---------------------------------------------------------------------------|----------|
-| Form 3 SLA Printer | 1 |
-| Autodesk Fusion 360 | 1 |
-| PDMS (Sylgard 184, 10:1 ratio) | 1 |
-| Plasma Cleaner | 1 |
-| Syringe Pumps | 2 |
-| Polyethylene Microspheres (125-150 µm, 425–500 µm)| 1 |
-| IPA (Isopropyl Alcohol) | 1 |
-| Compressed Air System | 1 |
-
----
-
-# 3D Printed Parts
-
-| 3D Printed Part        | Purpose / Function |
-|-------------------------|--------------------|
-| uFluidic Device v1    | Initial interation |
-| uFluidic Device v2+ | Refined design with adjusted dimensions |
-
----
-
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eef13a8384cedcec?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
----
-
 # From Mold to Final Device
 1. **CAD Modeling**  
    - Utilize Autodesk Fusion 360 to design the microfluidic geometry while following dimensional constraints
    - Begin with the provided base model (50 mm x 75 mm) to ensure the final PDMS device fits flush on the micrscope slide 
    - Fully constrain all sketches, clearly label features, and keep the design timeline minimal
-   - 
 
-2. **Resin Printing: ** Print the mold using a Form 3 SLA printer
+2. **Resin Printing:** Print the mold using a Form 3 SLA printer
    - In PreForm, select a layer thickness appropriate to your feature resolution (25–50 µm recommended)
    - Position the mold so that the bottom face (the one that will contact the glass slide) is perfectly parallel to the resin vat to prevent visible layer lines
    - Ignore "cupping" warnings for flat parts 
