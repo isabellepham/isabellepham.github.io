@@ -154,6 +154,8 @@ Thus, the small particle channel spans from 31 mm to 42.325 mm (where the broad 
 
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
+assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
+
 # Flow Balancing Problem 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 How did you attempt to solve the flow balancing problem discussed in the beginning of the assignment details document? 
@@ -169,6 +171,10 @@ Because these calculated lengths exceeded the available footprint of the uFluidi
 
 The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
 
+assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
+assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
+assets/img/3 uFluidic Device-10 Buffer Channel.jpg
+
 # Potential Future Changes to Outlet Geometry 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 What would you change about your outlet geometry if you could iterate on this design? 
@@ -177,6 +183,7 @@ What would you change about your outlet geometry if you could iterate on this de
 I would mainly aim to replace my trial-and-error fine tuning with a more target-drive and mathematical approach. Perhaps I would pick the desired flow split between outlets first, convert that to target resistances, and then solve for the required channel lengths using geometry. This would reduce iteration and provide a clearer template of what would need to be implemented in CAD. 
 
 Another way I would iterate on this design is using height as another way to adjust resistance. Changing the channel depth or height locally can create large resistance without extreme lengths. Increasing or decreasing height is also more compact than extreme serpentine lengths and easier to fabricate than extra bends. 
+
 
 ---
 
