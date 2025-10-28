@@ -248,7 +248,7 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 * **Post-Processing:** After printing, rinse the part in isopropyl alcohol to remove uncured resin. Use compressed air to remove debris. Then preform a 60 second surface-cure under UV light.
 * **PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
 * **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
-* **Final Testing:** Performa test of the device. 
+* **Final Testing:** Perform a test of the device. 
 
 ---
 
