@@ -172,15 +172,58 @@ The flow balancing problem in Pinched Flow Fractionation (PFF) arises when outle
 
 To address this, I varied both the outlet widths and lengths to generate controlled hydraulic resistance that balances flow across all three outlets. This design approach is based on the principle that hydraulic resistance increases with channel length and decreases with the cube of its width. In other words, longer and narrower channels restrict flow more, while wider and shorter ones allow higher flow rates.
 
-I began by assigning entrance widths proportional to the expected outlet flow fractions: 2.20 mm for the buffer outlet (highest flow), 1.50 mm for the large particle outlet, and 0.60 mm for the small particle outlet (lowest flow). Using the buffer channel (18 mm long) as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. The width ratio between the buffer and large particle outlets is 2.20/1.50 = 1.47, giving a large particle channel length of 18×1.47 = 26.4 mm. Similarly, the width ratio between the buffer and small particle outlets is 2.20/0.60 = 3.67, resulting in a small particle channel length of 18×3.7 = 66.6 mm.
+I began by assigning entrance widths proportional to the expected outlet flow fractions: 
+
+2.20 mm for the buffer outlet (highest flow)
+
+1.50 mm for the large particle outlet
+
+and 0.60 mm for the small particle outlet (lowest flow). 
+
+Using the buffer channel (18 mm long) as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. 
+
+The width ratio between the buffer and large particle outlets is:
+$$
+\frac{2.20}{1.50} = 1.47x
+$$
+
+Giving the large particle channel length: 
+$$
+18 x 1.47 = 26.4mm
+$$
+
+The width ratio between the buffer and small particle outlets is:
+$$
+\frac{2.20}{0.60} = 3.67x
+$$
+
+Giving the small particle channel length: 
+$$
+18 x 3.67 = 66.06mm
+$$
 
 Because these calculated lengths exceeded the available footprint of the uFluidic mold, I implemented serpentine outlet channels to achieve the required effective lengths within the compact device geometry. The serpentine layout preserves laminar flow while fitting long channels into limited space. All corners were filleted to minimize local turbulence, maintain stable flow paths, and avoid particle trapping.
 
 The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
 
-image: assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
-image: assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
-image: assets/img/3 uFluidic Device-10 Buffer Channel.jpg
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-8 Small Particle Channel.jpg" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 2. CAD model of the uFluidic device's Small Particle Channel Design with dimensions.</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-9 Large Particle Channel.jpg" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 3. CAD model of the uFluidic device's Large Particle Channel Design with dimensions.</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-10 Buffer Channel.jpg" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 4. CAD model of the uFluidic device's Buffer Channel Design with dimensions.</em>
+</p>
 
 # Potential Future Changes to Outlet Geometry 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
