@@ -99,7 +99,7 @@ $$w_p$$ = 0.65
 
 $$w_b$$ = 40.65
 
-For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm.
+For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm:
 
 $$
 Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015  mm
@@ -113,7 +113,7 @@ $$
 \frac{(25.015 - 26.031)}{2} = 26.031  mm
 $$
 
-For the **small particle outlet**, particle diameters ranged from 150 µm to 125 µm
+For the **small particle outlet**, particle diameters ranged from 150 µm to 125 µm:
 
 $$
 Y_0 = (0.65 - \frac{0.150}{2}) \left(\frac{40.65}{0.65}\right) = 35.960  mm
