@@ -76,15 +76,23 @@ $$w_b$$ = width of the broadened segment
 
 D = particle diameter 
 
-For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, $$w_p$$ = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
+For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, 
+
+$$w_p$$ = 1.2 to 1.5 x 500 µm 
+        = 600 to 750 µm 
+
+A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
 
 The broad section was designed to be as wide as possible without interfering with the bonding buffer, which must remain 3 mm from the device edge to ensure proper sealing. Extending 20 mm from either side of the end of the pinched channel resulted in an overall broad section width of 40.65 mm.
 
 In this context, “the wall” refers to the bonding buffer boundary, located 3 mm from the inner edge of the device base wall. 
 
-To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width ($$w_p$$ =0.65) and broad section width ($$w_b$$ =40.65). 
+To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width and broad section. 
 
-For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
+$$w_p$$ =0.65 
+$$w_b$$ =40.65
+
+For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm. into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
 
 $$
 Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015  mm
@@ -98,7 +106,7 @@ $$
 \frac{(25.015 - 26.031)}{2} = 26.031  mm
 $$
 
-For the small particle outlet, using diameters of 150 µm and 125 µm produced Y0 values of 35.96 mm and 36.74 mm, respectively, which averaged to 36.35 mm from the wall. 
+For the **small particle outlet**, particle diameters ranged from 150 µm to 125 µm
 
 $$
 Y_0 = (0.65 - \frac{0.150}{2}) \left(\frac{40.65}{0.65}\right) = 35.960  mm
@@ -112,9 +120,9 @@ $$
 \frac{(35.960 - 36.741)}{2} = 36.351  mm
 $$
 
-The buffer outlet was positioned 10 mm from the wall, allowing sufficient separation from the large particle stream while providing additional space for a larger outlet diameter and lower hydraulic resistance. 
+The **buffer outlet** was positioned 10 mm from the wall, allowing sufficient separation from the large particle stream while providing additional space for a larger outlet diameter and lower hydraulic resistance. 
 
-This configuration ensures that the buffer channel carries the majority of the flow, while the large and small particle outlets collect their respective size fractions with minimal cross-contamination. For simplicity and manufacturability in the CAD model, these outlet positions were rounded to 10 mm for the buffer outlet, 26 mm for the large particle outlet, and 37 mm for the small particle outlet (to ensure the 11 mm minimum between each outlet was abided by).
+This configuration ensures that the buffer channel carries the majority of the flow, while the large and small particle outlets collect their respective size fractions with minimal cross-contamination. For simplicity and manufacturability in the CAD model, these outlet positions were rounded to **10 mm for the buffer outlet**, **26 mm for the large particle outlet**, and **37 mm for the small particle outlet** (to ensure the 11 mm minimum between each outlet was abided by).
 
 Once the outlet centers were established, I defined the boundaries (or openings) of each outlet channel by calculating the midpoints between adjacent outlet centers. This ensured that each particle size would exit through its intended channel without overlapping flow regions. For example, the midpoint between the large particle outlet (26 mm) and the small particle outlet (37 mm) is 31.5 mm. Thus, the end of the small particle channel, representing its outer boundary, was set at 31 mm from the wall. Therefore, it spans from 31 mm to 42.325 mm (where the broad section edge is). 
 
