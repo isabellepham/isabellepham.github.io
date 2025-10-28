@@ -63,27 +63,28 @@ How did you decide where to place the outlet boundaries for small particles, lar
 </p>
 
 To determine the outlet positions, I used the algebraic relationship that describes the streamline position of particles exiting the pinched section. 
+
 $$
 Y_0 = (w_p - \frac{D}{2}) \left(\frac{w_b}{w_p}\right)
 $$
 
 Where: 
-
 $$w_p$$ = width of the pinched segment
-
 $$w_b$$ = width of the broadened segment
-
 D = particle diameter 
 
-For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, wp = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
+For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, $$w_p$$ = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
 
 The broad section was designed to be as wide as possible without interfering with the bonding buffer, which must remain 3 mm from the device edge to ensure proper sealing. Extending 20 mm from either side of the end of the pinched channel resulted in an overall broad section width of 40.65 mm.
 
 In this context, “the wall” refers to the bonding buffer boundary, located 3 mm from the inner edge of the device base wall. 
 
-To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width (wp=0.65) and broad section width ($$w_b$$=40.65). 
+To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width ($$w_p$$ =0.65) and broad section width ($$w_b$$ =40.65). 
 
 For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
+$$
+Y_0 = (0.65 - 0.500\frac{D}{2}) \left(\frac{40.65}{0.65}\right)
+$$
 
 For the small particle outlet, using diameters of 150 µm and 125 µm produced Y0 values of 35.96 mm and 36.74 mm, respectively, which averaged to 36.35 mm from the wall. 
 
