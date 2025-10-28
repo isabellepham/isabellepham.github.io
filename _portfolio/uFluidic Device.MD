@@ -24,24 +24,107 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 
 # What is Pinch Flow Fractionation? How does it work? 
 
-Pinch Flow Fractionation (PFF) is a microfluidic techinque used to separate particles or cells based on size within a continous laminar flow. It works by combining two fluid streams inside a microchannel. One stream carries the particles suspended in fluid while the other is a pinched flow that narrows the particle stream as both enter a constricted "pinch" region. 
+Pinched Flow Fractionation (PFF) is a microfluidic technique used to separate particles based on their size without the need for external or active fields such as electric or magnetic forces. The PFF device consists of two main regions: a pinched section and a broad section.
 
-Inside this narrow section, all particles are forced toward one side wall of the channel and align along streamlines determined by their size. When the channel widens again, the streamlines separate. Larger particles, which experience more lateral displacement due to their size, move toward the center, while smaller particles stay closer to the wall.
+The pinched section is a narrow channel where a sample stream containing particles, and a buffer stream enter simultaneously. The buffer flow “pinches” the particle containing stream tightly against one wall of the channel which aligns all particles, regardless of size, to move near the same wall. As the solution enters the broad section, the channel widens, and the streamlines separate.  
 
-By collecting fluid from different outlet channels, particles of different sizes can be continuously separated without filters or external forces.
+Due to laminar flow, particles maintain their relative positions meaning larger particles stay closer to the centerline, while smaller ones stay closer to the wall. This displacement allows different-size particles to be continuously sorted and collected through different outlet channels. 
 
 # Application of PFF for sorting small particles 
 
-One important application of pinch flow fractionation (PFF) is in biomedical diagnostics for isolating circulating tumor cells (CTCs) from whole blood. CTCs are rare cancer-derived cells in the bloodstream whose detection can provide early indication of metastasis or treatment response. Because CTCs are typically larger and stiffer than most white blood cells, PFF can exploit this size (and deformability) difference to separate CTCs under continuous laminar flow conditions. For example, Pødenphant et al. used PFF to separate LS174T cancer cells from white blood cells with efficiencies above 90% for both cell types. ([Pødenphant M. et al., *Lab on a Chip*, 2015, 15, 4598-4606](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d))
+One important application of Pinched Flow Fractionation (PFF) is the separation of circulating tumor cells (CTCs) from whole blood for cancer diagnosis and monitoring. This process directly involves sorting small particles, as it operates at the microscale, handling biological components that range from a few micrometers to nanometers in size. CTCs are typically 10–20 µm in diameter, compared to 6–8 µm for red blood cells, and these subtle size differences are crucial for effective separation within microfluidic channels.
 
-There are several key benefits of PFF over traditional filtration or sieve-based separation techniques:
+CTCs are rare cells shed from primary tumors into the bloodstream, and their efficient isolation is important for early detection and treatment planning. They are believed to be the main cause of cancer-related fatalities and serve as valuable biomarkers. To use CTCs effectively, they must be efficiently separated from the complex mixture of blood cells and plasma. 
 
-* **Reduced clogging and fouling**: Traditional filters rely on fixed pore sizes, which can become clogged by debris or large aggregates, whereas PFF uses hydrodynamic alignment of particles in a sheath/pinch flow and separation via streamlines, reducing clogging risk.
-* **Gentle, label-free processing**: PFF does not require affinity tags or external forces (e.g., electric, magnetic) and exerts lower shear stress on particles/cells compared to many mechanical or active separation methods, preserving viability and functionality of cells.
-* **Continuous and tunable separation**: Because PFF works in a continuous flow channel, assessments of flow-rate ratio and channel geometry enable control of the cutoff size (critical diameter) for separation. For instance, Pødenphant et al. tuned the critical diameter by adjusting drain pressure in the PFF device.
-* **Better suitability for overlapping size distributions**: In their study, Pødenphant et al. found that even when cancer cells and WBCs had overlapping size distributions, they achieved high separation efficiency by exploiting deformability differences in the hydrodynamic alignment process.
+Traditional methods like gel electrophoresis or centrifugation often led to cell deformation, clogging, and low recovery rates due to mechanical stress and sample loss. PFF is beneficial in this application because it enables gentle, continuous, and label-free separation of CTCs based purely on intrinsic differences in size and deformability. This method enables noninvasive isolation of cancer cells and minimizes sample loss while preserving cell viability for downstream molecular analysis. 
 
-In summary, for applications requiring sorting of small particles or cells — especially delicate biological particles like CTCs — PFF offers an elegant, efficient, and low-stress alternative to conventional filtering techniques, with demonstrated capability in high-efficiency cell separation.
+--- 
+
+# Design 
+
+# Asymmetric Approach 
+
+I chose an asymmetric design for the Pinched Flow Fractionation (PFF) device. In this configuration, the outlet channels and flow paths are not mirror images of each other, and the device geometry intentionally differs across outlets to achieve flow balancing and particle separation efficiency. The asymmetry arises primarily from the differences in outlet widths, channel lengths, and outlet positions. Each outlet was dimensioned according to its expected flow fraction and target hydraulic resistance: the buffer outlet was made wider and shorter to accommodate the highest flow rate, while the large and small particle outlets were progressively narrower and longer to restrict flow and maintain balanced pressure drops.
+
+This asymmetric approach ensures that each outlet experiences a controlled pressure differential, allowing the device to separate particles by size without cross-contamination. It also provides greater flexibility in tuning flow distribution compared to a symmetric layout, which typically assumes equal outlet resistances and is less effective when the outlets handle significantly different flow volumes, as in this design.
+
+# Outlet Boundaries 
+
+To determine the outlet positions, I used the algebraic relationship that describes the streamline position of particles exiting the pinched section. 
+Y0  = (wp – (D/2)) (wb/wp)
+Where: 
+wp = width of the pinched segment
+wb = width of the broadened segment
+D = particle diameter 
+
+For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, wp = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
+
+The broad section was designed to be as wide as possible without interfering with the bonding buffer, which must remain 3 mm from the device edge to ensure proper sealing. Extending 20 mm from either side of the end of the pinched channel resulted in an overall broad section width of 40.65 mm.
+
+In this context, “the wall” refers to the bonding buffer boundary, located 3 mm from the inner edge of the device base wall. 
+
+To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width (wp=0.65) and broad section width (wb=40.65). 
+
+For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
+
+For the small particle outlet, using diameters of 150 µm and 125 µm produced Y0 values of 35.96 mm and 36.74 mm, respectively, which averaged to 36.35 mm from the wall. 
+
+The buffer outlet was positioned 10 mm from the wall, allowing sufficient separation from the large particle stream while providing additional space for a larger outlet diameter and lower hydraulic resistance. 
+
+This configuration ensures that the buffer channel carries the majority of the flow, while the large and small particle outlets collect their respective size fractions with minimal cross-contamination. For simplicity and manufacturability in the CAD model, these outlet positions were rounded to 10 mm for the buffer outlet, 26 mm for the large particle outlet, and 37 mm for the small particle outlet (to ensure the 11 mm minimum between each outlet was abided by).
+
+Once the outlet centers were established, I defined the boundaries (or openings) of each outlet channel by calculating the midpoints between adjacent outlet centers. This ensured that each particle size would exit through its intended channel without overlapping flow regions. For example, the midpoint between the large particle outlet (26 mm) and the small particle outlet (37 mm) is 31.5 mm. Thus, the end of the small particle channel, representing its outer boundary, was set at 31 mm from the wall. Therefore, it spans from 31 mm to 42.325 mm (where the broad section edge is). 
+
+Similarly, the large particle channel was defined from 18 mm to 31.5 mm, where 18 mm is the midpoint between the large particle outlet (26 mm) and the buffer outlet (10 mm). Finally, the buffer channel occupies the region from the wall (0 mm reference) to approximately 18 mm, capturing the particle-free fluid layer near the channel boundary.
+
+This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
+
+# Flow Balancing Problem 
+
+The flow balancing problem in Pinched Flow Fractionation (PFF) arises when outlet channels have unequal hydraulic resistances, causing the fluid to distribute unevenly among the outlets. Because the buffer outlet must carry a significantly larger portion of the total flow, it naturally experiences a higher flow rate. If all outlets were identical in length and width, this imbalance could cause fluid from one flow region (e.g., the large particle stream) to divert into another outlet, reducing sorting accuracy and increasing cross-contamination.
+
+To address this, I varied both the outlet widths and lengths to generate controlled hydraulic resistance that balances flow across all three outlets. This design approach is based on the principle that hydraulic resistance increases with channel length and decreases with the cube of its width. In other words, longer and narrower channels restrict flow more, while wider and shorter ones allow higher flow rates.
+
+I began by assigning entrance widths proportional to the expected outlet flow fractions: 2.20 mm for the buffer outlet (highest flow), 1.50 mm for the large particle outlet, and 0.60 mm for the small particle outlet (lowest flow). Using the buffer channel (18 mm long) as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. The width ratio between the buffer and large particle outlets is 2.20/1.50 = 1.47, giving a large particle channel length of 18×1.47 = 26.4 mm. Similarly, the width ratio between the buffer and small particle outlets is 2.20/0.60 = 3.67, resulting in a small particle channel length of 18×3.7 = 66.6 mm.
+
+Because these calculated lengths exceeded the available footprint of the uFluidic mold, I implemented serpentine outlet channels to achieve the required effective lengths within the compact device geometry. The serpentine layout preserves laminar flow while fitting long channels into limited space. All corners were filleted to minimize local turbulence, maintain stable flow paths, and avoid particle trapping.
+
+The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
+
+# Potential Future Changes to Outlet Geometry 
+
+I would mainly aim to replace my trial-and-error fine tuning with a more target-drive and mathematical approach. Perhaps I would pick the desired flow split between outlets first, convert that to target resistances, and then solve for the required channel lengths using geometry. This would reduce iteration and provide a clearer template of what would need to be implemented in CAD. 
+
+Another way I would iterate on this design is using height as another way to adjust resistance. Changing the channel depth or height locally can create large resistance without extreme lengths. Increasing or decreasing height is also more compact than extreme serpentine lengths and easier to fabricate than extra bends. 
+
+---
+
+# Instructions 
+
+* **Design the Microfluidic Geometry (CAD):** Create the channel layout in CAD software. Include inlet/outlet ports, bonding buffer margins, and any alignment features. Ensure minimum channel widths and wall thicknesses match printer resolution and resin manufacturer’s recommendations. 
+* **Export and Slice the Model:** Orient the device so that channels face upward to prevent resin pooling and print artifacts. Ensure the device is completely flush against the print bed. 
+* **Print the mold:** Use a resin printer to print the negative mold. 
+* **Post-Processing:** After printing, rinse the part in isopropyl alcohol to remove uncured resin. Use compressed air to remove debris. Then preform a 60 second surface-cure under UV light.
+* ** PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
+* **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
+* **Final Testing:** Performa test of the device. 
+
+---
+
+# Discussion 
+
+# Resin Printing Compared to Other Manufacturing Techniques 
+
+Resin 3D printing was chosen because it provides high precision, smooth surface finishes, and design flexibility required for microfluidic device creation. Resin printing can reliably produce complex 3D channel geometries like the serpentine outlet paths and variable-width sections directly from a CAD model. Modern SLA printers offer micrometer-scale resolution and great feature reproducibility, which are important for accurately defining the narrow-pinched regions and outlet channels in a PFF device. Resin printing creates durable and reusable products that are ideal for molds with PDMS casting.  
+
+# How Design Could Be Scaled Up or Modified 
+
+My design could be scaled up by adjusting the pinched-section geometry. The pinched width should scale with the largest particle desired to pass through. For a larger size range, increase pinched width accordingly and re-calculate outlet streamlines. The three outlets could also be replaced with multiple, narrower collection outlets so there are more size bins. Tunning channel height can also act as extra control over resistance. 
+
+# Factors That Set The Lower Limit On The Particle Size That Can Be Separated 
+
+* **Pinched Channel Dimensions:** The pinched region must be narrow enough that particle size affects streamline positions. 
+* **Surface Roughness and Dimensional Tolerance:** These are set by the printing and molding process and if these factors are comparable to particle diameter, flow becomes irregular and unpredictable, destroying the precise laminar flow necessary for PFF. 
 
 --- 
 
