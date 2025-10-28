@@ -135,8 +135,9 @@ Once the outlet centers were established, I defined the boundaries (or openings)
 The midpoint between the large particle outlet and the small particle outlet: 
 
 $$
-\frac{(37 - 26}{2} = 5.5  mm
+\frac{(37 - 26)}{2} = 5.5  mm
 $$
+
 $$
 5.5 + 26 = 31.5 mm
 $$
@@ -144,13 +145,14 @@ $$
 The midpoint between the large particle channel and the buffer outlet:
 
 $$
-\frac{(26 - 10}{2} = 8  mm
+\frac{(26 - 10)}{2} = 8  mm
 $$
+
 $$
 8 + 10 = 18 mm
 $$
 
-Thus, the small particle channel spans from 31 mm to 42.325 mm (where the broad section edge is). The large particle channel was defined from 18 mm to 31.5 mm. Finally, the buffer channel occupies the bottom edge of the broad section to 18 mm.
+Thus, the small particle channel spans from **31 mm to 42.325 mm** (where the broad section edge is). The large particle channel was defined from **31.5 mm to 18 mm**. Finally, the buffer channel occupies **18 mm to 3 mm** (he bottom edge of the broad section).
 
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
