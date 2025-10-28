@@ -23,7 +23,9 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 # Introduction 
 
 # Pinch Flow Fractionation?
-### What is Pinch Flow Fractionation? How does it work? 
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+What is Pinch Flow Fractionation? How does it work?
+</p>
 
 Pinched Flow Fractionation (PFF) is a microfluidic technique used to separate particles based on their size without the need for external or active fields such as electric or magnetic forces. The PFF device consists of two main regions: a pinched section and a broad section.
 
