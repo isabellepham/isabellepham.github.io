@@ -87,17 +87,17 @@ $$
 w_p
 $$ = 600 to 750 µm 
 
-A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
+A midpoint value of 650 µm or **0.65 mm** was chosen for stability and manufacturability. 
 
-The broad section was designed to be as wide as possible without interfering with the bonding buffer, which must remain 3 mm from the device edge to ensure proper sealing. Extending 20 mm from either side of the end of the pinched channel resulted in an overall broad section width of 40.65 mm.
+The broad section was designed to be as wide as possible without interfering with the bonding buffer, which must remain 3 mm from the device edge to ensure proper sealing. Extending 20 mm from either side of the end of the pinched channel resulted in an overall **broad section width of 40.65 mm**.
 
 In this context, “the wall” refers to the bonding buffer boundary, located 3 mm from the inner edge of the device base wall. 
 
 To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width and broad section. 
 
-**$$w_p$$ = 0.65**
+$$w_p$$ = 0.65
 
-**$$w_b$$ = 40.65**
+$$w_b$$ = 40.65
 
 For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm.
 
