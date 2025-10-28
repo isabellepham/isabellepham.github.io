@@ -159,7 +159,7 @@ This approach, using outlet midpoint spacing, ensures consistent separation zone
 
 
 <p align="center">
-  <img src="assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="600"/>
+  <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="600"/>
   <br>
   <em>Figure 1. CAD model of the uFluidic device with outlet dimensions.</em>
 </p>
