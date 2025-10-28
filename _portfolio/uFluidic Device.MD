@@ -63,10 +63,15 @@ How did you decide where to place the outlet boundaries for small particles, lar
 </p>
 
 To determine the outlet positions, I used the algebraic relationship that describes the streamline position of particles exiting the pinched section. 
-$Y_0 = (w_p - \frac{D}{2}) \left(\frac{w_b}{w_p}\right)$
+$$
+Y_0 = (w_p - \frac{D}{2}) \left(\frac{w_b}{w_p}\right)
+$$
 Where: 
+
 w_p = width of the pinched segment
+
 w_b = width of the broadened segment
+
 D = particle diameter 
 
 For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, wp = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
