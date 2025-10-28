@@ -85,13 +85,31 @@ In this context, “the wall” refers to the bonding buffer boundary, located 3
 To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width ($$w_p$$ =0.65) and broad section width ($$w_b$$ =40.65). 
 
 For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
+
 $$
-Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015 mm
+Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015  mm
+$$
+
+$$
+Y_0 = (0.65 - \frac{0.425}{2}) \left(\frac{40.65}{0.65}\right) = 27.048  mm
+$$
+
+$$
+\frac{(25.015 - 26.031)}{2} = 26.031  mm
 $$
 
 For the small particle outlet, using diameters of 150 µm and 125 µm produced Y0 values of 35.96 mm and 36.74 mm, respectively, which averaged to 36.35 mm from the wall. 
+
 $$
-Y_0 = (0.65 - \frac{0.125}{2}) \left(\frac{40.65}{0.65}\right) = 36.741 mm
+Y_0 = (0.65 - \frac{0.150}{2}) \left(\frac{40.65}{0.65}\right) = 35.960  mm
+$$
+
+$$
+Y_0 = (0.65 - \frac{0.125}{2}) \left(\frac{40.65}{0.65}\right) = 36.741  mm
+$$
+
+$$
+\frac{(35.960 - 36.741)}{2} = 36.351  mm
 $$
 
 The buffer outlet was positioned 10 mm from the wall, allowing sufficient separation from the large particle stream while providing additional space for a larger outlet diameter and lower hydraulic resistance. 
