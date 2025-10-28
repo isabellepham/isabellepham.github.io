@@ -68,12 +68,11 @@ Y_0 = (w_p - \frac{D}{2}) \left(\frac{w_b}{w_p}\right)
 $$
 
 Where: 
-$$
-w_p = width of the pinched segment
-$$
-$$
-w_b = width of the broadened segment
-$$
+
+$$w_p$$ = width of the pinched segment
+
+$$w_b$$ = width of the broadened segment
+
 D = particle diameter 
 
 For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, wp = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
@@ -82,7 +81,7 @@ The broad section was designed to be as wide as possible without interfering wit
 
 In this context, “the wall” refers to the bonding buffer boundary, located 3 mm from the inner edge of the device base wall. 
 
-To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width (wp=0.65) and broad section width (wb=40.65). 
+To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width (wp=0.65) and broad section width ($$w_b$$=40.65). 
 
 For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
 
