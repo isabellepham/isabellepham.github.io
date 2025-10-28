@@ -170,7 +170,7 @@ How did you attempt to solve the flow balancing problem discussed in the beginni
 
 The flow balancing problem in Pinched Flow Fractionation (PFF) arises when outlet channels have unequal hydraulic resistances, causing the fluid to distribute unevenly among the outlets. Because the buffer outlet must carry a significantly larger portion of the total flow, it naturally experiences a higher flow rate. If all outlets were identical in length and width, this imbalance could cause fluid from one flow region (e.g., the large particle stream) to divert into another outlet, reducing sorting accuracy and increasing cross-contamination.
 
-To address this, I varied both the outlet widths and lengths to generate controlled hydraulic resistance that balances flow across all three outlets. This design approach is based on the principle that hydraulic resistance increases with channel length and decreases with the cube of its width. In other words, longer and narrower channels restrict flow more, while wider and shorter ones allow higher flow rates.
+To address this, I varied both the outlet widths and lengths to **generate controlled hydraulic resistance** that balances flow across all three outlets. This design approach is based on the principle that hydraulic resistance increases with channel length and decreases with the cube of its width. In other words, longer and narrower channels restrict flow more, while wider and shorter ones allow higher flow rates.
 
 I began by assigning entrance widths proportional to the expected outlet flow fractions: 
 
@@ -178,7 +178,7 @@ I began by assigning entrance widths proportional to the expected outlet flow fr
 * 1.50 mm for the large particle outlet
 * 0.60 mm for the small particle outlet (lowest flow). 
 
-Using the buffer channel (18 mm long) as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. 
+Using the buffer channel length, 18 mm long, as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. 
 
 The width ratio between the buffer and large particle outlets is:
 
@@ -204,10 +204,9 @@ $$
 18 x 3.67 = 66.06mm
 $$
 
-Because these calculated lengths exceeded the available footprint of the uFluidic mold, I implemented serpentine outlet channels to achieve the required effective lengths within the compact device geometry. The serpentine layout preserves laminar flow while fitting long channels into limited space. All corners were filleted to minimize local turbulence, maintain stable flow paths, and avoid particle trapping.
+Because these calculated lengths exceeded the available footprint of the uFluidic mold, I implemented **serpentine outlet channels** to achieve the required effective lengths within the compact device geometry. The serpentine layout preserves laminar flow while fitting long channels into limited space. All corners were filleted to minimize local turbulence, maintain stable flow paths, and avoid particle trapping.
 
 The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
-
 
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-8 Small Particle Channel.jpg" alt="uFluidic Device CAD" width="600"/>
@@ -235,56 +234,6 @@ What would you change about your outlet geometry if you could iterate on this de
 I would mainly aim to replace my trial-and-error fine tuning with a more target-drive and mathematical approach. Perhaps I would pick the desired flow split between outlets first, convert that to target resistances, and then solve for the required channel lengths using geometry. This would reduce iteration and provide a clearer template of what would need to be implemented in CAD. 
 
 Another way I would iterate on this design is using height as another way to adjust resistance. Changing the channel depth or height locally can create large resistance without extreme lengths. Increasing or decreasing height is also more compact than extreme serpentine lengths and easier to fabricate than extra bends. 
-
-
----
-
-# Parylene Coating and Hypothetical Applications 
-
-Resin-printed molds are coated with parylene before PDMS casting to create a thin, inert, and hydrophobic barrier that prevents unwanted chemical and mechanical interactions between the mold and the polymer. Without this coating, the PDMS can adhere to or react with the uncured resin surface, leading to defects such as tearing, warping, or incomplete demolding. The parylene layer serves as both a release agent and a chemical barrier, enabling the PDMS to cure properly and release cleanly while preserving the fine surface features of the mold. Additionally, the parylene coating improves the dimensional stability and surface smoothness of the printed mold, which is essential for maintaining laminar flow and accurate channel geometry in microfluidic applications.
-
-This PFF-based microfluidic sorter has a wide range of potential applications. In biomedical diagnostics, it could be used to isolate circulating tumor cells (CTCs) or exosomes from blood for cancer detection and monitoring. In environmental science, it could separate microplastics, bacteria, or other particulates from water samples for pollution analysis. Similarly, in materials research, the device could sort polymer microspheres or nanoparticles by size for manufacturing and coating processes. In cell biology, the same sorting principle could be applied to separate cells, vesicles, or organelles based on size or deformability, enabling single-cell analysis and other downstream studies.
-
-# Geometry Relation to Sorting 
-
-The geometry of my uFluidic device was carefully designed to support precise size-based separation consistent with Pinched Flow Fractionation (PFF) theory. The pinched region width (wp = 0.65 mm) was selected to be approximately 1.3 times the diameter of the largest particle (500 µm) to ensure effective focusing of particles against the wall without causing clogging. This confinement forces all particles into a narrow, well-defined region, aligning them along the same streamline before entering the broad section. The broad region width (wb = 40.65 mm) represents a roughly 62.5× expansion relative to the pinched width, allowing for significant streamline divergence and clear spatial separation between particles of different diameters as they flow outward.
-
-Outlet positions were determined using the PFF streamline equation to ensure that each size fraction exited through the correct channel with minimal cross-contamination. The buffer outlet was placed 10 mm from the wall, the large particle outlet at 26 mm, and the small particle outlet at 37 mm. Outlet widths were also chosen to reflect expected flow proportions, with the buffer outlet widest (2.20 mm), followed by the large particle (1.50 mm) and small particle (0.60 mm) outlets. These dimensions collectively ensure that laminar flow is preserved, streamlines remain stable, and particles follow their predicted trajectories based on size, resulting in accurate and continuous sorting.
-
-# Design Features To Ensure Consistent Flow Rate 
-
-To prevent disruptions to the streamlines and maintain proper separation, I focused on balancing the hydraulic resistance across all outlet channels. Because each outlet was designed to carry a different portion of the total flow, their channel widths and lengths were adjusted proportionally to achieve similar pressure drops at the outlet junctions. The buffer outlet, which carries the greatest flow, was set to 2.20 mm in width and 18 mm in length. The large particle outlet was made narrower (1.50 mm) but longer (26.4 mm) to increase its resistance, while the small particle outlet was narrowest (0.60 mm) and longest (66.6 mm) to further restrict flow and balance against the buffer channel.
-
-Since the longer outlet channels exceeded the available footprint of the device, I used serpentine paths to fit the required lengths while maintaining the intended hydraulic resistance. The serpentine channels were designed with smooth, filleted corners to preserve laminar flow and prevent the formation of vortices or dead zones that could disrupt sorting. Outlet boundaries were defined using the midpoints between outlet centers to ensure consistent streamline capture for each particle size fraction. Throughout the design process, I adjusted the spacing and routing of the serpentine channels through iterative refinement to prevent overlap and ensure that all channels remained well separated during resin printing. This combination of geometric tuning and controlled resistance produced a balanced flow distribution across all outlets, preserving the clean laminar separation that is critical to effective PFF operation.
-
----
-
-# Off-The-Shelf Parts
-
-| Component                                                                 | Quantity |
-|---------------------------------------------------------------------------|----------|
-| Form 3 SLA Printer | 1 |
-| Autodesk Fusion 360 | 1 |
-| PDMS (Sylgard 184, 10:1 ratio) | 1 |
-| Plasma Cleaner | 1 |
-| Syringe Pumps | 2 |
-| Polyethylene Microspheres (125-150 µm, 425–500 µm)| 1 |
-| IPA (Isopropyl Alcohol) | 1 |
-| Compressed Air System | 1 |
-
----
-
-# 3D Printed Parts
-
-| 3D Printed Part        | Purpose / Function |
-|-------------------------|--------------------|
-| uFluidic Device v1    | Initial interation |
-| uFluidic Device v2+ | Refined design with adjusted dimensions |
-
----
-
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eef13a8384cedcec?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
@@ -328,23 +277,65 @@ What factors set the lower limit on the particle size that can be separated with
 * **Pinched Channel Dimensions:** The pinched region must be narrow enough that particle size affects streamline positions. 
 * **Surface Roughness and Dimensional Tolerance:** These are set by the printing and molding process and if these factors are comparable to particle diameter, flow becomes irregular and unpredictable, destroying the precise laminar flow necessary for PFF. 
 
---- 
+---
 
-# Why Are Resin-Printed Molds Coated with Parylene Prior to Casting PDMS? 
+# Parylene Coating and Hypothetical Applications 
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+Why are resin-printed molds coated with parylene prior to casting the PDMS? What are hypothetical applications of your microfluidic mixer or sorter?
+</p>
 
-Parylene coating prevents the inhibition of PDMS curing caused by residual photopolymer resin components that can leach from uncoated prints. The parylene layer forms a smooth, chemically inert barrier that ensures clean demolding, smooth surface finish, and strong bonding between the PDMS and glass slide. Without coating, PDMS may remain tacky, tear on removal, or fail to cure fully—leading to leaks and poor optical clarity during testing.
+Resin-printed molds are coated with parylene before PDMS casting to create a thin, inert, and hydrophobic barrier that prevents unwanted chemical and mechanical interactions between the mold and the polymer. Without this coating, the PDMS can adhere to or react with the uncured resin surface, leading to defects such as tearing, warping, or incomplete demolding. The parylene layer serves as both a release agent and a chemical barrier, enabling the PDMS to cure properly and release cleanly while preserving the fine surface features of the mold. Additionally, the parylene coating improves the dimensional stability and surface smoothness of the printed mold, which is essential for maintaining laminar flow and accurate channel geometry in microfluidic applications.
 
---- 
+This PFF-based microfluidic sorter has a wide range of potential applications. In biomedical diagnostics, it could be used to isolate circulating tumor cells (CTCs) or exosomes from blood for cancer detection and monitoring. In environmental science, it could separate microplastics, bacteria, or other particulates from water samples for pollution analysis. Similarly, in materials research, the device could sort polymer microspheres or nanoparticles by size for manufacturing and coating processes. In cell biology, the same sorting principle could be applied to separate cells, vesicles, or organelles based on size or deformability, enabling single-cell analysis and other downstream studies.
 
-# Hypothetical Applications 
+# Geometry Relation to Sorting 
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+Why is your geometry conducive to sorting? Discuss specific dimensions (pinch width, outlet width, location of ports, etc.)
+</p>
 
-Pinch flow fractionation is useful in a wide range of biomedical and materials applications, including:
-* **Cell sorting** for diagnostics or single-cell analysis
-* **Microbead purification** for chemical assays or encapsulated drug delivery
-* **Environmental testing** where suspended particles must be classified by size
-* **Additive manufacturing feedstock preparation** where consistent particle sizing improves powder flow 
+The geometry of my uFluidic device was carefully designed to support precise size-based separation consistent with Pinched Flow Fractionation (PFF) theory. The pinched region width ($$w_p$$ = 0.65 mm) was selected to be approximately 1.3 times the diameter of the largest particle (500 µm) to ensure effective focusing of particles against the wall without causing clogging. This confinement forces all particles into a narrow, well-defined region, aligning them along the same streamline before entering the broad section. The broad region width ($$w_b$$ = 40.65 mm) represents a roughly 62.5× expansion relative to the pinched width, allowing for significant streamline divergence and clear spatial separation between particles of different diameters as they flow outward.
+
+Outlet positions were determined using the PFF streamline equation to ensure that each size fraction exited through the correct channel with minimal cross-contamination. The buffer outlet was placed 10 mm from the wall, the large particle outlet at 26 mm, and the small particle outlet at 37 mm. Outlet widths were also chosen to reflect expected flow proportions, with the buffer outlet widest (2.20 mm), followed by the large particle (1.50 mm) and small particle (0.60 mm) outlets. These dimensions collectively ensure that laminar flow is preserved, streamlines remain stable, and particles follow their predicted trajectories based on size, resulting in accurate and continuous sorting.
+
+# Design Features To Ensure Consistent Flow Rate 
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+What steps or design features did you use to ensure that each outlet received the same flow rate, preventing disruptions to the streamlines and maintaining proper separation?
+</p>
+
+To prevent disruptions to the streamlines and maintain proper separation, I focused on balancing the hydraulic resistance across all outlet channels. Because each outlet was designed to carry a different portion of the total flow, their channel widths and lengths were adjusted proportionally to achieve similar pressure drops at the outlet junctions. The buffer outlet, which carries the greatest flow, was set to 2.20 mm in width and 18 mm in length. The large particle outlet was made narrower (1.50 mm) but longer (26.4 mm) to increase its resistance, while the small particle outlet was narrowest (0.60 mm) and longest (66.6 mm) to further restrict flow and balance against the buffer channel.
+
+Since the longer outlet channels exceeded the available footprint of the device, I used serpentine paths to fit the required lengths while maintaining the intended hydraulic resistance. The serpentine channels were designed with smooth, filleted corners to preserve laminar flow and prevent the formation of vortices or dead zones that could disrupt sorting. Outlet boundaries were defined using the midpoints between outlet centers to ensure consistent streamline capture for each particle size fraction. Throughout the design process, I adjusted the spacing and routing of the serpentine channels through iterative refinement to prevent overlap and ensure that all channels remained well separated during resin printing. This combination of geometric tuning and controlled resistance produced a balanced flow distribution across all outlets, preserving the clean laminar separation that is critical to effective PFF operation.
 
 ---
+
+# Off-The-Shelf Parts
+
+| Component                                                                 | Quantity |
+|---------------------------------------------------------------------------|----------|
+| Form 3 SLA Printer | 1 |
+| Autodesk Fusion 360 | 1 |
+| PDMS (Sylgard 184, 10:1 ratio) | 1 |
+| Plasma Cleaner | 1 |
+| Syringe Pumps | 2 |
+| Polyethylene Microspheres (125-150 µm, 425–500 µm)| 1 |
+| IPA (Isopropyl Alcohol) | 1 |
+| Compressed Air System | 1 |
+
+---
+
+# 3D Printed Parts
+
+| 3D Printed Part        | Purpose / Function |
+|-------------------------|--------------------|
+| uFluidic Device v1    | Initial interation |
+| uFluidic Device v2+ | Refined design with adjusted dimensions |
+
+---
+
+# CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eef13a8384cedcec?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+--- 
 
 # Features
 
