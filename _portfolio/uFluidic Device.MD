@@ -174,30 +174,32 @@ To address this, I varied both the outlet widths and lengths to generate control
 
 I began by assigning entrance widths proportional to the expected outlet flow fractions: 
 
-2.20 mm for the buffer outlet (highest flow)
-
-1.50 mm for the large particle outlet
-
-and 0.60 mm for the small particle outlet (lowest flow). 
+* 2.20 mm for the buffer outlet (highest flow)
+* 1.50 mm for the large particle outlet
+* 0.60 mm for the small particle outlet (lowest flow). 
 
 Using the buffer channel (18 mm long) as the baseline, I scaled the other outlet lengths to maintain approximately equal pressure drops. 
 
 The width ratio between the buffer and large particle outlets is:
+
 $$
 \frac{2.20}{1.50} = 1.47x
 $$
 
 Giving the large particle channel length: 
+
 $$
 18 x 1.47 = 26.4mm
 $$
 
 The width ratio between the buffer and small particle outlets is:
+
 $$
 \frac{2.20}{0.60} = 3.67x
 $$
 
 Giving the small particle channel length: 
+
 $$
 18 x 3.67 = 66.06mm
 $$
