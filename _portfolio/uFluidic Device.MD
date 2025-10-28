@@ -69,8 +69,11 @@ Y_0 = (w_p - \frac{D}{2}) \left(\frac{w_b}{w_p}\right)
 $$
 
 Where: 
+
 $$w_p$$ = width of the pinched segment
+
 $$w_b$$ = width of the broadened segment
+
 D = particle diameter 
 
 For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, $$w_p$$ = 1.2 to 1.5 x 500 µm = 600 to 750 µm. A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
@@ -83,10 +86,13 @@ To determine the outlet positions, I applied the PFF streamline equation using t
 
 For the large particle outlet, substituting particle diameters of 500 µm and 425 µm into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
 $$
-Y_0 = (0.65 - 0.500\frac{D}{2}) \left(\frac{40.65}{0.65}\right)
+Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015 mm
 $$
 
 For the small particle outlet, using diameters of 150 µm and 125 µm produced Y0 values of 35.96 mm and 36.74 mm, respectively, which averaged to 36.35 mm from the wall. 
+$$
+Y_0 = (0.65 - \frac{0.125}{2}) \left(\frac{40.65}{0.65}\right) = 36.741 mm
+$$
 
 The buffer outlet was positioned 10 mm from the wall, allowing sufficient separation from the large particle stream while providing additional space for a larger outlet diameter and lower hydraulic resistance. 
 
