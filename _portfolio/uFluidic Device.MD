@@ -82,6 +82,7 @@ For context, the pinched segment width was calculated based on the design guidel
 $$
 w_p
 $$ = (1.2 x 500 µm) to (1.5 x 500 µm)
+
 $$
 w_p
 $$ = 600 to 750 µm 
