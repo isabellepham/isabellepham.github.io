@@ -76,10 +76,15 @@ $$w_b$$ = width of the broadened segment
 
 D = particle diameter 
 
+
 For context, the pinched segment width was calculated based on the design guideline that it should be 1.2–1.5 times the diameter of the largest particle to prevent clogging while maintaining effective flow focusing. Given the largest particle diameter of 500 µm, 
 
-$$w_p$$ = 1.2 to 1.5 x 500 µm 
-        = 600 to 750 µm 
+$$
+w_p
+$$ = (1.2 x 500 µm) to (1.5 x 500 µm)
+$$
+w_p
+$$ = 600 to 750 µm 
 
 A midpoint value of 650 µm (0.65 mm) was chosen for stability and manufacturability. 
 
@@ -89,10 +94,11 @@ In this context, “the wall” refers to the bonding buffer boundary, located 3
 
 To determine the outlet positions, I applied the PFF streamline equation using the calculated values for the pinched width and broad section. 
 
-$$w_p$$ =0.65 
-$$w_b$$ =40.65
+**$$w_p$$ = 0.65**
 
-For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm. into the equation gave Y0 values of 25.02 mm and 27.05 mm, respectively. Averaging these results yielded a final outlet position of approximately 26.03 mm from the wall. 
+**$$w_b$$ = 40.65**
+
+For the **large particle outlet**, particle diameters ranged from 500 µm to 425 µm.
 
 $$
 Y_0 = (0.65 - \frac{0.500}{2}) \left(\frac{40.65}{0.65}\right) = 25.015  mm
@@ -124,9 +130,25 @@ The **buffer outlet** was positioned 10 mm from the wall, allowing sufficient se
 
 This configuration ensures that the buffer channel carries the majority of the flow, while the large and small particle outlets collect their respective size fractions with minimal cross-contamination. For simplicity and manufacturability in the CAD model, these outlet positions were rounded to **10 mm for the buffer outlet**, **26 mm for the large particle outlet**, and **37 mm for the small particle outlet** (to ensure the 11 mm minimum between each outlet was abided by).
 
-Once the outlet centers were established, I defined the boundaries (or openings) of each outlet channel by calculating the midpoints between adjacent outlet centers. This ensured that each particle size would exit through its intended channel without overlapping flow regions. For example, the midpoint between the large particle outlet (26 mm) and the small particle outlet (37 mm) is 31.5 mm. Thus, the end of the small particle channel, representing its outer boundary, was set at 31 mm from the wall. Therefore, it spans from 31 mm to 42.325 mm (where the broad section edge is). 
+Once the outlet centers were established, I defined the boundaries (or openings) of each outlet channel by calculating the midpoints between adjacent outlet centers. This ensured that each particle size would exit through its intended channel without overlapping flow regions. 
 
-Similarly, the large particle channel was defined from 18 mm to 31.5 mm, where 18 mm is the midpoint between the large particle outlet (26 mm) and the buffer outlet (10 mm). Finally, the buffer channel occupies the region from the wall (0 mm reference) to approximately 18 mm, capturing the particle-free fluid layer near the channel boundary.
+The midpoint between the large particle outlet and the small particle outlet: 
+$$
+\frac{(37 - 26}{2} = 5.5  mm
+$$
+$$
+5.5 + 26 = 31.5 mm
+%%
+
+The midpoint between the large particle channel and the buffer outlet 
+$$
+\frac{(26 - 10}{2} = 8  mm
+$$
+$$
+8 + 10 = 18 mm
+%%
+
+Thus, the small particle channel spans from 31 mm to 42.325 mm (where the broad section edge is). The large particle channel was defined from 18 mm to 31.5 mm. Finally, the buffer channel occupies the bottom edge of the broad section to 18 mm.
 
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
