@@ -133,20 +133,22 @@ This configuration ensures that the buffer channel carries the majority of the f
 Once the outlet centers were established, I defined the boundaries (or openings) of each outlet channel by calculating the midpoints between adjacent outlet centers. This ensured that each particle size would exit through its intended channel without overlapping flow regions. 
 
 The midpoint between the large particle outlet and the small particle outlet: 
+
 $$
 \frac{(37 - 26}{2} = 5.5  mm
 $$
 $$
 5.5 + 26 = 31.5 mm
-%%
+$$
 
-The midpoint between the large particle channel and the buffer outlet 
+The midpoint between the large particle channel and the buffer outlet:
+
 $$
 \frac{(26 - 10}{2} = 8  mm
 $$
 $$
 8 + 10 = 18 mm
-%%
+$$
 
 Thus, the small particle channel spans from 31 mm to 42.325 mm (where the broad section edge is). The large particle channel was defined from 18 mm to 31.5 mm. Finally, the buffer channel occupies the bottom edge of the broad section to 18 mm.
 
