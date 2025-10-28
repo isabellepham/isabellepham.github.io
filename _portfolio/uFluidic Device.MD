@@ -156,7 +156,7 @@ Thus, the small particle channel spans from **31 mm to 42.325 mm** (where the br
 
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
-assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
+image: assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
 
 # Flow Balancing Problem 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
@@ -173,9 +173,9 @@ Because these calculated lengths exceeded the available footprint of the uFluidi
 
 The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
 
-assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
-assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
-assets/img/3 uFluidic Device-10 Buffer Channel.jpg
+image: assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
+image: assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
+image: assets/img/3 uFluidic Device-10 Buffer Channel.jpg
 
 # Potential Future Changes to Outlet Geometry 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
