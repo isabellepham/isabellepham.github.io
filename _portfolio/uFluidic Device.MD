@@ -246,9 +246,54 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 * **Export and Slice the Model:** Orient the device so that channels face upward to prevent resin pooling and print artifacts. Ensure the device is completely flush against the print bed. 
 * **Print the mold:** Use a resin printer to print the negative mold. 
 * **Post-Processing:** After printing, rinse the part in isopropyl alcohol to remove uncured resin. Use compressed air to remove debris. Then preform a 60 second surface-cure under UV light.
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-6.JPG" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 5. Final Resin Printed Mold.</em>
+</p>
+
 * **PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-11 Plasma Process.png" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 6. Plasma Treating Process.</em>
+</p>
+
 * **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-12 Mold and Model.jpg" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 7. Mold and Casted Device.</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-13 Casted Device.JPG" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 8. Final Casted Device.</em>
+</p>
+
 * **Final Testing:** Perform a test of the device. 
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-14 Testing Setup.JPG" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 9. Testing Setup.</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-15 Testing Setup 2.JPG" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 10. Testing Setup including tubes being hand held.</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="600"/>
+  <br>
+  <em>Figure 11. Testing Setup including monitor to view particle separation process.</em>
+</p>
 
 ---
 
