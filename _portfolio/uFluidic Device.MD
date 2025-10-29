@@ -518,7 +518,7 @@ Florian, D. C., Intro to uFluidic Devices, Department of Engineering, Vanderbilt
 
 [Lenshof, A., & Laurell, T. (2010). *Particle Separation and Sorting in Microfluidic Devices: A Review.* Chemical Society Reviews, 39(3), 1203–1217.](https://pubs.rsc.org/en/content/articlelanding/2010/cs/b915999c) 
 
-[Pødenphant M., Ashley N., Koprowska K., Mir K.U., Zalkovskij M., Bilenberg B., Bodmer W., Kristensen A., Marie R. (2015). *Separation of cancer cells from white blood cells by pinched flow fractionation.* Lab on a Chip, 15, 4598-4606.](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d) :contentReference[oaicite:0]{index=0}
+[Pødenphant M., Ashley N., Koprowska K., Mir K.U., Zalkovskij M., Bilenberg B., Bodmer W., Kristensen A., Marie R. (2015). *Separation of cancer cells from white blood cells by pinched flow fractionation.* Lab on a Chip, 15, 4598-4606.](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d) 
 
 [Yamada, M., & Seki, M. (2004). *Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel.* Analytical Chemistry, 76(3), 546–551.](https://pubs.acs.org/doi/10.1021/ac034971c)
 
