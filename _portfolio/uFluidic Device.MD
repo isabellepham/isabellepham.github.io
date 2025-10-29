@@ -514,9 +514,15 @@ Since the longer outlet channels exceeded the available footprint of the device,
 
 <h1 style="font-size: 2.2em; font-weight: 700;">References</h1>
 
-- [Yamada, M., & Seki, M. (2004). *Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel.* Analytical Chemistry, 76(3), 546–551.](https://pubs.acs.org/doi/10.1021/ac034971c)
-- [Lenshof, A., & Laurell, T. (2010). *Particle Separation and Sorting in Microfluidic Devices: A Review.* Chemical Society Reviews, 39(3), 1203–1217.](https://pubs.rsc.org/en/content/articlelanding/2010/cs/b915999c) — see **Section 2.1: Pinched Flow Fractionation (PFF)**
-- [Zhou, J., Papautsky, I. (2020). *A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.* Lab on a Chip, 20(3), 373–395.](https://pubs.rsc.org/en/content/articlelanding/2020/lc/c9lc00867h)
+Florian, D. C., Intro to uFluidic Devices, Department of Engineering, Vanderbilt University, 2025.
+
+[Lenshof, A., & Laurell, T. (2010). *Particle Separation and Sorting in Microfluidic Devices: A Review.* Chemical Society Reviews, 39(3), 1203–1217.](https://pubs.rsc.org/en/content/articlelanding/2010/cs/b915999c) 
+
+[Pødenphant M., Ashley N., Koprowska K., Mir K.U., Zalkovskij M., Bilenberg B., Bodmer W., Kristensen A., Marie R. (2015). *Separation of cancer cells from white blood cells by pinched flow fractionation.* Lab on a Chip, 15, 4598-4606.](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d) :contentReference[oaicite:0]{index=0}
+
+[Yamada, M., & Seki, M. (2004). *Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel.* Analytical Chemistry, 76(3), 546–551.](https://pubs.acs.org/doi/10.1021/ac034971c)
+
+[Zhou, J., Papautsky, I. (2020). *A Comprehensive Review of Pinch Flow Fractionation in Microfluidics: From Principles to Practical Applications.* Lab on a Chip, 20(3), 373–395.](https://pubs.rsc.org/en/content/articlelanding/2020/lc/c9lc00867h)
 
 ---
 
