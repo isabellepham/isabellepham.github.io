@@ -293,6 +293,7 @@ Briefly list the most important steps for creating a ufluidic device with resin 
   </div>
 </div>
 
+
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="250"/>
   <br>
