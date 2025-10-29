@@ -304,6 +304,24 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 
 # Discussion 
 
+# Results and Proposed Improvements
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+Based on the results of testing, could you implement any future changes to improve sorting?
+</p>
+
+Unfortunately, the microfluidic device did not accurately or efficiently separate particles by size during testing. However, it is difficult to determine whether this was due to flaws in the device design itself or limitations in the testing environment.
+
+Significant turbulent flow and the formation of vortices were observed in the broad section, which indicates a breakdown of laminar flow, an essential condition for Pinched Flow Fractionation (PFF). This unexpected behavior may have resulted from the channel height, the excessive width of the broad section, or fabrication inconsistencies that affected flow uniformity.
+
+In addition, the viscosity of the particle solution influenced the flow behavior, and the device proved highly sensitive to the siphon effect and to the resistance of the outlet tubing. Small changes in tube height or orientation noticeably altered the flow distribution among outlets, especially when the tubing was held by hand. These factors made it difficult to determine whether the poor sorting performance was primarily due to the device geometry or external testing conditions.
+
+For future iterations, I would focus first on stabilizing the experimental setup: 
+* Fixing outlet tubing at consistent heights
+* Using rigid supports to eliminate siphon effects
+* Selecting a particle suspension with known and reproducible viscosity
+
+Once flow conditions are more controlled, I could evaluate whether geometric modifications—such as adjusting the broad channel width, fine-tuning the pinched section dimensions, or modifying channel height—would help suppress vortex formation and improve sorting accuracy. These improvements would allow for more reliable flow control and a clearer assessment of the device’s true performance.
+
 # Resin Printing Compared to Other Manufacturing Techniques 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 Why resin printing compared to other manufacturing techniques? 
