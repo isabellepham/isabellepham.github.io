@@ -22,7 +22,6 @@ gallery:
   - image_path: assets/img/3 uFluidic Device-16 Particle Separation View.JPG
   - image_path: assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
 
-
 ---
 
 I created a microfluidic pinch flow fractionation (PFF) device that separates particles of different sizes using controlled laminar flow. The process involved modeling the mold in Autodesk Fusion 360, resin printing it with a Form 3 SLA printer, casting the device in PDMS, and sealing it with glass before testing its ability to sort microspheres into separate outlets.
