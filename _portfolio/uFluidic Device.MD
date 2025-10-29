@@ -48,11 +48,12 @@ Due to laminar flow, particles maintain their relative positions meaning larger 
 Provide at least one specific application that requires sorting small particles. Benefits of PFF over traditional techniques (e.g., filters) for sorting this particle? Include at least one citation from primary literature. Citation should be hyperlinked. 
 </p>
 
-One important application of Pinched Flow Fractionation (PFF) is the separation of circulating tumor cells (CTCs) from whole blood for cancer diagnosis and monitoring. This process directly involves sorting small particles, as it operates at the microscale, handling biological components that range from a few micrometers to nanometers in size. CTCs are typically 10–20 µm in diameter, compared to 6–8 µm for red blood cells, and these subtle size differences are crucial for effective separation within microfluidic channels.
+One important application of **Pinched Flow Fractionation (PFF)** is the separation of **circulating tumor cells (CTCs)** from whole blood for cancer diagnosis and monitoring. This process directly involves sorting small particles, as it operates at the microscale, handling biological components that range from a few micrometers to nanometers in size. CTCs are typically 10–20 µm in diameter, compared to 6–8 µm for red blood cells, and these subtle size differences are crucial for effective separation within microfluidic channels.
 
 CTCs are rare cells shed from primary tumors into the bloodstream, and their efficient isolation is important for early detection and treatment planning. They are believed to be the main cause of cancer-related fatalities and serve as valuable biomarkers. To use CTCs effectively, they must be efficiently separated from the complex mixture of blood cells and plasma. 
 
-Traditional methods like gel electrophoresis or centrifugation often led to cell deformation, clogging, and low recovery rates due to mechanical stress and sample loss. PFF is beneficial in this application because it enables gentle, continuous, and label-free separation of CTCs based purely on intrinsic differences in size and deformability. This method enables noninvasive isolation of cancer cells and minimizes sample loss while preserving cell viability for downstream molecular analysis. 
+Traditional methods like gel electrophoresis or centrifugation often lead to cell deformation, clogging, and low recovery rates due to mechanical stress and sample loss. **PFF** is beneficial in this application because it enables gentle, continuous, and label-free separation of CTCs based purely on intrinsic differences in size and deformability. This method enables noninvasive isolation of cancer cells and minimizes sample loss while preserving cell viability for downstream molecular analysis (<a href="https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d" target="_blank">Zeming *et al.*, *Lab on a Chip*, 2015</a>).
+
 
 --- 
 
