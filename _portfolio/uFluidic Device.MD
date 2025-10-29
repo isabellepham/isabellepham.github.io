@@ -291,13 +291,13 @@ Briefly list the most important steps for creating a ufluidic device with resin 
     <br>
     <em>Figure 10. Testing Setup including tubes being hand held</em>
   </div>
-
-  <div>
-    <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="250">
-    <br>
-    <em>Figure 11. Testing Setup including monitor to view particle separation process</em>
-  </div>
 </div>
+
+<p align="center">
+  <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="250"/>
+  <br>
+  <em>Figure 11. Testing Setup including monitor to view particle separation process</em>
+</p>
 
 ---
 
