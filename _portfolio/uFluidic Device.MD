@@ -160,7 +160,7 @@ This approach, using outlet midpoint spacing, ensures consistent separation zone
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
-  <em>Figure 1. CAD model of the uFluidic device with outlet dimensions.</em>
+  <em>Figure 1. CAD model of the uFluidic device with outlet dimensions</em>
 </p>
 
 # Flow Balancing Problem 
@@ -211,19 +211,19 @@ The detailed layout of each serpentine, such as the height of vertical legs, hor
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-8 Small Particle Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
-  <em>Figure 2. CAD model of the uFluidic device's Small Particle Channel Design with dimensions.</em>
+  <em>Figure 2. CAD model of the uFluidic device's Small Particle Channel Design with dimensions</em>
 </p>
 
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-9 Large Particle Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
-  <em>Figure 3. CAD model of the uFluidic device's Large Particle Channel Design with dimensions.</em>
+  <em>Figure 3. CAD model of the uFluidic device's Large Particle Channel Design with dimensions</em>
 </p>
 
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-10 Buffer Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
-  <em>Figure 4. CAD model of the uFluidic device's Buffer Channel Design with dimensions.</em>
+  <em>Figure 4. CAD model of the uFluidic device's Buffer Channel Design with dimensions</em>
 </p>
 
 # Potential Future Changes to Outlet Geometry 
@@ -250,7 +250,7 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-6.JPG" alt="uFluidic Device CAD" width="250"/>
   <br>
-  <em>Figure 5. Final Resin Printed Mold.</em>
+  <em>Figure 5. Final Resin Printed Mold</em>
 </p>
 
 * **PDMS Casting and Curing:** Mix PDMS base and curing agent, pour into resin printed mold, and cure. Once cured, remove the PDMS layer. 
@@ -258,7 +258,7 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 <p align="center">
   <img src="/assets/img/3 uFluidic Device-11 Plasma Process.png" alt="uFluidic Device CAD" width="250"/>
   <br>
-  <em>Figure 6. Plasma Treating Process.</em>
+  <em>Figure 6. Plasma Treating Process</em>
 </p>
 
 * **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
@@ -267,35 +267,35 @@ Briefly list the most important steps for creating a ufluidic device with resin 
   <div>
     <img src="/assets/img/3 uFluidic Device-12 Mold and Model.jpg" alt="uFluidic Device CAD" width="250">
     <br>
-    <em>Figure 7. Mold and Casted Device.</em>
+    <em>Figure 7. Mold and Casted Device</em>
   </div>
 
   <div>
     <img src="/assets/img/3 uFluidic Device-13 Casted Device.JPG" alt="uFluidic Device CAD" width="250">
     <br>
-    <em>Figure 8. Final Casted Device.</em>
+    <em>Figure 8. Final Casted Device</em>
   </div>
 </div>
 
 * **Final Testing:** Perform a test of the device. 
 
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 15px; text-align: center; flex-wrap: nowrap; overflow-x: auto;">
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; text-align: center;">
   <div>
-    <img src="/assets/img/3 uFluidic Device-14 Testing Setup.JPG" alt="uFluidic Device CAD" width="220">
+    <img src="/assets/img/3 uFluidic Device-14 Testing Setup.JPG" alt="uFluidic Device CAD" width="250">
     <br>
-    <em>Figure 9. Testing Setup.</em>
+    <em>Figure 9. Testing Setup</em>
   </div>
 
   <div>
-    <img src="/assets/img/3 uFluidic Device-15 Testing Setup 2.JPG" alt="uFluidic Device CAD" width="220">
+    <img src="/assets/img/3 uFluidic Device-15 Testing Setup 2.JPG" alt="uFluidic Device CAD" width="250">
     <br>
-    <em>Figure 10. Testing Setup including tubes being hand held.</em>
+    <em>Figure 10. Testing Setup including tubes being hand held</em>
   </div>
 
   <div>
-    <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="220">
+    <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="250">
     <br>
-    <em>Figure 11. Testing Setup including monitor to view particle separation process.</em>
+    <em>Figure 11. Testing Setup including monitor to view particle separation process</em>
   </div>
 </div>
 
