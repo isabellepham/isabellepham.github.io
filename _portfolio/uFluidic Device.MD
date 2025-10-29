@@ -1,15 +1,15 @@
 ---
-title: "uFluidic Device"
+title: <h1 style="font-size: 2.2em; font-weight: 700;">uFluidic Device</h1>
 excerpt: "This microfluidic device leverages laminar flow principles to separatae particles by size using a custom-designed pinch flow fractionation (PFF) chip!"
 header:
   image: assets/img/3 uFluidic Device-Banner.JPG
   teaser: assets/img/3 uFluidic Device-Banner.JPG
 gallery:
   - image_path: assets/img/3 uFluidic Device-1.JPG
-  - image_path: assets/img/3 uFluidic Device-2.JPG
-  - image_path: assets/img/3 uFluidic Device-3.JPG
   - image_path: assets/img/3 uFluidic Device-4.JPG
   - image_path: assets/img/3 uFluidic Device-5.JPG
+  - image_path: assets/img/3 uFluidic Device-2.JPG
+  - image_path: assets/img/3 uFluidic Device-3.JPG
   - image_path: assets/img/3 uFluidic Device-6.JPG
   - image_path: assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
   - image_path: assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
@@ -24,8 +24,6 @@ gallery:
 
 
 ---
-
-<h1 style="font-size: 2.2em; font-weight: 700;">uFluidic Device</h1>
 
 I created a microfluidic pinch flow fractionation (PFF) device that separates particles of different sizes using controlled laminar flow. The process involved modeling the mold in Autodesk Fusion 360, resin printing it with a Form 3 SLA printer, casting the device in PDMS, and sealing it with glass before testing its ability to sort microspheres into separate outlets.
 
