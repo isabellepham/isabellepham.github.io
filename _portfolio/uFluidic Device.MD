@@ -158,7 +158,7 @@ Thus, the small particle channel spans from **31 mm to 42.325 mm** (where the br
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
 <p align="center">
-  <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="400"/>
+  <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
   <em>Figure 1. CAD model of the uFluidic device with outlet dimensions.</em>
 </p>
@@ -209,19 +209,19 @@ Because these calculated lengths exceeded the available footprint of the uFluidi
 The detailed layout of each serpentine, such as the height of vertical legs, horizontal offsets, and number of bends, was determined through iterative design and trial-and-error adjustments in CAD. I began by dividing the available device area by the target channel length to estimate the number of turns required, then fine-tuned the path to achieve the correct total length while maintaining safe spacing between adjacent bends. This spacing prevents channels from touching or merging during fabrication, reduces print errors, and maintains consistent hydraulic resistance across all outlets.
 
 <p align="center">
-  <img src="/assets/img/3 uFluidic Device-8 Small Particle Channel.jpg" alt="uFluidic Device CAD" width="400"/>
+  <img src="/assets/img/3 uFluidic Device-8 Small Particle Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
   <em>Figure 2. CAD model of the uFluidic device's Small Particle Channel Design with dimensions.</em>
 </p>
 
 <p align="center">
-  <img src="/assets/img/3 uFluidic Device-9 Large Particle Channel.jpg" alt="uFluidic Device CAD" width="400"/>
+  <img src="/assets/img/3 uFluidic Device-9 Large Particle Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
   <em>Figure 3. CAD model of the uFluidic device's Large Particle Channel Design with dimensions.</em>
 </p>
 
 <p align="center">
-  <img src="/assets/img/3 uFluidic Device-10 Buffer Channel.jpg" alt="uFluidic Device CAD" width="400"/>
+  <img src="/assets/img/3 uFluidic Device-10 Buffer Channel.jpg" alt="uFluidic Device CAD" width="500"/>
   <br>
   <em>Figure 4. CAD model of the uFluidic device's Buffer Channel Design with dimensions.</em>
 </p>
@@ -263,17 +263,19 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 
 * **Bonding:** Clean PDMS layer and slide using Kim wipes and bond together. 
 
-<p align="center">
-  <img src="/assets/img/3 uFluidic Device-12 Mold and Model.jpg" alt="uFluidic Device CAD" width="250"/>
-  <br>
-  <em>Figure 7. Mold and Casted Device.</em>
-</p>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; text-align: center;">
+  <div>
+    <img src="/assets/img/3 uFluidic Device-12 Mold and Model.jpg" alt="uFluidic Device CAD" width="250">
+    <br>
+    <em>Figure 7. Mold and Casted Device.</em>
+  </div>
 
-<p align="center">
-  <img src="/assets/img/3 uFluidic Device-13 Casted Device.JPG" alt="uFluidic Device CAD" width="250"/>
-  <br>
-  <em>Figure 8. Final Casted Device.</em>
-</p>
+  <div>
+    <img src="/assets/img/3 uFluidic Device-13 Casted Device.JPG" alt="uFluidic Device CAD" width="250">
+    <br>
+    <em>Figure 8. Final Casted Device.</em>
+  </div>
+</div>
 
 * **Final Testing:** Perform a test of the device. 
 
