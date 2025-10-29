@@ -7,10 +7,21 @@ header:
 gallery:
   - image_path: assets/img/3 uFluidic Device-1.JPG
   - image_path: assets/img/3 uFluidic Device-2.JPG
-  - image_path: assets/img/3 uFluidic Device-6.JPG
   - image_path: assets/img/3 uFluidic Device-3.JPG
   - image_path: assets/img/3 uFluidic Device-4.JPG
   - image_path: assets/img/3 uFluidic Device-5.JPG
+  - image_path: assets/img/3 uFluidic Device-6.JPG
+  - image_path: assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
+  - image_path: assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
+  - image_path: assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
+  - image_path: assets/img/3 uFluidic Device-10 Buffer Channel.jpg
+  - image_path: assets/img/3 uFluidic Device-11 Plasma Process.png
+  - image_path: assets/img/3 uFluidic Device-12 Mold and Model.jpg
+  - image_path: assets/img/3 uFluidic Device-13 Casted Device.JPG
+  - image_path: assets/img/3 uFluidic Device-14 Testing Setup.JPG
+  - image_path: assets/img/3 uFluidic Device-15 Testing Setup 2.JPG
+  - image_path: assets/img/3 uFluidic Device-16 Particle Separation View.JPG
+
 
 ---
 
@@ -20,7 +31,7 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 
 ---
 
-# Introduction 
+<h1 style="font-size: 2.2em; font-weight: 700;">Introduction</h1>
 
 # Pinch Flow Fractionation?
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
