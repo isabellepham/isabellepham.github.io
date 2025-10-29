@@ -158,7 +158,7 @@ Thus, the small particle channel spans from **31 mm to 42.325 mm** (where the br
 This approach, using outlet midpoint spacing, ensures consistent separation zones that match the streamline distribution observed in PFF theory. It also helps minimize cross-contamination between particle fractions while maintaining balanced hydraulic resistance across the three outlets.
 
 <p align="center">
-  <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="500"/>
+  <img src="/assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg" alt="uFluidic Device CAD" width="600"/>
   <br>
   <em>Figure 1. CAD model of the uFluidic device with outlet dimensions</em>
 </p>
