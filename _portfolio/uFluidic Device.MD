@@ -11,7 +11,6 @@ gallery:
   - image_path: assets/img/3 uFluidic Device-4.JPG
   - image_path: assets/img/3 uFluidic Device-5.JPG
   - image_path: assets/img/3 uFluidic Device-6.JPG
-  - image_path: assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
   - image_path: assets/img/3 uFluidic Device-8 Small Particle Channel.jpg
   - image_path: assets/img/3 uFluidic Device-9 Large Particle Channel.jpg
   - image_path: assets/img/3 uFluidic Device-10 Buffer Channel.jpg
@@ -21,9 +20,12 @@ gallery:
   - image_path: assets/img/3 uFluidic Device-14 Testing Setup.JPG
   - image_path: assets/img/3 uFluidic Device-15 Testing Setup 2.JPG
   - image_path: assets/img/3 uFluidic Device-16 Particle Separation View.JPG
+  - image_path: assets/img/3 uFluidic Device-7 Outlet Dimensions.jpg
 
 
 ---
+
+<h1 style="font-size: 2.2em; font-weight: 700;">uFluidic Device</h1>
 
 I created a microfluidic pinch flow fractionation (PFF) device that separates particles of different sizes using controlled laminar flow. The process involved modeling the mold in Autodesk Fusion 360, resin printing it with a Form 3 SLA printer, casting the device in PDMS, and sealing it with glass before testing its ability to sort microspheres into separate outlets.
 
@@ -57,7 +59,7 @@ Traditional methods like gel electrophoresis or centrifugation often led to cell
 
 --- 
 
-# Design 
+<h1 style="font-size: 2.2em; font-weight: 700;">Design</h1>
 
 # Asymmetric Approach 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
@@ -248,7 +250,9 @@ Another way I would iterate on this design is using height as another way to adj
 
 ---
 
-# Instructions 
+<h1 style="font-size: 2.2em; font-weight: 700;">Instructions</h1>
+
+# Steps For Creating A uFluidic Device
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 Briefly list the most important steps for creating a ufluidic device with resin printing 
 </p>
@@ -313,7 +317,7 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 
 ---
 
-# Discussion 
+<h1 style="font-size: 2.2em; font-weight: 700;">Discussion</h1>
 
 # Results and Proposed Improvements
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
@@ -345,7 +349,6 @@ Resin 3D printing was chosen because it provides high precision, smooth surface 
 How could your design be scaled up or modified to handle a wider range of particle sizes? 
 </p>
 
-
 My design could be scaled up by adjusting the pinched-section geometry. The pinched width should scale with the largest particle desired to pass through. For a larger size range, increase pinched width accordingly and re-calculate outlet streamlines. The three outlets could also be replaced with multiple, narrower collection outlets so there are more size bins. Tunning channel height can also act as extra control over resistance. 
 
 # Factors That Set The Lower Limit On The Particle Size That Can Be Separated 
@@ -357,6 +360,8 @@ What factors set the lower limit on the particle size that can be separated with
 * **Surface Roughness and Dimensional Tolerance:** These are set by the printing and molding process and if these factors are comparable to particle diameter, flow becomes irregular and unpredictable, destroying the precise laminar flow necessary for PFF. 
 
 ---
+
+<h1 style="font-size: 2.2em; font-weight: 700;">Other Important Topics</h1>
 
 # Parylene Coating and Hypothetical Applications 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
@@ -386,8 +391,7 @@ To prevent disruptions to the streamlines and maintain proper separation, I focu
 Since the longer outlet channels exceeded the available footprint of the device, I used serpentine paths to fit the required lengths while maintaining the intended hydraulic resistance. The serpentine channels were designed with smooth, filleted corners to preserve laminar flow and prevent the formation of vortices or dead zones that could disrupt sorting. Outlet boundaries were defined using the midpoints between outlet centers to ensure consistent streamline capture for each particle size fraction. Throughout the design process, I adjusted the spacing and routing of the serpentine channels through iterative refinement to prevent overlap and ensure that all channels remained well separated during resin printing. This combination of geometric tuning and controlled resistance produced a balanced flow distribution across all outlets, preserving the clean laminar separation that is critical to effective PFF operation.
 
 ---
-
-# Off-The-Shelf Parts
+<h1 style="font-size: 2.2em; font-weight: 700;">Off-The-Shelf Parts</h1>
 
 | Component                                                                 | Quantity |
 |---------------------------------------------------------------------------|----------|
@@ -402,22 +406,22 @@ Since the longer outlet channels exceeded the available footprint of the device,
 
 ---
 
-# 3D Printed Parts
+<h1 style="font-size: 2.2em; font-weight: 700;">Resin Printed Parts</h1>
 
-| 3D Printed Part        | Purpose / Function |
+| Resin Printed Part        | Purpose / Function |
 |-------------------------|--------------------|
 | uFluidic Device v1    | Initial interation |
 | uFluidic Device v2+ | Refined design with adjusted dimensions |
 
 ---
 
-# CAD Model
+<h1 style="font-size: 2.2em; font-weight: 700;">CAD Model</h1>
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811eef13a8384cedcec?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 --- 
 
-# Features
+<h1 style="font-size: 2.2em; font-weight: 700;">Features</h1>
 
 * **Size-Based Particle Sorting:** The device uses a pinched microchannel region to align particles based on size before redistributing them into separate outlet streams through controlled laminar flow.
 * **PDMS-on-Glass Construction:** The microchannels are cast in PDMS from a resin-printed mold and bonded to glass via plasma treatment, ensuring optical clarity and reliable sealing.
@@ -426,7 +430,8 @@ Since the longer outlet channels exceeded the available footprint of the device,
 
 ---
 
-# From Mold to Final Device
+<h1 style="font-size: 2.2em; font-weight: 700;">From Mold to Final Device</h1>
+
 1. **CAD Modeling**  
    - Utilize Autodesk Fusion 360 to design the microfluidic geometry while following dimensional constraints
    - Begin with the provided base model (50 mm x 75 mm) to ensure the final PDMS device fits flush on the micrscope slide 
@@ -486,7 +491,8 @@ Since the longer outlet channels exceeded the available footprint of the device,
 
 ---
 
-# How to Operate the uFluidic Device 
+<h1 style="font-size: 2.2em; font-weight: 700;">How to Operate the uFluidic Device </h1>
+
 1. **Prepare Fluids**  
    - Load particle suspension and buffer solution into separate syringes.
 
