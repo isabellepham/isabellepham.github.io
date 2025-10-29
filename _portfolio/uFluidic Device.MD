@@ -277,21 +277,24 @@ Briefly list the most important steps for creating a ufluidic device with resin 
 
 * **Final Testing:** Perform a test of the device. 
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <figure style="text-align: center;">
-    <img src="/assets/img/3 uFluidic Device-14 Testing Setup.JPG" alt="uFluidic Device CAD" width="300"/>
-    <figcaption><em>Figure 9. Testing Setup.</em></figcaption>
-  </figure>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <img src="/assets/img/3 uFluidic Device-14 Testing Setup.JPG" alt="uFluidic Device CAD" width="300">
+    <br>
+    <em>Figure 9. Testing Setup.</em>
+  </div>
 
-  <figure style="text-align: center;">
-    <img src="/assets/img/3 uFluidic Device-15 Testing Setup 2.JPG" alt="uFluidic Device CAD" width="300"/>
-    <figcaption><em>Figure 10. Testing Setup including tubes being hand held.</em></figcaption>
-  </figure>
+  <div style="text-align: center;">
+    <img src="/assets/img/3 uFluidic Device-15 Testing Setup 2.JPG" alt="uFluidic Device CAD" width="300">
+    <br>
+    <em>Figure 10. Testing Setup including tubes being hand held.</em>
+  </div>
 
-  <figure style="text-align: center;">
-    <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="300"/>
-    <figcaption><em>Figure 11. Testing Setup including monitor to view particle separation process.</em></figcaption>
-  </figure>
+  <div style="text-align: center;">
+    <img src="/assets/img/3 uFluidic Device-16 Particle Separation View.JPG" alt="uFluidic Device CAD" width="300">
+    <br>
+    <em>Figure 11. Testing Setup including monitor to view particle separation process.</em>
+  </div>
 </div>
 
 ---
