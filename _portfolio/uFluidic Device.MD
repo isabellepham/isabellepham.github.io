@@ -1,5 +1,5 @@
 ---
-title: <h1 style="font-size: 2.2em; font-weight: 700;">uFluidic Device</h1>
+title: uFluidic Device
 excerpt: "This microfluidic device leverages laminar flow principles to separatae particles by size using a custom-designed pinch flow fractionation (PFF) chip!"
 header:
   image: assets/img/3 uFluidic Device-Banner.JPG
