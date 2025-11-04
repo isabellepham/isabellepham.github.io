@@ -336,6 +336,32 @@ For future iterations, I would focus first on **stabilizing the experimental set
 
 Once flow conditions are more controlled, I could evaluate whether geometric modifications, such as adjusting the broad channel width, fine-tuning the pinched section dimensions, or modifying channel height, would help suppress vortex formation and improve sorting accuracy. These improvements would allow for more reliable flow control and a clearer assessment of the device’s true performance.
 
+# Future Direction
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+Bonus Opportunity
+</p>
+
+The next phase of development should focus on improving flow stability, outlet balance, and experimental reproducibility, bringing the design closer to a fully functional particle-sorting device. These goals can be achieved through practical, resource-efficient modifications to both geometry and testing methods.
+
+1. **Channel Height as a Tool for Flow Balancing**
+
+While the current design relies primarily on outlet width and length to control hydraulic resistance, channel height is an equally powerful variable. Because flow resistance in rectangular channels scales inversely with the cube of the height, small height adjustments can dramatically rebalance flow without increasing device footprint or requiring complex serpentine paths.
+
+For example, reducing outlet channel height from 200 µm to 150 µm increases resistance by approximately 2×. The next class could design a PDMS mold with graduated outlet heights, where the buffer outlet remains tallest (to allow higher flow) while the small-particle outlet is shallowest. This can be achieved by adding step features in the resin-printed mold or layering thin SU-8 films before casting. Adjusting height locally also helps suppress vortex formation by flattening the velocity profile near walls. This approach uses the same fabrication tools already available but adds a powerful new dimension for flow tuning.
+
+2. **Stabilized Testing Setup**
+
+Accurate performance evaluation depends heavily on test consistency. The observed flow instabilities and vortexing were strongly influenced by hand-held tubing and uncontrolled pressure differences. The next iteration should therefore include a rigid, leveled testing fixture that holds the chip horizontally and secures all outlet tubing at fixed, equal heights.
+
+A syringe-pump setup with dual inputs can deliver steady, controlled inlet flow rates, minimizing pulsation. Each outlet tube should be pre-filled with fluid to eliminate trapped air and reduce compressibility. Using a simple acrylic holder with laser-cut slots for tubing would prevent movement during operation. Adding a bubble trap or degassing step before flow initiation would further improve reliability. Together, these modifications stabilize the environment, ensuring that observed behavior reflects the device geometry rather than experimental noise.
+
+3. Streamline Visualization and Quantitative Validation
+
+To verify successful flow balancing, the next group should adopt a protacal to visualize the flow. Rather than testing only with microspheres, they can begin by injecting dyes. For example, food coloring or fluorescent dyes in glycerol-water mixtures of known viscosity can help make the flow streams more visible under a microscope.
+
+Images and videos can be analyzed in ImageJ or MATLAB to measure the width of each colored streamline at the outlet boundary. Consistent streamline positions across multiple trials would confirm hydrodynamic stability. Once stable separation is achieved with dyes, the same protocol can be extended to microspheres of known diameters to measure true sorting efficiency. Recording these results provides a valuable dataset for comparing future chip revisions quantitatively.
+
+
 # Resin Printing Compared to Other Manufacturing Techniques 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 Why resin printing compared to other manufacturing techniques? 
