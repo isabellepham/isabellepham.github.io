@@ -553,8 +553,7 @@ Florian, D. C., Intro to uFluidic Devices, Department of Engineering, Vanderbilt
 
 [Lenshof, A., & Laurell, T. (2010). *Particle Separation and Sorting in Microfluidic Devices: A Review.* Chemical Society Reviews, 39(3), 1203–1217.](https://pubs.rsc.org/en/content/articlelanding/2010/cs/b915999c) 
 
-[Lochovsky, C., Yasotharan, S., & Günther, A. (2012). *Bubbles no more: In-plane trapping and removal of bubbles in microfluidic devices.* Lab on a Chip, 12(4), 595–601.]
-(https://pubs.rsc.org/en/content/articlelanding/2012/lc/c1lc20817a)
+[Lochovsky, C., Yasotharan, S., & Günther, A. (2012). *Bubbles no more: In-plane trapping and removal of bubbles in microfluidic devices.* Lab on a Chip, 12(4), 595–601.](https://pubs.rsc.org/en/content/articlelanding/2012/lc/c1lc20817a)
 
 [Pødenphant M., Ashley N., Koprowska K., Mir K.U., Zalkovskij M., Bilenberg B., Bodmer W., Kristensen A., Marie R. (2015). *Separation of cancer cells from white blood cells by pinched flow fractionation.* Lab on a Chip, 15, 4598-4606.](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d) 
 
