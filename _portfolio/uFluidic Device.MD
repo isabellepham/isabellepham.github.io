@@ -334,7 +334,7 @@ For future iterations, I would focus first on **stabilizing the experimental set
 * Using rigid supports to eliminate siphon effects
 * Selecting a particle suspension with known and reproducible viscosity
 
-Once flow conditions are more controlled, I could evaluate whether geometric modifications—such as adjusting the broad channel width, fine-tuning the pinched section dimensions, or modifying channel height—would help suppress vortex formation and improve sorting accuracy. These improvements would allow for more reliable flow control and a clearer assessment of the device’s true performance.
+Once flow conditions are more controlled, I could evaluate whether geometric modifications, such as adjusting the broad channel width, fine-tuning the pinched section dimensions, or modifying channel height, would help suppress vortex formation and improve sorting accuracy. These improvements would allow for more reliable flow control and a clearer assessment of the device’s true performance.
 
 # Resin Printing Compared to Other Manufacturing Techniques 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
