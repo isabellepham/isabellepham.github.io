@@ -343,24 +343,33 @@ Bonus Opportunity
 
 The next phase of development should focus on improving flow stability, outlet balance, and experimental reproducibility, bringing the design closer to a fully functional particle-sorting device. These goals can be achieved through practical, resource-efficient modifications to both geometry and testing methods.
 
-1. **Channel Height as a Tool for Flow Balancing**
+**1. Channel Height as a Tool for Flow Balancing**
 
 While the current design relies primarily on outlet width and length to control hydraulic resistance, channel height is an equally powerful variable. Because flow resistance in rectangular channels scales inversely with the cube of the height, small height adjustments can dramatically rebalance flow without increasing device footprint or requiring complex serpentine paths.
 
 For example, reducing outlet channel height from 200 µm to 150 µm increases resistance by approximately 2×. The next class could design a PDMS mold with graduated outlet heights, where the buffer outlet remains tallest (to allow higher flow) while the small-particle outlet is shallowest. This can be achieved by adding step features in the resin-printed mold or layering thin SU-8 films before casting. Adjusting height locally also helps suppress vortex formation by flattening the velocity profile near walls. This approach uses the same fabrication tools already available but adds a powerful new dimension for flow tuning.
 
-2. **Stabilized Testing Setup**
+**2. Stabilized Testing Setup**
 
 Accurate performance evaluation depends heavily on test consistency. The observed flow instabilities and vortexing were strongly influenced by hand-held tubing and uncontrolled pressure differences. The next iteration should therefore include a rigid, leveled testing fixture that holds the chip horizontally and secures all outlet tubing at fixed, equal heights.
 
 A syringe-pump setup with dual inputs can deliver steady, controlled inlet flow rates, minimizing pulsation. Each outlet tube should be pre-filled with fluid to eliminate trapped air and reduce compressibility. Using a simple acrylic holder with laser-cut slots for tubing would prevent movement during operation. Adding a bubble trap or degassing step before flow initiation would further improve reliability. Together, these modifications stabilize the environment, ensuring that observed behavior reflects the device geometry rather than experimental noise.
 
-3. Streamline Visualization and Quantitative Validation
+**3. Streamline Visualization and Quantitative Validation**
 
 To verify successful flow balancing, the next group should adopt a protacal to visualize the flow. Rather than testing only with microspheres, they can begin by injecting dyes. For example, food coloring or fluorescent dyes in glycerol-water mixtures of known viscosity can help make the flow streams more visible under a microscope.
 
 Images and videos can be analyzed in ImageJ or MATLAB to measure the width of each colored streamline at the outlet boundary. Consistent streamline positions across multiple trials would confirm hydrodynamic stability. Once stable separation is achieved with dyes, the same protocol can be extended to microspheres of known diameters to measure true sorting efficiency. Recording these results provides a valuable dataset for comparing future chip revisions quantitatively.
 
+**4. Bubble Trap and Vent**
+
+Air bubbles introduced during priming or operation can severely disrupt laminar flow, distort streamlines, and interfere with particle separation. Even a single bubble can increase local shear stress and cause flow blockage, destabilizing separation efficiency. To address this, the next design should include a bubble trap with a vent integrated into the main channel network to passively isolate and remove air before it reaches critical regions of the device.
+
+The bubble trap functions as a small side chamber connected to the main flow path through a narrow neck. This geometry allows air to naturally migrate into the pocket due to buoyancy and the low local velocity near the chamber opening, while the main fluid stream continues undisturbed. Placing the trap immediately downstream of the diffuser—before the outlet split or flow-straightening region—ensures that bubbles are captured early, maintaining steady laminar flow where separation occurs.
+
+A vent positioned at the top of the pocket allows trapped air to escape without leaking liquid. A simple and effective approach is to use a hydrophobic membrane vent, which permits gas permeation but blocks fluid flow. This mechanism is supported by work from Lochovsky, Yasotharan, and Günther (2012) (<a href="https://pubs.rsc.org/en/content/articlelanding/2012/lc/c1lc20817a" target="_blank">Lochovsky *et al.*, *Bubbles No More*, 2012</a>), who demonstrated a compact, in-plane bubble trap capable of continuously removing bubbles in PDMS microchannels through passive gas permeation. Their study showed that even small side chambers can reliably capture and vent bubbles, maintaining uninterrupted flow for over 24 hours while preventing damage to biological samples. The trap operated without active pumping or additional control layers, confirming that passive venting is sufficient for stable, long-term performance.
+
+Integrating a similar concept in this device offers several advantages. It stabilizes the priming process, prevents unexpected interruptions during testing, and enhances repeatability across trials by maintaining bubble-free flow conditions. The feature is simple to design within the existing mold, requires no new fabrication steps, and directly targets one of the most common causes of microfluidic instability. By incorporating a bubble trap and vent, the next iteration of the chip would gain the flow reliability necessary for accurate, reproducible particle separation.
 
 # Resin Printing Compared to Other Manufacturing Techniques 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
