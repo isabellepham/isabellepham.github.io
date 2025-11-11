@@ -1,6 +1,6 @@
 ---
-title: "Custom iPhone 15 Case"
-excerpt: "A custom TPU iPhone 15 case that provides full protection while maintaining accessability to all buttons, cameras, and ports."
+title: "MultiMaterial Pliers"
+excerpt: "A custom set of multi-material pliers capable of gripping through-hole resistors, printed with an integrated flexible spring."
 header:
   image: /assets/img/2 Phone Case-Banner.JPG
   teaser: /assets/img/2 Phone Case-Banner.JPG
@@ -14,18 +14,15 @@ gallery:
   
 ---
 
-I created my own design of an iPhone 15 case using Fusion 360 and additive manufacturing. The case includes protective features around the screen and camera, while also integrating a unique design element of cut out flower for aesthetics. Through iterative prototyping and testing, I explored the benefits and limitations of flexible TPU filament in FFF printing. This project gave me hands-on experience in CAD modeling, parametric design, and design-for-manufacturing - resulting in a functional, customized phone case. 
+I designed and fabricated functional print-in-place needle-nose pliers using Fusion 360 and additive manufacturing. The device consists of two rigid arms and a flexible TPU spring element that returns the pliers to an open position when not in use. Through iterative prototyping and tolerance testing, I refined the spring geometry and press-fit interfaces to ensure smooth motion, reliable grip, and tool-free assembly. This project strengthened my skills in parametric CAD, mechanism design, and multi-material printing, resulting in a compact set of pliers suitable for handling small electronic components.
 
 ---
 
 # Features
 
-* **Precision Fit & Full Protection.** The phone case was modeled using Apple’s official accessory design guidelines to ensure an exact fit for the iPhone. All sides of the device, including the camera bump and touchscreen edges, are fully protected while maintaining access to essential functions. The snug fit ensures drop and impact resistance without adding unnecessary bulk.
-* **Button & Port Accessibility.** Careful parametric design allows the case to provide tactile, responsive access to the volume and power buttons, mute switch, and charging port. The openings are dimensioned to avoid blocking speakers, microphones, or cameras, ensuring the phone’s full functionality is preserved.
-* **Flexible & Durable TPU Construction.** Printed in PolyMaker TPU 95A filament, the case combines flexibility with toughness. TPU absorbs shock from drops while retaining shape after repeated use, outperforming rigid plastics such as PLA for protective applications.
-* **Parametric Customization.** The CAD model was fully parameterized, allowing rapid resizing of key dimensions (length, width, thickness) within ±2 mm to compensate for printer tolerances or different iPhone models. This adaptability makes it easy to iterate on prototypes and ensures a perfect fit across variations.
-* **Functional / Aesthetic Enhancements.** Beyond protection, the design incorporates a unique functional or aesthetic element (e.g., integrated grip, stand, or patterned backplate) to improve usability and distinguish the case from generic designs.
-
+* **PFunctional Print-in-Place Joint Design:** The rigid plier arms are modeled with precise clearance at the pivot, enabling smooth rotation directly after printing. Joints were refined across iterations to minimize binding and reduce crunchy motion.
+* **Reopening Spring Mechanism:** A TPU 95A flexible insert acts as a mechanical spring, automatically returning the pliers to their open state. Various thicknesses and geometries were tested to balance flexibility, durability, and comfortable operation.
+* **Press-Fit Multi-Material Assembly:** While intended as a print-in-place device, the final design incorporates three components—two rigid handles and one TPU spring—assembled by hand without adhesives or tools. Press-fit mating was parameterized to achieve secure retention.
 
 ---
 
@@ -33,7 +30,8 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 
 | Component                                                                 | Quantity |
 |---------------------------------------------------------------------------|----------|
-| TPU Filament | Supplied in Lab |
+| TPU 95A Filament | Supplied in Lab |
+| PLA Rigid Filament | Supplied in Lab |
 | 3D Printer | Supplied in Lab |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
 
@@ -43,21 +41,22 @@ I created my own design of an iPhone 15 case using Fusion 360 and additive manuf
 
 | 3D Printed Part        | Purpose / Function |
 |-------------------------|--------------------|
-| Phone Case v1     | Initial iteration for fit testing |
-| Phone Case v2+ | Refined design with adjusted dimensions | 
+| Handle and Jaws v1     | Initial iteration for fit testing |
+| Handle and Jaws v2+ | Refined design with adjusted dimensions | 
+| TPU Flexible Component | Flexibility and spring constant testing | 
 
 ---
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4d7bf6289862090a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811467bd955eaef8446?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
-# How to Operate the iPhone 15 Case
-1. Align the phone with the case.
-2. Press the phone into the TPU case, starting from one side (typically button-side first).
-3. Ensure all corners snap into place.
-4. Verify that buttons, ports, and cameras are unobstructed and functional.
+# How to Operate the Multi-Material Pliers
+1. Position the tips around the intended object to be picked up.
+2. Squeeze the handles to close the jaws. 
+3. Lift pliers and object from original position and move to final position. 
+4. Release pressure to allow the spring to reopen and release the object. 
 
 ---
 
