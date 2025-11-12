@@ -34,6 +34,7 @@ A common application of print-in-place design is in hinges and articulated joint
 
 Print-in-Place is also widely applied in the creation of parts that combine rigid structural elements with flexible features, like the pliers I created or tools, grips, and integrated springs. Designers model the irgid body for load-bearing or shape definition and add flexible zones. A dual-extrusion or multi-material printer would be needed to deposit both materials in a single print job. The result is a fully functional assembly in one go. [Ermolai et al. (2022)](https://www.researchgate.net/publication/365220539_Design_and_Testing_of_Multi-Material_Shape-Changing_Flexure_Hinges_for_Fused_Filament_Fabrication) demonstrate this concept through their study of multi-material flexure hinges printed via Fused Filament Fabrication. In their work, rigid bodies were printed in ABS or PLA, while the flexible hinge sections were printed in a thermoplastic co-polyester (TPC), producing fully functional hinges with corrugated or shape-changing interfaces. Their results validate the feasibility of print-in-place multi-material parts, illustrating how designers can achieve embedded flexible features—like springs or compliant joints—without post-processing or assembly, closely aligning with the creation of functional tools and grips in one print.
 
+
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 What combination of materials work well for print-in-place?
 </p>
