@@ -28,7 +28,11 @@ I designed and fabricated functional print-in-place needle-nose pliers using Fus
 Preform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
 </p>
 
-as;dlkfjasldkjf
+Print-in-Place design is the process of 3D printing fully functional, multi-material mechanisms in a single print. By incorporating clearances and detailed fabrication between moving parts, Print-in-Place models are intended to be ready to move, rotate, or flex after being removed from the print bed. This technique demonstrates the potential of additive manufacturing to produce mechanical assemblies efficiently and reduce the need for external fasteners or manual labor. 
+
+A common application of print-in-place design is in hinges and articulated joints, which can be found in foldable lids or doors. Designers can create these by modeling living or geared hinges with carefully tuned clearances so motion is achieved immediately after printing. This capability—producing movable joints directly from additive manufacturing processes without assembly—has been the focus of multiple engineering studies. For example, [Song and Chen (2012)] (https://www.researchgate.net/publication/267490468_Joint_Design_for_3-D_Printing_Non-Assembly_Mechanisms?enrichId=rgreq-1843d6d0d90a7a5da64354c5817ecba1-XXX&enrichSource=Y292ZXJQYWdlOzI2NzQ5MDQ2ODtBUzo1NjUzNDMzMjE5NDQwNjRAMTUxMTc5OTc1OTIzMQ%3D%3D&el=1_x_2)  demonstrated how joint geometry can be optimized to overcome fabrication limitations in 3D-printed non-assembly mechanisms. Their research introduced a marker-based joint design to minimize excessive joint clearance caused by the limited accuracy of stereolithography (SLA) printing, enabling smoother rotational motion in cylindrical pin joints built as single prints. They found that these geometrically modified joints could achieve smaller clearances and improved rotational stability compared to traditional pin joints, validating the potential of print-in-place manufacturing for hinges and other movable subsystems.
+
+Print-in-Place is also widely applied in snap-fit and press-fit assemblies. 
 
 # Design and Iterative Process
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
