@@ -5,7 +5,7 @@ header:
   image: /assets/img/4 Pliers-Banner.JPG
   teaser: /assets/img/4 Pliers-Banner.JPG
 gallery:
-  - image_path: assets/img/4 Pliers-HomePicture.JPG
+  - image_path: assets/img/4 Pliers-0.JPG
   - image_path: assets/img/4 Pliers-1.JPG
   - image_path: assets/img/4 Pliers-2.JPG
   - image_path: assets/img/4 Pliers-3.JPG
