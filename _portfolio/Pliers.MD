@@ -25,7 +25,7 @@ I designed and fabricated functional print-in-place needle-nose pliers using Fus
 ---
 # Print-in-Place
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-Preform external research to determine other applications print-in-place has been used.
+Preform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
 </p>
 
 Print-in-Place design is the process of 3D printing fully functional, multi-material mechanisms in a single print. By incorporating clearances and detailed fabrication between moving parts, Print-in-Place models are intended to be ready to move, rotate, or flex after being removed from the print bed. This technique demonstrates the potential of additive manufacturing to produce mechanical assemblies efficiently and reduce the need for external fasteners or manual labor. 
@@ -34,21 +34,17 @@ A common application of print-in-place design is in hinges and articulated joint
 
 Print-in-Place is also widely applied in the creation of parts that combine rigid structural elements with flexible features, like the pliers I created or tools, grips, and integrated springs. Designers model the irgid body for load-bearing or shape definition and add flexible zones. A dual-extrusion or multi-material printer would be needed to deposit both materials in a single print job. The result is a fully functional assembly in one go. [Ermolai et al. (2022)](https://www.researchgate.net/publication/365220539_Design_and_Testing_of_Multi-Material_Shape-Changing_Flexure_Hinges_for_Fused_Filament_Fabrication) demonstrate this concept through their study of multi-material flexure hinges printed via Fused Filament Fabrication. In their work, rigid bodies were printed in ABS or PLA, while the flexible hinge sections were printed in a thermoplastic co-polyester (TPC), producing fully functional hinges with corrugated or shape-changing interfaces. Their results validate the feasibility of print-in-place multi-material parts, illustrating how designers can achieve embedded flexible features—like springs or compliant joints—without post-processing or assembly, closely aligning with the creation of functional tools and grips in one print.
 
-
-<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-
-What combination of materials work well for print-in-place?
-</p>
-
 In Fused Filament Fabrication (FFF) or FDM printing, common combinations include: 
-- PLA with TPU or TPE
-- ABS with TPU or TPC
-- PETG with TPU 
-- Nylon with TPU
+- PLA with TPU 
+- PLA with PVA (water soluble supports)
+- ABS and HIPs
+- Fresh and recycled material 
 
-PLA paired with TPU or TPE is easy to print and suitable for low-stress hinges, grips, and flexible joints, although the interface can be sensitive to cooling and may require fine-tuning. ABS combined with TPU or TPC provides higher strength and better thermal resistance, making it ideal for functional springs or hinges under repeated loads, as demonstrated in Ermolai et al. (2022). PETG with TPU is effective for snap-fit enclosures with soft seals, while Nylon with TPU offers exceptional toughness for parts subjected to repeated flexing, though it requires careful humidity control and bed adhesion.
+PLA paired with TPU or TPE is common because PLA provides a stiff, precise structural frame while TPU/TPE adds flexible, rubber-like joints, allowing immediate motion after printing without assembly. PLA with PVA is widely used for complex interlocking parts since PVA serves as a water-soluble support material that can be removed cleanly after printing, freeing moving components without damage. 
 
-For high-resolution SLA, DLP, or PolyJet printing, rigid resins can be paired with elastic or flexible resins to create compliant hinges, soft grips, or embedded seals. PolyJet technology, in particular, allows mixing materials within a single layer for smooth transitions between rigid and flexible zones. Using tough or engineering resins in combination with flexible resins can yield high-strength parts with embedded springs, living hinges, or gaskets.
+ABS and HIPS are another compatible pair, where ABS offers strong, heat-resistant structures and HIPS can be dissolved in a solvent like d-limonene, making it ideal for internal supports in high-temperature PIP parts. Finally, combining fresh and recycled materials allows designers to balance printability, strength, and sustainability, with fresh filament ensuring reliable extrusion and structural integrity while recycled filament reduces waste, making it suitable for non-critical sections of functional assemblies.
+
+The inter- and intra- layer bonding of two separate plastics depnds on the materials' surface energy, chemical composition, shrinkage and cooling rates, and mechanical compatibility. 
 
 # Design and Iterative Process
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
