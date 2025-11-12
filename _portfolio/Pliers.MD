@@ -51,16 +51,50 @@ The inter- and intra- layer bonding of two separate plastics depnds on the mater
 About the design and iterative process (e.g., how was the spring component created and how is it retained in the model, materials used)
 </p>
 
-The design and iterative process for the pliers began in Fusion 360, using CAD tools to streamline modeling and reduce sketching time. For the first iteration, I based the design on plier examples from the digital fabrication lab. When sketching on Fusion, I utilized mirroring to efficiently replicate features and reduce the amount of individual dimensions created to constrain the sketch. I extruded 5 mm and separated each functional element into its own body: the center flexible square, handle 1, handle 2, jaw 1, and jaw 2. 
+The design and iterative process for the pliers began in Fusion 360, using CAD tools to streamline modeling and reduce sketching time. For the first iteration, I based the design on plier examples from the digital fabrication lab, using them as a reference to ensure proper ergonomics and functional dimensions. While sketching in Fusion 360, I utilized the mirroring tool to efficiently replicate symmetric features, which reduced the number of individual constraints required and helped maintain geometric consistency across the model. I extruded each component to 5 mm and separated each functional element into its own body: the center flexible square, handle 1, handle 2, jaw 1, and jaw 2. This separation allowed me to assign different materials and print settings to each part, an essential consideration for multi-material print-in-place designs.
 
-I sliced the 2 handles and 2 jaws together for PLA without changing any print settings. I sliced the flexible square seperately for TPU and removed the top and bottom solid layers of the horizontal shells as well as changing the infill to the grid type. 
+For printing, I sliced the two handles and two jaws together for PLA without modifying any print settings, since PLA is a relatively rigid and reliable material. I sliced the flexible square separately for TPU, removing the top and bottom solid layers of the horizontal shells and changing the infill type to "rectilinear." This approach was intended to reduce material use while maintaining sufficient flexibility.
 
-The inital print of the handles and jaws printed well but I faced many errors with printing the TPU center. 
-The first print had a lot of stringing and under extrusion. 
+The initial print of the handles and jaws was successful; however, the TPU center presented multiple challenges. The first print suffered from significant stringing and under-extrusion, which compromised the structural integrity of the flexible square.
+
+<p align="center">
+  <img src="assets/img/4 Pliers-Figure1.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. Printing Problems with the Center Flexible Square (Iteration 1 and 2)</em>
+</p>
+
+After reflecting on the in-class walk through of how to slice the flexible material by varying the infill, I realized that the infill type should be "grid." Rectalinear meant that the extruded filament was printed in only one direction per layer, rotating 90° for the next, which left gaps between each layer and reduced the structure's strength. Grid infill prints lines in both the X and Y directions on the same layer which is better for supporting the top surfaces and achieving higher strenght. This iteration looked better than the previous but I was still experiencing a lot of stringing. 
+
+<p align="center">
+  <img src="assets/img/4 Pliers-Figure2.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 2. Flexible Square with Grid Infill (Iteration 3)</em>
+</p>
+
+After reflecting on the in-class demonstration of slicing flexible materials with varying infill patterns, I realized that the "rectilinear" infill was suboptimal. Rectilinear prints filament lines in one direction per layer, rotating 90° for the next, which leaves gaps between layers and reduces strength. I switched the infill to "grid," which prints lines in both X and Y directions on the same layer, providing better support for the top surfaces and increasing structural integrity. This adjustment improved the print visually and mechanically, but stringing persisted.
+
+To address the remaining stringing issues, I researched best practices for TPU printing and found that print speed significantly affects filament flow and cooling. By reducing the printer speed from 100 mm/s to 30 mm/s, the extruded filament had sufficient time to flow, bond, and solidify, reducing stringing dramatically. This modification produced a clean, functional flexible square.
+
+<p align="center">
+  <img src="assets/img/4 Pliers-Figure3.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 3. Flexible Square with Grid Infill and Decreased Print Speed (Iteration 4) </em>
+</p>
+
+During the first functional test, I discovered that the pliers’ motion was constrained. This issue arose because the infill angle was still set to the slicer default of 45°, which did not align with the direction of flex needed for the pliers. Adjusting the infill angle to 0° ensured that the flexible square could bend properly along the intended axis, allowing the pliers to achieve the desired movement. 
+
+After knowing the printing errors and angel were resolved, I printed 3 flexible squares together but each with varying infill densities of 13%, 18%, and 23%. 
+
+<p align="center">
+  <img src="assets/img/4 Pliers-Figure4.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 4. Flexible Square with Varied Infill Density (Iteration 5, 6, and 7) </em>
+</p>
+
+I decided that 18% was an appropriate infill density for the flexibility and range of motion I desired for my pliers. I assembled the pliers by pushing the handles and jaws into the dovetail joints or trapezoids off of the square. 
 
 
-
-the small straight features of the gridding were extruding as thin lines due to the original print speed of 100 mm/s, resulting in poor welding. Additionally, the square in CAD was not rotated to the correct angle, causing the grid pattern to flex incorrectly. Adjustments in slicer, including reducing the print speed to 30 mm/s and changing the infill angle to 0°, resolved these problems. I also experimented with different infill densities for the center to fine-tune flexibility. Once these errors were addressed, the first complete assembly functioned, successfully picking up resistors, though the thinness of the pliers made them uncomfortable to hold and the edges of the handles detached from the center square more than desired.
+Once these errors were addressed, the first complete assembly functioned, successfully picking up resistors, though the thinness of the pliers made them uncomfortable to hold and the edges of the handles detached from the center square more than desired.
 
 For the next iteration, I refined the design to improve comfort, functionality, and connectivity. Using calipers to measure real pliers in the lab, I extruded the handles to 13 mm and shortened the length of both the handles and jaws to localize movement. To strengthen the joints, I extended the edges of the handles and jaws to make contact with the center square rather than ending at the last trapezoid in the joint. Additionally, I added a flat edge at the end of the jaws to stabilize the pliers when picking up items. This iteration proved more comfortable to hold and better at handling resistors. The only remaining design consideration was the bulkiness of the jaws due to the 13 mm handle thickness; while functional, a thinner jaw would improve aesthetics without compromising usability. I also should have filleted the handles more so that the edges were not sharp to the user's hand. 
 
