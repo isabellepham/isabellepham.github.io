@@ -32,7 +32,7 @@ Unlike filtration-based separation methods, PFF allows for continuous and gentle
 
 <h1 style="font-size: 2.2em; font-weight: 700;">Introduction</h1>
 
-# Pinch Flow Fractionation?
+# Pinch Flow Fractionation
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 What is Pinch Flow Fractionation? How does it work?
 </p>
