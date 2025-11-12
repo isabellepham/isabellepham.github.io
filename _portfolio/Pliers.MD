@@ -2,8 +2,8 @@
 title: "MultiMaterial Pliers"
 excerpt: "A custom set of multi-material pliers capable of gripping through-hole resistors, printed with an integrated flexible spring."
 header:
-  image: /assets/img/2 Phone Case-Banner.JPG
-  teaser: /assets/img/2 Phone Case-Banner.JPG
+  image: /assets/img/4 Pliers-Banner.JPG
+  teaser: /assets/img/4 Pliers-Banner.JPG
 gallery:
   - image_path: assets/img/2 Phone Case HomePicture.jpg
   - image_path: assets/img/2 Phone Case-1.jpg
