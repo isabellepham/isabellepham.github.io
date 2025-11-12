@@ -129,17 +129,39 @@ To strengthen the joints, I extended the handle and jaw edges so they directly c
 
 The final assembly was significantly more comfortable and demonstrated smoother articulation. The shortened handles allowed for a greater range of motion, increasing mechanical advantage and precision. During in-class testing, I was able to pick up 10 resistors in 30 seconds.
 
+<p align="center">
+  <img src="/assets/img/4 Pliers-Figure8.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 9. Final Assembly of Multi-Material Pliers </em>
+</p>
+
 Looking ahead, several refinements could further enhance performance and usability. While the 13 mm handle thickness improved comfort, it made the jaws appear bulky; a slightly thinner jaw design could improve aesthetics without sacrificing functionality. The addition of the flat edge at the jaw tips was helpful for stability but limited the ability to grip objects at non-perpendicular angles. Drawing inspiration from needle-nose pliers could solve this issue by tapering the jaw shape. Additionally, filleting the handle edges more generously would prevent discomfort from sharp corners during prolonged use.
 
 Overall, this project taught me the value of rapid iteration and the importance of systematically diagnosing issues related to both CAD design and print parameters. I gained a deeper understanding of how factors such as infill type, density, and print speed influence the mechanical behavior of multi-material, print-in-place assemblies.
 
 # Specifications of the Pliers
 
-The pliers consist of a center flexible square measuring 25 mm by 25 mm, which serves as the core spring element. Attached to each side of the square are three trapezoids forming dovetail-style joints, designed to connect the handles and jaws securely. Each trapezoid features two 55° angles, a longer edge of 5 mm, a shorter edge of 1.5 mm, and a height of 2.5 mm. The jaws extend 55 mm in length, with a flat edge of 44 mm at the tip to provide stability when picking up items. The handles, where the user grips the pliers, are 65 mm in length, providing adequate leverage and comfort for manipulation. These specifications were carefully chosen to balance flexibility, strength, and ergonomic usability.
+The pliers feature a central flexible square measuring 25 mm × 25 mm, which functions as the core spring element enabling the pliers’ motion. The internal grid infill pattern is set to 18% density, providing the optimal balance between flexibility and structural stability.
+
+Each side of the flexible square includes three trapezoidal extensions that form dovetail-style joints, designed to securely attach the handles and jaws while allowing limited rotational movement. Each trapezoid measures 5 mm along the longer edge, 1.5 mm along the shorter edge, with a height of 2.5 mm, and two 55° angled sides to ensure a snug mechanical fit. The spacing between trapezoids varies depending on function—1.5 mm apart on the sides connecting to the jaws for tighter control and 1.2 mm apart on the sides connecting to the handles to allow slightly greater flexibility during user operation.
+
+The jaws extend 55 mm in length and terminate in a 4 mm flat edge, which provides surface stability when gripping flat objects such as resistors. The handles, designed for comfortable and controlled user grip, measure 65 mm in length, offering sufficient leverage without excessive strain. The entire assembly maintains a uniform 13 mm thickness.
+
+<p align="center">
+  <img src="/assets/img/4 Pliers-Figure9.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 10. Dimensions of the Pliers Sketch in Fusion </em>
+</p>
 
 # Print Settings
 
 For the pliers, two separate printers and material setups were used to optimize the rigid and flexible components. The center flexible square was printed in TPU using a printer equipped with a 4 mm nozzle, which allowed for precise detail and sharp features in the dovetail joints. The print speed was reduced to 30 mm/s to ensure proper extrusion and layer adhesion. Prior to printing, the top and bottom layers of the square were removed in the slicer to expose the infill, which was set to a “grid” pattern with 18% density and a 0° orientation to maximize flexibility along the intended bending direction. The handles and jaws were printed in PLA on a separate printer with a 6 mm nozzle. These rigid components did not require adjustment to the default print settings, as PLA’s properties and the nozzle size were sufficient to produce the desired strength and dimensional accuracy.
+
+<p align="center">
+  <img src="/assets/img/4 Pliers-5.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 11. 3D Printer Creating Iterations of the Flexible Square </em>
+</p>
 
 ---
 
