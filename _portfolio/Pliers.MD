@@ -6,11 +6,17 @@ header:
   teaser: /assets/img/4 Pliers-Banner.JPG
 gallery:
   - image_path: assets/img/4 Pliers-HomePicture.JPG
-  - image_path: assets/img/2 Phone Case-1.jpg
-  - image_path: assets/img/2 Phone Case-2.jpg
-  - image_path: assets/img/2 Phone Case-3.jpg
-  - image_path: assets/img/2 Phone Case-4.jpg
-  - image_path: assets/img/2 Phone Case-5.jpg
+  - image_path: assets/img/4 Pliers-1.JPG
+  - image_path: assets/img/4 Pliers-2.JPG
+  - image_path: assets/img/4 Pliers-3.JPG
+  - image_path: assets/img/4 Pliers-4.JPG
+  - image_path: assets/img/4 Pliers-5.JPG
+  - image_path: assets/img/4 Pliers-6.JPG
+  - image_path: assets/img/4 Pliers-7.JPG
+  - image_path: assets/img/4 Pliers-8.JPG
+  - image_path: assets/img/4 Pliers-9.JPG
+  - image_path: assets/img/4 Pliers-10.JPG
+  - image_path: assets/img/4 Pliers-11.JPG
   
 ---
 
@@ -83,4 +89,4 @@ as;dlkfjlksdf
 
 ---
 
-{% include gallery caption="3D Printed iPhone 15 Case Gallery" %}
+{% include gallery caption="Multi Material Pliers Gallery" %}
