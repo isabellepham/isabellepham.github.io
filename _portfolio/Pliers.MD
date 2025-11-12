@@ -64,6 +64,7 @@ The print-in-place pliers consist of a center flexible square measuring 25 mm 
 
 # Print Settings
 
+
 For the print-in-place pliers, two separate printers and material setups were used to optimize the rigid and flexible components. The center flexible square was printed in TPU using a printer equipped with a 4 mm nozzle, which allowed for precise detail and sharp features in the dovetail joints. The print speed was reduced to 30 mm/s to ensure proper extrusion and layer adhesion. Prior to printing, the top and bottom layers of the square were removed in the slicer to expose the infill, which was set to a “grid” pattern with 18% density and a 0° orientation to maximize flexibility along the intended bending direction. The handles and jaws were printed in PLA on a separate printer with a 6 mm nozzle. These rigid components did not require adjustment to the default print settings, as PLA’s properties and the nozzle size were sufficient to produce the desired strength and dimensional accuracy.
 ---
 
