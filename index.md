@@ -22,6 +22,10 @@ feature_row:
     alt: "uFluidic Device"
     title: "uFluidic Device"
     excerpt: "Created a microfluidic pinch flow fractionation (PFF) device, through VPP (resin) printing, that separates particles by size using controlled laminar flow."
+  - image_path: assets/img/4 Pliers-HomePicture.JPG
+    alt: "Multi Material Pliers"
+    title: "Multi Material Pliers"
+    excerpt: "Created a microfluidic pinch flow fractionation (PFF) device, through VPP (resin) printing, that separates particles by size using controlled laminar flow."
     
 ---
 
