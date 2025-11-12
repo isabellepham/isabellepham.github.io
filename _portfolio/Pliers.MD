@@ -5,7 +5,7 @@ header:
   image: /assets/img/4 Pliers-Banner.JPG
   teaser: /assets/img/4 Pliers-Banner.JPG
 gallery:
-  - image_path: assets/img/2 Phone Case HomePicture.jpg
+  - image_path: assets/img/4 Pliers-HomePicture.JPG
   - image_path: assets/img/2 Phone Case-1.jpg
   - image_path: assets/img/2 Phone Case-2.jpg
   - image_path: assets/img/2 Phone Case-3.jpg
