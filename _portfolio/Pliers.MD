@@ -58,12 +58,13 @@ The design and iterative process for the print-in-place pliers began in Fusion 3
 
 For the next iteration, I refined the design to improve comfort, functionality, and connectivity. Using calipers to measure real pliers in the lab, I extruded the handles to 13 mm and shortened the length of both the handles and jaws to localize movement. To strengthen the joints, I extended the edges of the handles and jaws to make contact with the center square rather than ending at the last trapezoid in the joint. Additionally, I added a flat edge at the end of the jaws to stabilize the pliers when picking up items. This iteration proved more comfortable to hold and better at handling resistors. The only remaining design consideration was the bulkiness of the jaws due to the 13 mm handle thickness; while functional, a thinner jaw would improve aesthetics without compromising usability. I also should have filleted the handles more so that the edges were not sharp to the user's hand. 
 
+
 # Specifications of the Pliers
 
 The print-in-place pliers consist of a center flexible square measuring 25 mm by 25 mm, which serves as the core spring element. Attached to each side of the square are three trapezoids forming dovetail-style joints, designed to connect the handles and jaws securely. Each trapezoid features two 55° angles, a longer edge of 5 mm, a shorter edge of 1.5 mm, and a height of 2.5 mm. The jaws extend 55 mm in length, with a flat edge of 44 mm at the tip to provide stability when picking up items. The handles, where the user grips the pliers, are 65 mm in length, providing adequate leverage and comfort for manipulation. These specifications were carefully chosen to balance flexibility, strength, and ergonomic usability in a single print-in-place assembly.
 
-# Print Settings
 
+# Print Settings
 
 For the print-in-place pliers, two separate printers and material setups were used to optimize the rigid and flexible components. The center flexible square was printed in TPU using a printer equipped with a 4 mm nozzle, which allowed for precise detail and sharp features in the dovetail joints. The print speed was reduced to 30 mm/s to ensure proper extrusion and layer adhesion. Prior to printing, the top and bottom layers of the square were removed in the slicer to expose the infill, which was set to a “grid” pattern with 18% density and a 0° orientation to maximize flexibility along the intended bending direction. The handles and jaws were printed in PLA on a separate printer with a 6 mm nozzle. These rigid components did not require adjustment to the default print settings, as PLA’s properties and the nozzle size were sufficient to produce the desired strength and dimensional accuracy.
 ---
