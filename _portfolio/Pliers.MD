@@ -25,14 +25,28 @@ I designed and fabricated functional print-in-place needle-nose pliers using Fus
 ---
 # Print-in-Place
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-Preform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
+Preform external research to determine other applications print-in-place has been used.
 </p>
 
 Print-in-Place design is the process of 3D printing fully functional, multi-material mechanisms in a single print. By incorporating clearances and detailed fabrication between moving parts, Print-in-Place models are intended to be ready to move, rotate, or flex after being removed from the print bed. This technique demonstrates the potential of additive manufacturing to produce mechanical assemblies efficiently and reduce the need for external fasteners or manual labor. 
 
 A common application of print-in-place design is in hinges and articulated joints, which can be found in foldable lids or doors. Designers can create these by modeling living or geared hinges with carefully tuned clearances so motion is achieved immediately after printing. This capability—producing movable joints directly from additive manufacturing processes without assembly—has been the focus of multiple engineering studies. For example, [Song and Chen (2012)](https://www.researchgate.net/publication/267490468_Joint_Design_for_3-D_Printing_Non-Assembly_Mechanisms?enrichId=rgreq-1843d6d0d90a7a5da64354c5817ecba1-XXX&enrichSource=Y292ZXJQYWdlOzI2NzQ5MDQ2ODtBUzo1NjUzNDMzMjE5NDQwNjRAMTUxMTc5OTc1OTIzMQ%3D%3D&el=1_x_2)  demonstrated how joint geometry can be optimized to overcome fabrication limitations in 3D-printed non-assembly mechanisms. Their research introduced a marker-based joint design to minimize excessive joint clearance caused by the limited accuracy of stereolithography (SLA) printing, enabling smoother rotational motion in cylindrical pin joints built as single prints. They found that these geometrically modified joints could achieve smaller clearances and improved rotational stability compared to traditional pin joints, validating the potential of print-in-place manufacturing for hinges and other movable subsystems.
 
-Print-in-Place is also widely applied in snap-fit and press-fit assemblies. 
+Print-in-Place is also widely applied in the creation of parts that combine rigid structural elements with flexible features, like the pliers I created or tools, grips, and integrated springs. Designers model the irgid body for load-bearing or shape definition and add flexible zones. A dual-extrusion or multi-material printer would be needed to deposit both materials in a single print job. The result is a fully functional assembly in one go. [Ermolai et al. (2022)](https://www.researchgate.net/publication/365220539_Design_and_Testing_of_Multi-Material_Shape-Changing_Flexure_Hinges_for_Fused_Filament_Fabrication) demonstrate this concept through their study of multi-material flexure hinges printed via Fused Filament Fabrication. In their work, rigid bodies were printed in ABS or PLA, while the flexible hinge sections were printed in a thermoplastic co-polyester (TPC), producing fully functional hinges with corrugated or shape-changing interfaces. Their results validate the feasibility of print-in-place multi-material parts, illustrating how designers can achieve embedded flexible features—like springs or compliant joints—without post-processing or assembly, closely aligning with the creation of functional tools and grips in one print.
+
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+What combination of materials work well for print-in-place?
+</p>
+
+In Fused Filament Fabrication (FFF) or FDM printing, common combinations include: 
+- PLA with TPU or TPE
+- ABS with TPU or TPC
+- PETG with TPU 
+- Nylon with TPU
+
+PLA paired with TPU or TPE is easy to print and suitable for low-stress hinges, grips, and flexible joints, although the interface can be sensitive to cooling and may require fine-tuning. ABS combined with TPU or TPC provides higher strength and better thermal resistance, making it ideal for functional springs or hinges under repeated loads, as demonstrated in Ermolai et al. (2022). PETG with TPU is effective for snap-fit enclosures with soft seals, while Nylon with TPU offers exceptional toughness for parts subjected to repeated flexing, though it requires careful humidity control and bed adhesion.
+
+For high-resolution SLA, DLP, or PolyJet printing, rigid resins can be paired with elastic or flexible resins to create compliant hinges, soft grips, or embedded seals. PolyJet technology, in particular, allows mixing materials within a single layer for smooth transitions between rigid and flexible zones. Using tough or engineering resins in combination with flexible resins can yield high-strength parts with embedded springs, living hinges, or gaskets.
 
 # Design and Iterative Process
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
