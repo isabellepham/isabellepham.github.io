@@ -17,6 +17,29 @@ gallery:
 I designed and fabricated functional print-in-place needle-nose pliers using Fusion 360 and additive manufacturing. The device consists of two rigid arms and a flexible TPU spring element that returns the pliers to an open position when not in use. Through iterative prototyping and tolerance testing, I refined the spring geometry and press-fit interfaces to ensure smooth motion, reliable grip, and tool-free assembly. This project strengthened my skills in parametric CAD, mechanism design, and multi-material printing, resulting in a compact set of pliers suitable for handling small electronic components.
 
 ---
+# Print-in-Place
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+Preform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
+</p>
+
+as;dlkfjasldkjf
+
+# Design and Iterative Process
+<p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
+About the design and iterative process (e.g., how was the spring component created and how is it retained in the model, materials used)
+</p>
+
+asd;lfjasdfl
+
+# Specifications of the Pliers
+
+as;dlfkjad
+
+# Print Settings
+
+as;dlkfjlksdf
+
+---
 
 # Features
 
