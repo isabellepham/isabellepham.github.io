@@ -163,6 +163,12 @@ For the pliers, two separate printers and material setups were used to optimize 
   <em>Figure 11. 3D Printer Creating Iterations of the Flexible Square </em>
 </p>
 
+# Pliers Functioning 
+
+<iframe width="560" height="315"
+src="https://youtube.com/shorts/jAHtPoRO1sw?feature=share"
+frameborder="0" allowfullscreen></iframe>
+
 ---
 
 # Features
