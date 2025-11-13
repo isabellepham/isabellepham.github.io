@@ -166,7 +166,7 @@ For the pliers, two separate printers and material setups were used to optimize 
 # Pliers Functioning 
 
 <iframe width="560" height="315"
-src="https://youtube.com/shorts/jAHtPoRO1sw?feature=share"
+src="https://www.youtube.com/embed/jAHtPoRO1sw"
 frameborder="0" allowfullscreen></iframe>
 
 ---
