@@ -148,7 +148,7 @@ Each side of the flexible square includes three trapezoidal extensions that form
 The jaws extend 55 mm in length and terminate in a 4 mm flat edge, which provides surface stability when gripping flat objects such as resistors. The handles, designed for comfortable and controlled user grip, measure 65 mm in length, offering sufficient leverage without excessive strain. The entire assembly maintains a uniform 13 mm thickness.
 
 <p align="center">
-  <img src="/assets/img/4 Pliers-Figure9.JPG" alt="Print Failure" width="600"/>
+  <img src="/assets/img/4 Pliers-Figure9.jpeg" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 10. Dimensions of the Pliers Sketch in Fusion </em>
 </p>
