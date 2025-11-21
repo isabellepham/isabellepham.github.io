@@ -1,6 +1,6 @@
 ---
 title: "Bike Phone Mount"
-excerpt: "A custom set of multi-material pliers capable of gripping through-hole resistors, printed with an integrated flexible spring."
+excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
 header:
   image: /assets/img/4 Pliers-Banner.JPG
   teaser: /assets/img/4 Pliers-Banner.JPG
@@ -20,7 +20,7 @@ gallery:
   
 ---
 
-I designed and fabricated functional print-in-place needle-nose pliers using Fusion 360 and additive manufacturing. The device consists of two rigid arms and a flexible TPU spring element that returns the pliers to an open position when not in use. Through iterative prototyping and tolerance testing, I refined the spring geometry and press-fit interfaces to ensure smooth motion, reliable grip, and tool-free assembly. This project strengthened my skills in parametric CAD, mechanism design, and multi-material printing, resulting in a compact set of pliers suitable for handling small electronic components.
+I designed and fabricated a functional rotating bike phone holder using Fusion 360 and a top-down modeling approach. Beginning with the phone case as the primary reference geometry, I built the clamp, rotating hub, and detent components directly around it to ensure precise alignment and smooth motion. The assembly incorporates a spring-loaded detent mechanism that enables the phone to snap cleanly between portrait and landscape orientations, along with a TPU phone case that provides a tight, cushioning grip during riding.
 
 ---
 # Top-Down Modeling
