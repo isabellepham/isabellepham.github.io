@@ -5,7 +5,6 @@ header:
   image: /assets/img/5 BikeMount_Banner.jpg
   teaser: /assets/img/5 BikeMount_Banner.jpg
 gallery:
-  - image_path: assets/img/5 BikeMount-0.JPG
   - image_path: assets/img/5 BikeMount-1.JPG
   - image_path: assets/img/5 BikeMount-2.JPG
   - image_path: assets/img/5 BikeMount-3.JPG
