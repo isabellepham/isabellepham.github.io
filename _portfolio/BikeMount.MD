@@ -2,21 +2,18 @@
 title: "Bike Phone Mount"
 excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
 header:
-  image: /assets/img/4 Pliers-Banner.JPG
-  teaser: /assets/img/4 Pliers-Banner.JPG
+  image: /assets/img/5 BikeMount_Banner.jpg
+  teaser: /assets/img/5 BikeMount_Banner.jpg
 gallery:
-  - image_path: assets/img/4 Pliers-0.JPG
-  - image_path: assets/img/4 Pliers-5.JPG
-  - image_path: assets/img/4 Pliers-4.JPG
-  - image_path: assets/img/4 Pliers-1.JPG
-  - image_path: assets/img/4 Pliers-2.JPG
-  - image_path: assets/img/4 Pliers-3.JPG
-  - image_path: assets/img/4 Pliers-6.JPG
-  - image_path: assets/img/4 Pliers-7.JPG
-  - image_path: assets/img/4 Pliers-8.JPG
-  - image_path: assets/img/4 Pliers-9.JPG
-  - image_path: assets/img/4 Pliers-10.JPG
-  - image_path: assets/img/4 Pliers-11.JPG
+  - image_path: assets/img/5 BikeMount-0.JPG
+  - image_path: assets/img/5 BikeMount-1.JPG
+  - image_path: assets/img/5 BikeMount-2.JPG
+  - image_path: assets/img/5 BikeMount-3.JPG
+  - image_path: assets/img/5 BikeMount-4.JPG
+  - image_path: assets/img/5 BikeMount-5.JPG
+  - image_path: assets/img/5 BikeMount-6.JPG
+  - image_path: assets/img/5 BikeMount-7.JPG
+  - image_path: assets/img/5 BikeMount-8.JPG
   
 ---
 
