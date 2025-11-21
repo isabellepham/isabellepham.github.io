@@ -26,6 +26,10 @@ feature_row:
     alt: "Multi Material Pliers"
     title: "Multi Material Pliers"
     excerpt: "Built a set of multi-material pliers capable of gripping through-hole resistors, printed with an integrated flexible spring."
+  - image_path: assets/img/5 BikeMount-7.JPG
+    alt: "Bike Phone Mount"
+    title: "Bike Phone Mount"
+    excerpt: "Developed a top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
     
 ---
 
