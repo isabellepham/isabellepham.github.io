@@ -87,7 +87,7 @@ I used FFF (fused filament fabrication) printing for all components because it a
 # Bike Phone Mount Functioning 
 
 <iframe width="560" height="315"
-src="https://youtu.be/p2g1acEJ3hk"
+src="https://www.youtube.com/watch?v=p2g1acEJ3hk"
 frameborder="0" allowfullscreen></iframe>
 
 ---
