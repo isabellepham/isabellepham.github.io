@@ -84,6 +84,14 @@ I used FFF (fused filament fabrication) printing for all components because it a
 
 ---
 
+# Bike Phone Mount Functioning 
+
+<iframe width="560" height="315"
+src="https://youtu.be/p2g1acEJ3hk"
+frameborder="0" allowfullscreen></iframe>
+
+---
+
 # Features
 
 * **Functional Print-in-Place Joint Design:** The rigid plier arms are modeled with precise clearance at the pivot, enabling smooth rotation directly after printing. Joints were refined across iterations to minimize binding and reduce crunchy motion.
