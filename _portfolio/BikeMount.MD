@@ -67,6 +67,12 @@ To integrate the rotational hardware, the back panel thickness was increased by 
 
 To ensure smooth assembly after printing, I also incorporated small dimensional offsets around the contact surfaces. TPU often expands slightly during printing, so these offsets prevented overly tight fits and ensured the case would seat against the hub without post-processing.
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-Figure 1.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. First Iteration of CAD Phone Case for iPhone 15</em>
+</p>
+
 ### Rotating Hub
 
 The rotating hub was modeled as a 30 mm diameter disc with five 8.1 mm detent pockets arrayed around the perimeter. These pockets were offset slightly from the center plane instead of being cut directly in half—this prevented the ball from getting trapped and ensured smooth transitions between detents.
@@ -75,12 +81,18 @@ A recess was added for a heat-set insert, allowing the M5 screw from the phone c
 
 Because the detent mechanism is sensitive to friction and tolerance stacking, I made fine adjustments to the pocket diameter and recess depth so the ball could travel freely without binding. These minor changes made the mechanism more reliable and improved the clarity of each “click.”
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-Figure 2.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. First Iteration of CAD Rotating Hub for Detent Mechanism</em>
+</p>
+
 ### Mount Body
 
 The mount body serves three roles:
-1. enclosing the detent mechanism,
-2. holding the spring and ball securely in alignment, and
-3. connecting the rotating hub to the handlebar cuff.
+1. enclosing the detent mechanism
+2. holding the spring and ball securely in alignment
+3. connecting the rotating hub to the handlebar cuff
 
 The enclosure began as a rectangular housing sized to provide ~1 mm radial clearance around the hub. A pocket was added for the spring and ball.
 To ensure the phone would not collide with the enclosure when rotated into landscape mode, a construction circle equal to the phone’s diagonal was used in Fusion 360 to test possible rotations.
@@ -89,12 +101,23 @@ Originally, the housing left the hub uncovered on one side, but I later added in
 
 The base of the mount body included two countersunk M5 holes for attachment to the handlebar cuff.
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-Figure 3.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. First Iteration of CAD Mount Body</em>
+</p>
+
 ### Handlebar Cuff
 
-The handlebar cuff was designed to clamp around a 22.5 mm diameter handlebar.
-It was extruded to 11 mm to accommodate heat-set inserts and M5 hardware.
+The handlebar cuff was designed to clamp around a 22.5 mm diameter handlebar. It was extruded to 11 mm to accommodate heat-set inserts and M5 hardware.
 
 Two extended clamping arms held an M5 screw + nut, providing adjustable clamping force so the mount could be tightened securely without slipping during bike movement.
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-Figure 4.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. First Iteration of CAD Handlebar Cuff</em>
+</p>
 
 ## **Printing Approach and Material Selection**
 
