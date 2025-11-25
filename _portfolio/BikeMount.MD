@@ -82,9 +82,9 @@ A recess was added for a heat-set insert, allowing the M5 screw from the phone c
 Because the detent mechanism is sensitive to friction and tolerance stacking, I made fine adjustments to the pocket diameter and recess depth so the ball could travel freely without binding. These minor changes made the mechanism more reliable and improved the clarity of each “click.”
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 2.pngG" alt="Print Failure" width="600"/>
+  <img src="/assets/img/5 BikeMount-Figure 2.png" alt="Print Failure" width="600"/>
   <br>
-  <em>Figure 1. First Iteration of CAD Rotating Hub for Detent Mechanism</em>
+  <em>Figure 2. First Iteration of CAD Rotating Hub for Detent Mechanism</em>
 </p>
 
 ### Mount Body
@@ -102,9 +102,9 @@ Originally, the housing left the hub uncovered on one side, but I later added in
 The base of the mount body included two countersunk M5 holes for attachment to the handlebar cuff.
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 3.pngG" alt="Print Failure" width="600"/>
+  <img src="/assets/img/5 BikeMount-Figure 3.png" alt="Print Failure" width="600"/>
   <br>
-  <em>Figure 1. First Iteration of CAD Mount Body</em>
+  <em>Figure 3. First Iteration of CAD Mount Body</em>
 </p>
 
 ### Handlebar Cuff
@@ -116,7 +116,7 @@ Two extended clamping arms held an M5 screw + nut, providing adjustable clamping
 <p align="center">
   <img src="/assets/img/5 BikeMount-Figure 4.png" alt="Print Failure" width="600"/>
   <br>
-  <em>Figure 1. First Iteration of CAD Handlebar Cuff</em>
+  <em>Figure 4. First Iteration of CAD Handlebar Cuff</em>
 </p>
 
 ## **Printing Approach and Material Selection**
