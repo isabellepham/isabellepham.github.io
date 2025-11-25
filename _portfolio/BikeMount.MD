@@ -29,7 +29,7 @@ A description of top-down modeling and how it was leveraged in this assignment
 
 Top-down modeling is a design approach where the overall layout and reference geometry are established first, and individual components are then created in context around that shared framework. Instead of designing parts independently, everything is built from common sketches, reference planes, and parameters, which ensures that components align correctly and update predictably when changes are made.
 
-In this assignment, top-down modeling was used by treating the phone case as the central reference geometry. All major components—such as the rotating interface, detent mechanism, and mounting features—were created directly around the phone case’s dimensions and position. By building each component in place, the holder’s grip features, clearances, and rotation geometry could be tuned precisely to the phone without needing a separate assembly step to test alignment.
+In this assignment, top-down modeling was used by treating the phone case as the central reference geometry. All major components, such as the rotating interface, detent mechanism, and mounting features, were created directly around the phone case’s dimensions and position. By building each component in place, the holder’s grip features, clearances, and rotation geometry could be tuned precisely to the phone without needing a separate assembly step to test alignment.
 
 This approach also made it easier to design the rotation and detent mechanism because the interacting parts (recesses, bearing seats, spring pockets, and the rotating hub) could be sketched and adjusted while visible together. Parametric dimensions were used to control clearances and 3D-printing tolerances, allowing quick adjustments to the rotation feel and snapping force.
 
@@ -289,7 +289,7 @@ ___
 </p>
 
 8.	Insert the phone:
--	•	Place your phone into the flexible TPU phone case
+-	Place your phone into the flexible TPU phone case
 
 9.	Use the rotation feature:
 -	Rotate the phone between portrait and landscape orientations
