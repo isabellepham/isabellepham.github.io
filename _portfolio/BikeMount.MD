@@ -268,15 +268,14 @@ ___
 
 6.	Complete the rotation assembly:
 -	Place the phone case on top of the rotating hub, making sure all screw holes align
+- Insert an M5 × 20 mm screw through the center hole of the phone case, rotating hub, and mount body, and secure it on the otherside of the mount body with a nut
+- Insert M5 × 8 mm screws into the remaining two holes and tighten
 
 <p align="center">
   <img src="/assets/img/5 BikeMount-10.JPG" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 15. Aligned Rotating Hub and Phone Case</em>
 </p>
-
-- Insert an M5 × 20 mm screw through the center hole of the phone case, rotating hub, and mount body, and secure it on the otherside of the mount body with a nut
-- Insert M5 × 8 mm screws into the remaining two holes and tighten
 
 7.	Mount the assembly onto the bike:
 -	Slide the handlebar cuff around the bike handlebar.
