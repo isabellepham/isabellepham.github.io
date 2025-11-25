@@ -11,9 +11,6 @@ gallery:
   - image_path: assets/img/5 BikeMount-4.JPG
   - image_path: assets/img/5 BikeMount-5.JPG
   - image_path: assets/img/5 BikeMount-6.JPG
-  - image_path: assets/img/5 BikeMount-7.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
-  - image_path: assets/img/5 BikeMount-CrossSection.png
   
 ---
 
