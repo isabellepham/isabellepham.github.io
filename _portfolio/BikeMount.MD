@@ -155,39 +155,40 @@ ___
 
 # Assembly and Use Instructions
 
-1.	Identify the four main parts: the bike cuff, phone stand/enclosure, rotator, and phone case.
+1.	Identify the four main parts: the handlebar cuff, mount body, rotating hub, and phone case
 
 2.	Install heat-set inserts:
-- Place inserts into the two top openings of the bike cuff.
-- Place inserts into the three openings in the rotator.
+- Insert two heat-set inserts into the openings on the handlebar cuff
+- Insert three heat-set inserts into the designated pockets on the rotating hub
 
-3.	Attach the phone stand to the bike cuff:
--	Position the phone stand in the top opening of the bike cuff.
--	Align the screw openings and secure them using an M5 × 12 mm screw.
+3.	Attach the mount body to the handlebar cuff:
+-	Position the mount body on top of the handlebar cuff
+- Align the screw holes and secure the two parts using an M5 × 12 mm screw (or the required screw count based on your design)
 
-4.	Prepare the bike cuff for mounting:
--	Insert three M5 × 20 mm screws through the bottom openings of the bike cuff.
--	Add nuts on the opposite side and tighten only finger-tight for now.
+4.	Prepare the handlebar cuff for mounting:
+-	Insert three M5 × 20 mm screws through the lower openings of the handlebar cuff
+- Thread nuts onto the ends and tighten them finger-tight only for now
 
 5.	Assemble the detent mechanism:
--	Insert the compression spring into the detent pocket inside the square recess of the connector piece.
--	Place the ball bearing on top of the spring in the circular pocket.
--	Carefully position the rotating center piece so the cutout aligns with the ball and press it into place.
+-	Insert the compression spring into the detent pocket located inside the recess of the mount body
+- Place the ball bearing on top of the spring
+-	Carefully position the rotating hub so the middle of the 5 cutouts aligns with the ball and press it into place
 
 6.	Complete the rotation assembly:
--	Place the phone case component on top and align all screw holes.
--	Insert an M5 × 12 mm screw through the center hole and secure it with a nut.
--	Insert M5 × 8 mm screws into the remaining two openings and tighten.
+-	Place the phone case on top of the rotating hub, making sure all screw holes align
+- Insert an M5 × 20 mm screw through the center hole of the phone case, rotating hub, and mount body, and secure it on the otherside of the mount body with a nut
+- Insert M5 × 8 mm screws into the remaining two holes and tighten
 
-7.	Mount onto the bike:
--	Fit the circular cuff around the handlebar.
--	Fully tighten the nuts with a wrench or pliers to secure the assembly.
+7.	Mount the assembly onto the bike:
+-	Slide the handlebar cuff around the bike handlebar.
+- Fully tighten the nuts on the three M5 × 20 mm screws using a wrench or pliers.
 
 8.	Insert the phone:
--	Place your phone into the flexible TPU phone case.
+-	•	Place your phone into the flexible TPU phone case
 
 9.	Use the rotation feature:
--	Rotate the phone between portrait and landscape orientations; the detent mechanism will snap it into position.
+-	Rotate the phone between portrait and landscape orientations
+- The detent mechanism will snap cleanly into each locked position
 
 ---
 
@@ -231,12 +232,12 @@ allowfullscreen>
 
 # 3D Printed Parts
 
-| 3D Printed Part        | Purpose / Function |
-|-------------------------|--------------------|
-| Phone Case     | Securely hold the phone |
-| Detent Mechanism    | Allows for rotation of the phone case |
-| Detent Enclosure / Phone Stand | Support the phone with enough space to turn on top of the bike handles and enclose the detent mechanism | 
-| Bike Cuff | Secure the entire assembly to the bike handles | 
+| 3D Printed Part | Purpose / Function |
+|------------------|--------------------|
+| Phone Case | Holds the phone securely and interfaces with the rotating hub |
+| Rotating Hub | Provides the detent interface and rotates between portrait and landscape positions |
+| Mount Body (Detent Enclosure) | Houses the detent mechanism and connects the rotating hub to the handlebar cuff |
+| Handlebar Cuff | Clamps the entire assembly to the bike handlebar |
 
 ---
 
