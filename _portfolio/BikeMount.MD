@@ -48,7 +48,7 @@ The bike phone mount was created using a top-down modeling workflow in Fusion 36
 3. Mount Body – PLA structure that houses the detent mechanism and connects to the handlebar cuff.
 4. Handlebar Cuff – ABS component that tightens around the bike handlebar.
 
-## **Detent Mechanism Overview**
+## Detent Mechanism Overview
 
 For the rotation interface, I used a simple spring-loaded detent mechanism because it was straightforward to design, print, and integrate with off-the-shelf hardware. The mechanism consists of:
 - a compression spring,
@@ -57,7 +57,7 @@ For the rotation interface, I used a simple spring-loaded detent mechanism becau
 
 As the phone turns, the ball compresses into the spring and snaps into each recess, creating clear, discrete rotational positions for portrait and landscape use. The mechanism worked reliably in practice and provided a satisfying “click” during rotation. The strength of the compression spring had a noticeable effect on functionality—stronger springs increased locking force and stability, while weaker springs made rotation easier but reduced tactile feedback.
 
-## **Initial CAD Development**
+## Initial CAD Development
 
 ### Phone Case
 
@@ -107,7 +107,7 @@ Material choices were based on mechanical requirements:
 
 Heat-set inserts bonded cleanly into the thermoplastics, producing strong and repeatable threaded connections.
 
-## **Initial Printing and Assembly**
+## Initial Printing and Assembly
 
 The first iteration assembled without major dimensional issues: 
 - The ABS handlebar cuff clamped securely using 20 mm M5 screws.
@@ -123,7 +123,7 @@ However, once the phone case was attached, a critical problem appeared.
 With the phone installed, the case could rotate freely around the central screw without engaging the hub.
 Because TPU is soft, a single screw could not transmit enough torque to the rigid PLA hub. The phone rotated—but the detent mechanism did not.
 
-## **Attempted Fix #1: Through-Bolt Reinforcement**
+## Attempted Fix #1: Through-Bolt Reinforcement
 
 I attempted a quick fix by melting a channel through the hub and inserting a 20 mm M5 through-bolt secured with a nut. This increased clamping force, but did not solve the underlying problem. With only one point of connection, the TPU still twisted independently of the hub.
 
@@ -133,11 +133,11 @@ To achieve reliable torque transfer, I redesigned the interface to use three M5 
 
 This redesign created a mechanically locked interface between the phone case and rotating hub.
 
-## **Additional CAD Adjustments**
+## Additional CAD Adjustments
 
 To avoid reprinting the mount body and cuff, only the hub and enclosure geometry were modified. The enclosure was flipped so the solid panel faced the phone case. A 20 mm M5 through-screw passed through the phone, hub, and enclosure. Two additional screws used heat-set inserts for symmetrical loading.
 
-## **Reprints and Final Assembly**
+## Reprints and Final Assembly
 
 Reprinted components included the TPU phone case and the rotating hub (printed in both TPU and PLA).
 
@@ -145,7 +145,7 @@ The PLA hub performed significantly better because its rigidity preserved the sh
 
 The three-screw constraint solved the torque-transfer problem entirely. The phone now rotated the hub reliably, engaging the detent mechanism with strong, consistent clicks.
 
-## **Conclusion**
+## Conclusion
 
 Through iterative CAD refinement and rapid 3D-printing cycles, the bike phone mount evolved into a reliable, robust system. Key lessons included: the importance of torque-transfer constraints between soft and rigid materials, the effect of spring strength on detent behavior, the need for careful tolerance adjustments for printed mechanisms, and how small geometric changes can dramatically improve performance.
 
