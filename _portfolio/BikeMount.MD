@@ -41,11 +41,122 @@ Did you have to change any dimensions to account for the 3d printing process?
 What type of 3d printing did you use? Why?
 </p>
 
-For the rotation interface, I used a simple detent mechanism because it was straightforward to understand and implement. The design relies on a spring-loaded ball engaging with angled recesses to create distinct snapping positions for portrait and landscape orientations. In practice, the mechanism works well and provides a clear locking feel that keeps the phone securely in place during rotation. The overall functionality, however, depends noticeably on the strength of the compression spring—stronger springs increase the locking force, while weaker ones make rotation easier but reduce the tactile feedback and stability.
+The bike phone mount was created using a top-down modeling workflow in Fusion 360. Separating the system into distinct functional components made it easier to iterate, adjust tolerances, and troubleshoot mechanical failures. The mount consists of four primary parts:
 
-I adjusted several dimensions to account for 3D-printing tolerances. Clearances for sliding and rotating features were increased slightly to prevent fused or overly tight fits after printing. The detent mechanism in particular required small adjustments to the recess depth and the diameter of the ball-bearing pocket so that the spring and ball could move freely without binding. I also added minor offsets around the phone-case contact surfaces to ensure the holder would grip securely without requiring post-processing. These small dimensional changes helped the printed parts function smoothly right off the printer.
+1. Phone Case – TPU case that interfaces with the phone and connects to the detent mechanism.
+2. Rotating Hub – Circular PLA component containing the detent pockets and a heat-set insert.
+3. Mount Body – PLA structure that houses the detent mechanism and connects to the handlebar cuff.
+4. Handlebar Cuff – ABS component that tightens around the bike handlebar.
 
-I used FFF (fused filament fabrication) printing for all components because it allowed quick iteration, good dimensional control, and compatibility with the screws and heat-set inserts used throughout the design. The meltable thermoplastics made it easy to embed inserts cleanly and achieve strong threaded connections. Multiple materials were used based on the mechanical needs of each part. ABS was chosen for the hook component that clamps around the handlebar due to its higher toughness and heat resistance. PLA was used for the structural stand connecting the detent mechanism to the handlebar attachment as well as for the detent mechanism itself, since these parts needed good dimensional accuracy and rigidity. TPU was used for the phone holder portion because its flexibility provides a secure, cushioned grip on the phone while preventing scratches and reducing vibration.
+# Detent Mechanism Overview
+
+For the rotation interface, I used a simple spring-loaded detent mechanism because it was straightforward to design, print, and integrate with off-the-shelf hardware. The mechanism consists of:
+- a compression spring,
+- a ball bearing, and
+- angled recesses in the rotating hub.
+
+As the phone turns, the ball compresses into the spring and snaps into each recess, creating clear, discrete rotational positions for portrait and landscape use. The mechanism worked reliably in practice and provided a satisfying “click” during rotation. The strength of the compression spring had a noticeable effect on functionality—stronger springs increased locking force and stability, while weaker springs made rotation easier but reduced tactile feedback.
+
+# Initial CAD Development
+
+1. Phone Case
+
+The phone case was adapted from a previous parametric design for an iPhone 15. Adjustable parameters—case thickness, width, height, and button/camera cutouts—made it easy to repurpose for this mount.
+
+To integrate the rotational hardware, the back panel thickness was increased by 4.25 mm, resulting in a final thickness of 6.824 mm to fit an M5 screw connecting the phone to the rotating hub.
+
+To ensure smooth assembly after printing, I also incorporated small dimensional offsets around the contact surfaces. TPU often expands slightly during printing, so these offsets prevented overly tight fits and ensured the case would seat against the hub without post-processing.
+
+2. Rotating Hub
+
+The rotating hub was modeled as a 30 mm diameter disc with five 8.1 mm detent pockets arrayed around the perimeter. These pockets were offset slightly from the center plane instead of being cut directly in half—this prevented the ball from getting trapped and ensured smooth transitions between detents.
+
+A recess was added for a heat-set insert, allowing the M5 screw from the phone case to anchor firmly into the hub.
+
+Because the detent mechanism is sensitive to friction and tolerance stacking, I made fine adjustments to the pocket diameter and recess depth so the ball could travel freely without binding. These minor changes made the mechanism more reliable and improved the clarity of each “click.”
+
+3. Mount Body
+
+The mount body serves three roles:
+1. enclosing the detent mechanism,
+2. holding the spring and ball securely in alignment, and
+3. connecting the rotating hub to the handlebar cuff.
+
+The enclosure began as a rectangular housing sized to provide ~1 mm radial clearance around the hub. A pocket was added for the spring and ball.
+To ensure the phone would not collide with the enclosure when rotated into landscape mode, a construction circle equal to the phone’s diagonal was used in Fusion 360 to test possible rotations.
+
+Originally, the housing left the hub uncovered on one side, but I later added internal panels to fully enclose the mechanism. Only the screw opening remained exposed so the mechanism could be assembled.
+
+The base of the mount body included two countersunk M5 holes for attachment to the handlebar cuff.
+
+4. Handlebar Cuff
+
+The handlebar cuff was designed to clamp around a 22.5 mm diameter handlebar.
+It was extruded to 11 mm to accommodate heat-set inserts and M5 hardware.
+
+Two extended clamping arms held an M5 screw + nut, providing adjustable clamping force so the mount could be tightened securely without slipping during bike movement.
+
+# Printing Approach and Material Selection
+
+All components were fabricated using FFF (fused filament fabrication). This method allowed rapid iteration, fast turnaround between design changes, and reliable dimensional accuracy—especially important for the mechanical interfaces, heat-set inserts, and detent mechanism.
+
+Material choices were based on mechanical requirements:
+1. TPU – Used for the phone case to provide flexibility, shock absorption, and a non-scratching grip.
+2. PLA – Used for the mount body and rotating hub for rigidity, crisp detent geometry, and reliable tolerances.
+3. ABS – Used for the handlebar cuff for toughness and higher heat resistance during outdoor use.
+
+Heat-set inserts bonded cleanly into the thermoplastics, producing strong and repeatable threaded connections.
+
+# Initial Printing and Assembly
+
+The first iteration assembled without major dimensional issues: 
+- The ABS handlebar cuff clamped securely using 20 mm M5 screws.
+- The mount body attached using heat-set inserts and 12 mm M5 screws.
+- The rotating hub fit smoothly inside the enclosure with the intended functional clearance.
+
+The TPU phone case attached to the hub with a single M5 screw.
+
+Testing the detent mechanism by rotating the hub manually worked perfectly—each recess produced a distinct click, and the ball and spring moved freely.
+
+However, once the phone case was attached, a critical problem appeared.
+
+# Design Failure: Phone Case Slipping Around the Screw
+
+With the phone installed, the case could rotate freely around the central screw without engaging the hub.
+Because TPU is soft, a single screw could not transmit enough torque to the rigid PLA hub. The phone rotated—but the detent mechanism did not.
+
+# Attempted Fix #1: Through-Bolt Reinforcement
+
+I attempted a quick fix by melting a channel through the hub and inserting a 20 mm M5 through-bolt secured with a nut. This increased clamping force, but did not solve the underlying problem. With only one point of connection, the TPU still twisted independently of the hub.
+
+# Second Iteration: Three-Screw Torque Transfer System
+
+To achieve reliable torque transfer, I redesigned the interface to use three M5 screws instead of one. A single screw allows rotation around its axis. Three screws form a triangular constraint, which prevents shear deformation in the TPU, eliminates rotational slippage, and distributes torque evenly into the rigid PLA hub.
+
+This redesign created a mechanically locked interface between the phone case and rotating hub.
+
+# Additional CAD Adjustments
+
+To avoid reprinting the mount body and cuff, only the hub and enclosure geometry were modified. The enclosure was flipped so the solid panel faced the phone case. A 20 mm M5 through-screw passed through the phone, hub, and enclosure. Two additional screws used heat-set inserts for symmetrical loading.
+
+# Reprints and Final Assembly
+
+Reprinted components included:
+- the TPU phone case,
+- the rotating hub (printed in both TPU and PLA).
+
+The PLA hub performed significantly better because its rigidity preserved the sharp edges of the detent recesses. TPU’s softness rounded the pockets and weakened the snapping action, so the PLA hub was used in the final assembly.
+
+The three-screw constraint solved the torque-transfer problem entirely.
+The phone now rotated the hub reliably, engaging the detent mechanism with strong, consistent clicks.
+
+# Conclusion
+
+Through iterative CAD refinement and rapid 3D-printing cycles, the bike phone mount evolved into a reliable, robust system. Key lessons included: the importance of torque-transfer constraints between soft and rigid materials, the effect of spring strength on detent behavior, the need for careful tolerance adjustments for printed mechanisms, and how small geometric changes can dramatically improve performance.
+
+The final assembly is stable, smooth, and secure—providing confident portrait/landscape rotation while maintaining durability during bike movement.
+
+___
 
 # Assembly and Use Instructions
 
