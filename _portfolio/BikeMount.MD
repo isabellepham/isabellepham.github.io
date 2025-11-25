@@ -68,7 +68,7 @@ To integrate the rotational hardware, the back panel thickness was increased by 
 To ensure smooth assembly after printing, I also incorporated small dimensional offsets around the contact surfaces. TPU often expands slightly during printing, so these offsets prevented overly tight fits and ensured the case would seat against the hub without post-processing.
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 1.JPG" alt="Print Failure" width="600"/>
+  <img src="assets/img/5 BikeMount-Figure 1.png" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 1. First Iteration of CAD Phone Case for iPhone 15</em>
 </p>
@@ -82,7 +82,7 @@ A recess was added for a heat-set insert, allowing the M5 screw from the phone c
 Because the detent mechanism is sensitive to friction and tolerance stacking, I made fine adjustments to the pocket diameter and recess depth so the ball could travel freely without binding. These minor changes made the mechanism more reliable and improved the clarity of each “click.”
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 2.JPG" alt="Print Failure" width="600"/>
+  <img src="assets/img/5 BikeMount-Figure 2.pngG" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 1. First Iteration of CAD Rotating Hub for Detent Mechanism</em>
 </p>
@@ -102,7 +102,7 @@ Originally, the housing left the hub uncovered on one side, but I later added in
 The base of the mount body included two countersunk M5 holes for attachment to the handlebar cuff.
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 3.JPG" alt="Print Failure" width="600"/>
+  <img src="assets/img/5 BikeMount-Figure 3.pngG" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 1. First Iteration of CAD Mount Body</em>
 </p>
@@ -114,7 +114,7 @@ The handlebar cuff was designed to clamp around a 22.5 mm diameter handlebar. It
 Two extended clamping arms held an M5 screw + nut, providing adjustable clamping force so the mount could be tightened securely without slipping during bike movement.
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-Figure 4.JPG" alt="Print Failure" width="600"/>
+  <img src="assets/img/5 BikeMount-Figure 4.png" alt="Print Failure" width="600"/>
   <br>
   <em>Figure 1. First Iteration of CAD Handlebar Cuff</em>
 </p>
