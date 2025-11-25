@@ -119,7 +119,7 @@ Two extended clamping arms held an M5 screw + nut, providing adjustable clamping
   <em>Figure 4. First Iteration of CAD Handlebar Cuff</em>
 </p>
 
-## **Printing Approach and Material Selection**
+## Printing Approach and Material Selection
 
 All components were fabricated using FFF (fused filament fabrication). This method allowed rapid iteration, fast turnaround between design changes, and reliable dimensional accuracy—especially important for the mechanical interfaces, heat-set inserts, and detent mechanism.
 
@@ -133,28 +133,65 @@ Heat-set inserts bonded cleanly into the thermoplastics, producing strong and re
 ## Initial Printing and Assembly
 
 The first iteration assembled without major dimensional issues: 
-- The ABS handlebar cuff clamped securely using 20 mm M5 screws.
-- The mount body attached using heat-set inserts and 12 mm M5 screws.
-- The rotating hub fit smoothly inside the enclosure with the intended functional clearance.
+- The ABS handlebar cuff clamped securely using 20 mm M5 screws
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-1.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 5. Handlebar Cuff tightened with Screws</em>
+</p>
+
+- The mount body attached to handlebar cuff using heat-set inserts and 12 mm M5 screws
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-2.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 6. Connection between Mount Body and Handlebar Cuff</em>
+</p>
+
+- The rotating hub fit smoothly inside the enclosure with the intended functional clearance
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-3.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 7. Rotating Hub inside Mount Body enclosure</em>
+</p>
 
 The TPU phone case attached to the hub with a single M5 screw.
 
-Testing the detent mechanism by rotating the hub manually worked perfectly—each recess produced a distinct click, and the ball and spring moved freely.
+Testing the detent mechanism by rotating the hub manually worked well. Each recess produced a distinct click, and the ball and spring moved freely.
 
 However, once the phone case was attached, a critical problem appeared.
 
-With the phone installed, the case could rotate freely around the central screw without engaging the hub.
-Because TPU is soft, a single screw could not transmit enough torque to the rigid PLA hub. The phone rotated—but the detent mechanism did not.
+With the phone installed, the case could rotate freely around the central screw without engaging the hub. Because TPU is soft, a single screw could not transmit enough torque to the rigid PLA hub. The phone rotated—but the detent mechanism did not.
 
 ## Attempted Fix #1: Through-Bolt Reinforcement
 
 I attempted a quick fix by melting a channel through the hub and inserting a 20 mm M5 through-bolt secured with a nut. This increased clamping force, but did not solve the underlying problem. With only one point of connection, the TPU still twisted independently of the hub.
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-4.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 8. Rotating Hub to the left has melted channel through the hub, Rotating Hub to the right is the original design with a heat set insert inside</em>
+</p>
 
 ## **Second Iteration: Three-Screw Torque Transfer System**
 
 To achieve reliable torque transfer, I redesigned the interface to use three M5 screws instead of one. A single screw allows rotation around its axis. Three screws form a triangular constraint, which prevents shear deformation in the TPU, eliminates rotational slippage, and distributes torque evenly into the rigid PLA hub.
 
 This redesign created a mechanically locked interface between the phone case and rotating hub.
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-5.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 9. PLA Rotating Hub with the new 3 screw design</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-6.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 10. Comparison of Iteration 1 and 2 of TPU Phone Case</em>
+</p>
 
 ## Additional CAD Adjustments
 
