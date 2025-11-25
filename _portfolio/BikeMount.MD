@@ -11,6 +11,11 @@ gallery:
   - image_path: assets/img/5 BikeMount-4.JPG
   - image_path: assets/img/5 BikeMount-5.JPG
   - image_path: assets/img/5 BikeMount-6.JPG
+  - image_path: assets/img/5 BikeMount-7.JPG
+  - image_path: assets/img/5 BikeMount-8.JPG
+  - image_path: assets/img/5 BikeMount-8.JPG
+  - image_path: assets/img/5 BikeMount-10.JPG
+  - image_path: assets/img/5 BikeMount-11.JPG
   
 ---
 
@@ -202,6 +207,18 @@ The PLA hub performed significantly better because its rigidity preserved the sh
 
 The three-screw constraint solved the torque-transfer problem entirely. The phone now rotated the hub reliably, engaging the detent mechanism with strong, consistent clicks.
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-7.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 11. Final Bike Phone Mount Assembly Front</em>
+</p>
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-8.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 12. Final Bike Phone Mount Assembly Back</em>
+</p>
+
 ## Conclusion
 
 Through iterative CAD refinement and rapid 3D-printing cycles, the bike phone mount evolved into a reliable, robust system. Key lessons included: the importance of torque-transfer constraints between soft and rigid materials, the effect of spring strength on detent behavior, the need for careful tolerance adjustments for printed mechanisms, and how small geometric changes can dramatically improve performance.
@@ -222,23 +239,54 @@ ___
 -	Position the mount body on top of the handlebar cuff
 - Align the screw holes and secure the two parts using an M5 × 12 mm screw (or the required screw count based on your design)
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-2.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 13. Attached Mount Body to Handlebar Cuff</em>
+</p>
+
 4.	Prepare the handlebar cuff for mounting:
 -	Insert three M5 × 20 mm screws through the lower openings of the handlebar cuff
 - Thread nuts onto the ends and tighten them finger-tight only for now
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-9.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 13. Nuts tightened on the m5 Screws through the Handlebar Cuff</em>
+</p>
 
 5.	Assemble the detent mechanism:
 -	Insert the compression spring into the detent pocket located inside the recess of the mount body
 - Place the ball bearing on top of the spring
 -	Carefully position the rotating hub so the middle of the 5 cutouts aligns with the ball and press it into place
 
+<p align="center">
+  <img src="/assets/img/5 BikeMount-3.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 14. Rotating Hub inside Mount Body</em>
+</p>
+
 6.	Complete the rotation assembly:
 -	Place the phone case on top of the rotating hub, making sure all screw holes align
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-10.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 15. Aligned Rotating Hub and Phone Case</em>
+</p>
+
 - Insert an M5 × 20 mm screw through the center hole of the phone case, rotating hub, and mount body, and secure it on the otherside of the mount body with a nut
 - Insert M5 × 8 mm screws into the remaining two holes and tighten
 
 7.	Mount the assembly onto the bike:
 -	Slide the handlebar cuff around the bike handlebar.
 - Fully tighten the nuts on the three M5 × 20 mm screws using a wrench or pliers.
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-11.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 16. Using Pliers to tighten Handlebar Cuff</em>
+</p>
 
 8.	Insert the phone:
 -	•	Place your phone into the flexible TPU phone case
