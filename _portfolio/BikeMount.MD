@@ -16,6 +16,7 @@ gallery:
   - image_path: assets/img/5 BikeMount-8.JPG
   - image_path: assets/img/5 BikeMount-10.JPG
   - image_path: assets/img/5 BikeMount-11.JPG
+  - image_path: assets/img/5 BikeMount-12.JPG
   
 ---
 
