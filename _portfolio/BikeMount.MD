@@ -328,8 +328,8 @@ allowfullscreen>
 | m5x20mm Bolts | 4 | 
 | m5 Nuts | 4 | 
 | Pliers | Supplied in Lab |
-| Compression Spring | 1 | 
-| Ball Bearings | 1 | 
+| [Compression Spring](amazon.com/dp/B092R6CK89?_encoding=UTF8&psc=1&ref=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42&ref_=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42&social_share=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42) | 1 | 
+| [Ball Bearings](https://www.amazon.com/dp/B08KTBM74G?_encoding=UTF8&ref=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&ref_=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&social_share=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&th=1) | 1 | 
 | 3D Printer | Supplied in Lab |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
 
