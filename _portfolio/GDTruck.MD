@@ -1,9 +1,9 @@
 ---
 title: "Generative Design Truck"
-excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
+excerpt: "A lightweight truck hanger with an integrated motor mount for a brushless DC motor."
 header:
-  image: /assets/img/5 BikeMount_Banner.jpg
-  teaser: /assets/img/5 BikeMount_Banner.jpg
+  image: /assets/img/6 GDTruck-Banner.JPG
+  teaser: /assets/img/6 GDTruck-Banner.JPG
 gallery:
   - image_path: assets/img/5 BikeMount-1.JPG
   - image_path: assets/img/5 BikeMount-2.JPG
