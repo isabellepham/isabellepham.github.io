@@ -323,13 +323,13 @@ allowfullscreen>
 | TPU 95A Filament | Supplied in Lab |
 | PLA Rigid Filament | Supplied in Lab |
 | ABS Filament | Supplied in Lab
-| m5x8mm Bolts | Supplied in Lab | 
-| m5x12mm Bolts | Supplied in Lab | 
-| m5x20mm Bolts | Supplied in Lab | 
-| m5 Nuts | Supplied in Lab | 
-| Pliers | Supplied in Lab
-| Compression Spring | Supplied in Lab | 
-| Ball Bearings | Supplied in Lab | 
+| m5x8mm Bolts | 2 | 
+| m5x12mm Bolts | 2 | 
+| m5x20mm Bolts | 4 | 
+| m5 Nuts | 4 | 
+| Pliers | Supplied in Lab |
+| Compression Spring | 1 | 
+| Ball Bearings | 1 | 
 | 3D Printer | Supplied in Lab |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
 
