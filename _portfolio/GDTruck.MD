@@ -17,7 +17,9 @@ gallery:
   
 ---
 
-I designed and fabricated a functional rotating bike phone holder using Fusion 360 and a top-down modeling approach. Beginning with the phone case as the primary reference geometry, I built the clamp, rotating hub, and detent components directly around it to ensure precise alignment and smooth motion. The assembly incorporates a spring-loaded detent mechanism that enables the phone to snap cleanly between portrait and landscape orientations, along with a TPU phone case that provides a tight, cushioning grip during riding.
+I designed a generative longboard truck hanger with an integrated motor mount using Fusion 360. The model was built from essential preserved interfaces—kingpin seat, axle bore, bearing contact points, belt envelope, and motor mounting slots—to give the generative solver freedom to minimize mass while meeting all mechanical and spatial constraints.
+
+Two outcomes were produced for Nylon 12 and ALSi10Mg, allowing comparison of how material stiffness and manufacturing constraints influence the resulting topology. After minor refinements for printability, the ALSi10Mg design was fabricated using SLS powder-bed fusion and assembled onto the full longboard to validate axle alignment, belt tensioning, wheel clearance, and motor ground clearance.
 
 ---
 # Pairing of Powder Bed Fusion and Generative Design 
