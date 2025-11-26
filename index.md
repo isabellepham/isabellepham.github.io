@@ -29,7 +29,7 @@ feature_row:
   - image_path: assets/img/5 BikeMount-7.JPG
     alt: "Bike Phone Mount"
     title: "Bike Phone Mount"
-    excerpt: "Developed a top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
+    excerpt: "Developed a top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case."
   - image_path: assets/img/6 GDTruck-Cover.jpg
     alt: "Bike Phone Mount"
     title: "Generative Design Truck"
