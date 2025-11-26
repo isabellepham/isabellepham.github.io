@@ -313,9 +313,8 @@ allowfullscreen>
 # Cross-Section View of Internal Rotation Mechanism
 
 <p align="center">
-  <img src="/assets/img/5 BikeMount-11.JPG" alt="Print Failure" width="600"/>
+  <img src="/assets/img/5 BikeMount-Figure 5.png" alt="Print Failure" width="600"/>
   <br>
-  <em>Figure 16. Using Pliers to tighten Handlebar Cuff</em>
 </p>
 
 ---
