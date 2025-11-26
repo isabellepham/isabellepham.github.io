@@ -1,6 +1,6 @@
 ---
 title: "Bike Phone Mount"
-excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
+excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case."
 header:
   image: /assets/img/5 BikeMount_Banner.jpg
   teaser: /assets/img/5 BikeMount_Banner.jpg
