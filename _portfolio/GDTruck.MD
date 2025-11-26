@@ -1,6 +1,6 @@
 ---
 title: "Generative Design Truck"
-excerpt: "A lightweight truck hanger with an integrated motor mount for a brushless DC motor."
+excerpt: "A lightweight, generatively-designed truck hanger featuring an integrated motor mount optimized for both Nylon 12 and ALSi10Mg SLS fabrication."
 header:
   image: /assets/img/6 GDTruck-Banner.JPG
   teaser: /assets/img/6 GDTruck-Banner.JPG
@@ -96,27 +96,23 @@ deck.
 
 # Features
 
-* **Functional Print-in-Place Joint Design:** The rigid plier arms are modeled with precise clearance at the pivot, enabling smooth rotation directly after printing. Joints were refined across iterations to minimize binding and reduce crunchy motion.
-* **Reopening Spring Mechanism:** A TPU 95A flexible insert acts as a mechanical spring, automatically returning the pliers to their open state. Various thicknesses and geometries were tested to balance flexibility, durability, and comfortable operation.
-* **Press-Fit Multi-Material Assembly:** While intended as a print-in-place device, the final design incorporates three components—two rigid handles and one TPU spring—assembled by hand without adhesives or tools. Press-fit mating was parameterized to achieve secure retention.
-
+* **Generative Lightweight Structural Geometry:** The final hanger integrates both the traditional hanger body and motor mount into a single consolidated component. The generative design engine minimized mass while maintaining stiffness sufficient to support rider weight, resist motor torque, and withstand the forces transmitted through the kingpin and axle.
+* **Integrated Adjustable Motor Mounting System:** The preserved regions include slotted motor-mounting holes enabling ±4 mm of belt tension adjustment. Geometry around the motor region automatically forms efficient load paths, ensuring the motor plate remains rigid under acceleration while avoiding print-region violations of the Fuse 1 SLS build volume.
+* **Optimized for Dual Materials: Nylon 12 & ALSi10Mg:** Two independent generative design studies were run. One on Nylon 12 and one on ALSi10Mg. Comparing both solutions informed how material stiffness influences topology, mass distribution, and manufacturability.
 ---
 
 # Off-The-Shelf Parts
 
 | Component                                                                 | Quantity |
 |---------------------------------------------------------------------------|----------|
-| TPU 95A Filament | Supplied in Lab |
-| PLA Rigid Filament | Supplied in Lab |
-| ABS Filament | Supplied in Lab
-| m5x8mm Bolts | 2 | 
-| m5x12mm Bolts | 2 | 
-| m5x20mm Bolts | 4 | 
-| m5 Nuts | 4 | 
-| Pliers | Supplied in Lab |
-| [Compression Spring](amazon.com/dp/B092R6CK89?_encoding=UTF8&psc=1&ref=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42&ref_=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42&social_share=cm_sw_r_cp_ud_dp_PXVTPNAWY5ZCRPB8NT42) | 1 | 
-| [Ball Bearings](https://www.amazon.com/dp/B08KTBM74G?_encoding=UTF8&ref=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&ref_=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&social_share=cm_sw_r_cp_ud_dp_JJ291HCGP34Q6S5E5WH5&th=1) | 1 | 
-| 3D Printer | Supplied in Lab |
+| Paris V2 Baseplate + Kingpin | 1 |
+| 6374 Brushless Motor (63 mm x 55 mm) | 1 |
+| 90 mm x 52 mm Longboard Wheels | 2 |
+| 608ZZ Bearings | 4 | 
+| Drive Belt (OD 285 mm) | 1 | 
+| Wheel Pulley Set | 1 | 
+| Steel Axle (Ø = 8.2 mm required bore) | 1 | 
+| SLS 3D Printer (Fuse 1 for Nylon 12 / Metal Vendor for ALSi10Mg) | Supplied in Lab |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
 
 ---
@@ -125,10 +121,8 @@ deck.
 
 | 3D Printed Part | Purpose / Function |
 |------------------|--------------------|
-| Phone Case | Holds the phone securely and interfaces with the rotating hub |
-| Rotating Hub | Provides the detent interface and rotates between portrait and landscape positions |
-| Mount Body (Detent Enclosure) | Houses the detent mechanism and connects the rotating hub to the handlebar cuff |
-| Handlebar Cuff | Clamps the entire assembly to the bike handlebar |
+| Generative-Designed Truck Hanger (Nylon 12) | Lightweight structural test part for evaluating compliance, geometry, and assembly fit |
+| Generative-Designed Truck Hanger (ALSi10Mg) | Final metal component used for physical longboard assembly testing and load-bearing evaluation |
 
 ---
 
