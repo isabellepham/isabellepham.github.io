@@ -310,6 +310,16 @@ allowfullscreen>
 
 ---
 
+# Cross-Section View of Internal Rotation Mechanism
+
+<p align="center">
+  <img src="/assets/img/5 BikeMount-11.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 16. Using Pliers to tighten Handlebar Cuff</em>
+</p>
+
+---
+
 # Features
 
 * **Functional Print-in-Place Joint Design:** The rigid plier arms are modeled with precise clearance at the pivot, enabling smooth rotation directly after printing. Joints were refined across iterations to minimize binding and reduce crunchy motion.
