@@ -54,9 +54,9 @@ The bike phone mount was created using a top-down modeling workflow in Fusion 36
 ## Detent Mechanism Overview
 
 For the rotation interface, I used a simple spring-loaded detent mechanism because it was straightforward to design, print, and integrate with off-the-shelf hardware. The mechanism consists of:
-- a compression spring,
-- a ball bearing, and
-- angled recesses in the rotating hub.
+- a compression spring
+- a ball bearing
+- angled recesses in the rotating hub
 
 As the phone turns, the ball compresses into the spring and snaps into each recess, creating clear, discrete rotational positions for portrait and landscape use. The mechanism worked reliably in practice and provided a satisfying “click” during rotation. The strength of the compression spring had a noticeable effect on functionality—stronger springs increased locking force and stability, while weaker springs made rotation easier but reduced tactile feedback.
 
