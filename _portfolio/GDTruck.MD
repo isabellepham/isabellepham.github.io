@@ -1,5 +1,5 @@
 ---
-title: "Bike Phone Mount"
+title: "Generative Design Truck"
 excerpt: "A top-down–modeled, multi-material bike phone mount featuring a print-in-place detent rotation mechanism and a flexible TPU phone case for secure, vibration-resistant riding."
 header:
   image: /assets/img/5 BikeMount_Banner.jpg
