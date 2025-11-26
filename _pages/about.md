@@ -26,9 +26,10 @@ Programming Languages:
 
 Digital Fabrication Tools: 
 * Computer Aided Design (Fusion360)
-* Fused Filament Fabrication (3D Printing)
 * Electrical Prototyping
-* Laser Cutting
+* Fused Filament Fabrication (FFF)
+* Selective Laser Sintering (SLS)
+* Vat Photopolymerization (VPP)
 
 Certifications: 
 * Goldman Sachs Insights Series (2024)
