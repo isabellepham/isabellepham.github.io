@@ -34,7 +34,7 @@ feature_row:
     alt: "Bike Phone Mount"
     title: "Generative Design Truck"
     excerpt: "Generatively-designed a lightweight truck hanger featuring an integrated motor mount optimized for both Nylon 12 and ALSi10Mg SLS fabrication."
-  - image_path: assets/img/6 GDTruck-Cover.jpg
+  - image_path: assets/img/7 DoresDine-HomePic.jpg
     alt: "Bike Phone Mount"
     title: "DoresDine App"
     excerpt: "Developed an app to improve Vanderbilt Student's dining experience."
