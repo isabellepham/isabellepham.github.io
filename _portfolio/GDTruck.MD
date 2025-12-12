@@ -49,6 +49,20 @@ The importance of applying the proper load cases and how to improve this process
 | 9  | Motor weight (vertical)             | Point force             | **8.44 N downward**   | 0.86 × 9.81                        | Downward at motor CG                    | Minor vertical load                          |
 | 10 | Belt tension (axial)                | Tension force           | **558.5 N**           | Given                              | Acts along belt line                    | Contributes to axial loading                 |
 
+I determined which forces to apply to this model largely with the help of conversing with Dr. Florian and utilizing tools like AI to assist in guiding my thinking. 
+
+How I determined which forces to apply (and why)
+
+1. **Start from system-level physics:** The rider weight is the primary global load. Using 75 kg × 9.81 gives the static gravity reaction (735.75 N). For safety, shock/impact multipliers (×1.5–×2) are standard to approximate dynamic loads from landing, bumps, or rough terrain. You chose 1,500 N as a convenient conservative shock value — that sits between ×2 of 735.75 (1,471.5 N) and a small round-up.
+
+2. **Distribute loads by contact / support geometry:** If the pivot is the structural interface to the deck, apply the upward deck reaction at that pivot. If that pivot reaction distributes to two bearing/support points, split by symmetry (1,500 / 2 = 750 N per bearing). If geometry is asymmetric, use static equilibrium (moments about a point) to redistribute based on lever arms.
+
+3. **Use component-specific forces for drivetrain loads:** Belt tension and belt tangential force are calculated from motor torque / pulley geometry or given. Those are applied as tangential point loads at the pulley/mount supports and cause shears on the connecting rods. Split the total tangential force between supports based on symmetry or lever arms.
+
+4. **Include moments and small secondary loads:** Motor torque (8,000 N·mm) is an applied moment. Motor mass creates a small bending moment (≈312 N·mm) and a small vertical force (≈8.44 N). Even if small, include them because they change local stress states and interaction with belt/motor loads.
+
+5. **Apply conservative dynamic factors where appropriate:** For shock or impact cases multiply forces by ×1.5–×2. Do sensitivity runs to understand which loads govern design.
+
 ___
 
 # Comparison between the Nylon and Aluminum Outcome
