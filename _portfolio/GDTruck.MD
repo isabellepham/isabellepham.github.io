@@ -36,7 +36,18 @@ Insert Response Here
 The importance of applying the proper load cases and how to improve this process. How did you determine which forces to apply to the model? Where did you place the structural constraint and how will this placement affect the outcome?
 </p>
 
-Insert Response Here
+| #  | Load Case Name                      | Type                    | Magnitude             | How Computed / Split               | Direction & Application Point           | Notes                                        |
+| -- | ----------------------------------- | ----------------------- | --------------------- | ---------------------------------- | --------------------------------------- | -------------------------------------------- |
+| 1  | Rider static load (conservative)    | Point force             | **735.75 N upward**   | 75 kg × 9.81 = 735.75 N            | Upward at kingpin pivot                 | Baseline static load                         |
+| 2  | Rider shock/impact load             | Point force             | **1471.50 N upward**  | Static load × 2                    | Upward at pivot                         | Conservative shock scenario                  |
+| 3  | User-applied pivot load (your run)  | Point force             | **1500 N upward**     | Given (rounded conservative value) | Upward at pivot                         | Used for main generative run                 |
+| 4  | Bearing support vertical reactions  | Reaction forces         | **750 N upward each** | 1500 N / 2 supports                | Upward at each connecting-rod support   | Assumes symmetric geometry                   |
+| 5  | Belt tangential load (total)        | Tangential force        | **558.5 N**           | Given                              | Tangential at pulley                    | Source of horizontal shear                   |
+| 6  | Belt tangential (split to supports) | Tangential point forces | **279.25 N each**     | 558.5 / 2                          | Left: toward motor; Right: toward pivot | For shock: ×1.5 → 418.9 N, ×2 → 558.5 N each |
+| 7  | Motor torque                        | Moment                  | **8000 N·mm**         | Given                              | Moment at motor shaft center            | Main torsional load                          |
+| 8  | Motor weight moment                 | Moment                  | **312 N·mm**          | (0.86 × 9.81) × 37 mm              | Applied at motor CG                     | Small but included                           |
+| 9  | Motor weight (vertical)             | Point force             | **8.44 N downward**   | 0.86 × 9.81                        | Downward at motor CG                    | Minor vertical load                          |
+| 10 | Belt tension (axial)                | Tension force           | **558.5 N**           | Given                              | Acts along belt line                    | Contributes to axial loading                 |
 
 ___
 
@@ -45,7 +56,11 @@ ___
 A comparison between the nylon and aluminum outcome. 
 </p>
 
-Insert Response Here
+The differences between the Nylon 12 and ALSi10Mg (aluminum) generative design outcomes were immediately noticeable. Across every simulation, the aluminum outcome consistently appeared more slender, efficient, and lightweight. This makes sense given aluminum’s higher stiffness and strength-to-weight ratio; the algorithm can rely on the material’s mechanical properties to carry loads without needing to add significant bulk. As a result, the aluminum design typically featured thinner struts, more open geometry, and fewer solid sections, all while still meeting the performance constraints.
+
+In contrast, the Nylon 12 outcome was significantly more robust and bulky. Nylon is far more flexible and compliant than aluminum, so the generative design tool compensated by adding mass and thickening load-bearing regions. I also noticed that the nylon geometry was much more sensitive to changes in loading conditions. When I increased forces or added additional constraints, the nylon model grew disproportionately in size, as if the algorithm had to over-build the structure to maintain stiffness and prevent deformation. Meanwhile, the aluminum model responded to these same load increases in a different way: rather than simply adding more material, it tended to generate additional connection points and branching structures to redistribute stress efficiently. This led to designs that were still lightweight but strategically reinforced.
+
+Overall, the comparison highlighted how strongly generative design depends on material behavior. Aluminum allowed for minimal, optimized geometries with refined load paths, whereas nylon required heavier, more conservative forms to achieve the same level of performance.
 
 ---
 
