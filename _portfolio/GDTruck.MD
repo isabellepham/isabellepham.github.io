@@ -24,10 +24,7 @@ Two outcomes were produced for Nylon 12 and ALSi10Mg, allowing comparison of how
 ---
 # Pairing of Powder Bed Fusion and Generative Design 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-The unique pairing of powder bed fusion and generative design and their
-applications in either aerospace or automotive industries. Please research a
-specific commercial example (not on the slides), where generative design has
-been used to reduce the number of components in an assembly. 
+The unique pairing of powder bed fusion and generative design and their applications in either aerospace or automotive industries. Please research a specific commercial example (not on the slides), where generative design has been used to reduce the number of components in an assembly. 
 </p>
 
 Insert Response Here
@@ -36,10 +33,7 @@ Insert Response Here
 
 # Importance of Applying Proper Load Cases
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-The importance of applying the proper load cases and how to improve this
-process. How did you determine which forces to apply to the model? Where did
-you place the structural constraint and how will this placement affect the
-outcome?
+The importance of applying the proper load cases and how to improve this process. How did you determine which forces to apply to the model? Where did you place the structural constraint and how will this placement affect the outcome?
 </p>
 
 Insert Response Here
@@ -57,8 +51,7 @@ Insert Response Here
 
 # Critique on Generative Design 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
-Critique generative design. How useful is it really? What are the drawbacks?
-What applications would generative design be most useful in?
+Critique generative design. How useful is it really? What are the drawbacks? What applications would generative design be most useful in?
 </p>
 
 Insert Response Here
@@ -120,7 +113,6 @@ deck.
 }
 </style>
 
-
 ---
 
 # Features
@@ -135,15 +127,17 @@ deck.
 
 | Component                                                                 | Quantity |
 |---------------------------------------------------------------------------|----------|
-| Paris V2 Baseplate + Kingpin | 1 |
-| 6374 Brushless Motor (63 mm x 55 mm) | 1 |
-| 90 mm x 52 mm Longboard Wheels | 2 |
-| 608ZZ Bearings | 4 | 
-| Drive Belt (OD 285 mm) | 1 | 
-| Wheel Pulley Set | 1 | 
-| Steel Axle (Ø = 8.2 mm required bore) | 1 | 
+| [Paris V2 Mounting Plate and Kingpin (attached to skateboard)](https://www.loadedboards.com/products/paris-v2-180mm-50-trucks) | 1 |
+| Bushings | 2| 
+| Washers | 2 | 
+| Kingpin Nut | 1| 
+| [6374 Brushless Motor (63 mm x 55 mm)](https://www.amazon.com/Flipsky-Electric-Skateboard-Dustproof-Brushless/dp/B086YN7SSB) | 1 |
+| [90 mm x 52 mm Longboard Wheels](amazon.com/gp/product/B091GGR3RM) | 2 |
+| [Wheel Pulley Set](https://www.amazon.com/gp/product/B07JN246JW?th=1) | 1 | 
 | SLS 3D Printer (Fuse 1 for Nylon 12 / Metal Vendor for ALSi10Mg) | Supplied in Lab |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
+| Wrench | 1 |
+| Screwdriver | 1 | 
 
 ---
 
