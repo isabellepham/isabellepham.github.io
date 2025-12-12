@@ -61,8 +61,10 @@ Insert Response Here
 # Generated Outcomes - Iterations before FFF Printing
 
 <iframe width="560" height="315"
-src = "https://youtu.be/embed/8_hajX6IUJg"
-frameborder="0" allowfullscreen></iframe>
+src="https://www.youtube.com/embed/8_hajX6IUJg"
+frameborder="0"
+allowfullscreen>
+</iframe>
 
 ---
 
