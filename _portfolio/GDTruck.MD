@@ -5,15 +5,15 @@ header:
   image: /assets/img/6 GDTruck-Banner.JPG
   teaser: /assets/img/6 GDTruck-Banner.JPG
 gallery:
-  - image_path: assets/img/5 BikeMount-1.JPG
-  - image_path: assets/img/5 BikeMount-2.JPG
-  - image_path: assets/img/5 BikeMount-3.JPG
-  - image_path: assets/img/5 BikeMount-4.JPG
-  - image_path: assets/img/5 BikeMount-5.JPG
-  - image_path: assets/img/5 BikeMount-6.JPG
-  - image_path: assets/img/5 BikeMount-7.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
+  - image_path: assets/img/6 GDTruck-1.JPG
+  - image_path: assets/img/6 GDTruck-2.JPG
+  - image_path: assets/img/6 GDTruck-3.JPG
+  - image_path: assets/img/6 GDTruck-4.JPG
+  - image_path: assets/img/6 GDTruck-5.JPG
+  - image_path: assets/img/6 GDTruck-9.JPG
+  - image_path: assets/img/6 GDTruck-6.JPG
+  - image_path: assets/img/6 GDTruck-7.JPG
+  - image_path: assets/img/6 GDTruck-8.JPG
   
 ---
 
