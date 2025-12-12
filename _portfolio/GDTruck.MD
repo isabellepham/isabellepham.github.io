@@ -98,14 +98,14 @@ deck.
 </p>
 
 <div class="gallery">
-  <img src="assets/img/5 BikeMount-1.JPG" />
-  <img src="assets/img/5 BikeMount-2.JPG" />
-  <img src="assets/img/5 BikeMount-3.JPG" />
-  <img src="assets/img/5 BikeMount-4.JPG" />
-  <img src="assets/img/5 BikeMount-5.JPG" />
-  <img src="assets/img/5 BikeMount-6.JPG" />
-  <img src="assets/img/5 BikeMount-7.JPG" />
-  <img src="assets/img/5 BikeMount-8.JPG" />
+  <img src="assets/img/5%20BikeMount-1.JPG" />
+  <img src="assets/img/5%20BikeMount-2.JPG" />
+  <img src="assets/img/5%20BikeMount-3.JPG" />
+  <img src="assets/img/5%20BikeMount-4.JPG" />
+  <img src="assets/img/5%20BikeMount-5.JPG" />
+  <img src="assets/img/5%20BikeMount-6.JPG" />
+  <img src="assets/img/5%20BikeMount-7.JPG" />
+  <img src="assets/img/5%20BikeMount-8.JPG" />
 </div>
 
 <style>
