@@ -58,6 +58,14 @@ Insert Response Here
 
 ---
 
+# Generated Outcomes - Iterations before FFF Printing
+
+<iframe width="560" height="315"
+src = "https://youtu.be/embed/8_hajX6IUJg"
+frameborder="0" allowfullscreen></iframe>
+
+---
+
 # CAD Model of ALSi10Mg outcome 
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f02ce06be8df9cdb?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -89,29 +97,6 @@ frameborder="0" allowfullscreen></iframe>
 Real life images of the ALSi10Mg model pSLS printed and attached to the longboard
 deck.
 </p>
-
-<div class="gallery">
-  <img src="assets/img/5%20BikeMount-1.JPG" />
-  <img src="assets/img/5%20BikeMount-2.JPG" />
-  <img src="assets/img/5%20BikeMount-3.JPG" />
-  <img src="assets/img/5%20BikeMount-4.JPG" />
-  <img src="assets/img/5%20BikeMount-5.JPG" />
-  <img src="assets/img/5%20BikeMount-6.JPG" />
-  <img src="assets/img/5%20BikeMount-7.JPG" />
-  <img src="assets/img/5%20BikeMount-8.JPG" />
-</div>
-
-<style>
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
-.gallery img {
-  width: 100%;
-  border-radius: 6px;
-}
-</style>
 
 ---
 
