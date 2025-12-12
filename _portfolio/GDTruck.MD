@@ -43,18 +43,15 @@ This example highlights the broader value of combining generative design with po
 The importance of applying the proper load cases and how to improve this process. How did you determine which forces to apply to the model? Where did you place the structural constraint and how will this placement affect the outcome?
 </p>
 
-| #  | Load Case Name                      | Type                    | Magnitude             | How Computed / Split               | Direction & Application Point           | Notes                                        |
-| -- | ----------------------------------- | ----------------------- | --------------------- | ---------------------------------- | --------------------------------------- | -------------------------------------------- |
-| 1  | Rider static load (conservative)    | Point force             | **735.75 N upward**   | 75 kg × 9.81 = 735.75 N            | Upward at kingpin pivot                 | Baseline static load                         |
-| 2  | Rider shock/impact load             | Point force             | **1471.50 N upward**  | Static load × 2                    | Upward at pivot                         | Conservative shock scenario                  |
-| 3  | User-applied pivot load (your run)  | Point force             | **1500 N upward**     | Given (rounded conservative value) | Upward at pivot                         | Used for main generative run                 |
-| 4  | Bearing support vertical reactions  | Reaction forces         | **750 N upward each** | 1500 N / 2 supports                | Upward at each connecting-rod support   | Assumes symmetric geometry                   |
-| 5  | Belt tangential load (total)        | Tangential force        | **558.5 N**           | Given                              | Tangential at pulley                    | Source of horizontal shear                   |
-| 6  | Belt tangential (split to supports) | Tangential point forces | **279.25 N each**     | 558.5 / 2                          | Left: toward motor; Right: toward pivot | For shock: ×1.5 → 418.9 N, ×2 → 558.5 N each |
-| 7  | Motor torque                        | Moment                  | **8000 N·mm**         | Given                              | Moment at motor shaft center            | Main torsional load                          |
-| 8  | Motor weight moment                 | Moment                  | **312 N·mm**          | (0.86 × 9.81) × 37 mm              | Applied at motor CG                     | Small but included                           |
-| 9  | Motor weight (vertical)             | Point force             | **8.44 N downward**   | 0.86 × 9.81                        | Downward at motor CG                    | Minor vertical load                          |
-| 10 | Belt tension (axial)                | Tension force           | **558.5 N**           | Given                              | Acts along belt line                    | Contributes to axial loading                 |
+| Load Case Name                      | Type                    | Magnitude             | How Computed / Split               | Direction & Application Point           | Notes                                        |
+| ----------------------------------- | ----------------------- | --------------------- | ---------------------------------- | --------------------------------------- | -------------------------------------------- |
+| Gravity | Gravity | 9.807 m/s^2 | Given | Upward on floor that base plate is on | N/A | 
+| User-applied pivot load | Force | **1500 N upward** | Given (rounded conservative value) | Upward at pivot  | Used for main generative run  |
+| Bearing support vertical reactions  | Bearing Load  | **750 N upward each** | 1500 N / 2 supports  | Upward at each connecting-rod support | Assumes symmetric geometry |
+| Sheering Force (split to supports) | Force | **280 N each**     | 558.5 / 2 (rounded up)    | Left: toward motor; Right: toward pivot | For shock: ×1.5 → 418.9 N, ×2 → 558.5 N each |
+| Motor torque   | Moment    | **8000 N·mm** | Given   | Moment at motor shaft center    | Main torsional load    |
+| Motor weight moment   | Moment  | **315 N·mm**  | (0.86 × 9.81) × 37 mm (rounded up)  | Applied at motor CG    | N/A  |
+| Belt tension  | Remote force           | **560 N**           | 558.5 N (rounded up)  | In direction of Belt movement, pulled away from Motor Holder | Contributes to axial loading  |
 
 I determined which forces to apply to this model largely with the help of conversing with Dr. Florian and utilizing tools like AI to assist in guiding my thinking. 
 
