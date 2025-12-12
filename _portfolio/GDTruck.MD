@@ -61,7 +61,8 @@ Improving the load-case definition process involves several key steps. First, mu
 
 I determined which forces to apply to this model largely with the help of conversing with Dr. Florian and utilizing tools like AI to assist in guiding my thinking. 
 
-###How I determined which forces to apply (and why)
+
+How I determined which forces to apply (and why)
 
 1. **Start from system-level physics:** The rider weight is the primary global load. Using 75 kg × 9.81 gives the static gravity reaction (735.75 N). For safety, shock/impact multipliers (×1.5–×2) are standard to approximate dynamic loads from landing, bumps, or rough terrain. You chose 1,500 N as a convenient conservative shock value — that sits between ×2 of 735.75 (1,471.5 N) and a small round-up.
 
@@ -73,7 +74,8 @@ I determined which forces to apply to this model largely with the help of conver
 
 5. **Apply conservative dynamic factors where appropriate:** For shock or impact cases multiply forces by ×1.5–×2. Do sensitivity runs to understand which loads govern design.
 
-###Chosen constraints
+
+Chosen constraints
 
 1. **Primary structural constraint:** an appropriate representation of the kingpin pivot / hanger-seat into the base plate. Model this as a pinned or partially fixed support at the region where the hanger engages the truck baseplate (i.e., the real mechanical connection to the deck). This prevents rigid-body motion and models how deck loads enter the hanger.
 
