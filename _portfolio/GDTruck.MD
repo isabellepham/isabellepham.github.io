@@ -148,6 +148,12 @@ Real life images of the ALSi10Mg model pSLS printed and attached to the longboar
 deck.
 </p>
 
+<p align="center">
+  <img src="/assets/img/6 GDTruck-Cover.JPG" alt="Print Failure" width="600"/>
+  <br>
+  <em>Figure 1. ALSi10Mg model pSLS printed and attached to the longboard</em>
+</p>
+
 ---
 
 # Features
