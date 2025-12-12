@@ -141,12 +141,12 @@ deck.
 
 ---
 
-# 3D Printed Parts
+# Generated Outcomes
 
-| 3D Printed Part | Purpose / Function |
+| Generated Outcomes| Purpose / Function |
 |------------------|--------------------|
-| Generative-Designed Truck Hanger (Nylon 12) | Lightweight structural test part for evaluating compliance, geometry, and assembly fit |
-| Generative-Designed Truck Hanger (ALSi10Mg) | Final metal component used for physical longboard assembly testing and load-bearing evaluation |
+| Generative-Designed Truck Hanger (Nylon 12) | Design generated to compare with Aluminum outcome, helpful in evaluating forces. |
+| Generative-Designed Truck Hanger (ALSi10Mg) | Final metal component, powder printed to be used for physical longboard assembly testing |
 
 ---
 
