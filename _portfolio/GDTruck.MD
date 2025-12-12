@@ -97,16 +97,29 @@ Real life images of the ALSi10Mg model pSLS printed and attached to the longboar
 deck.
 </p>
 
-gallery:
-  - image_path: assets/img/5 BikeMount-1.JPG
-  - image_path: assets/img/5 BikeMount-2.JPG
-  - image_path: assets/img/5 BikeMount-3.JPG
-  - image_path: assets/img/5 BikeMount-4.JPG
-  - image_path: assets/img/5 BikeMount-5.JPG
-  - image_path: assets/img/5 BikeMount-6.JPG
-  - image_path: assets/img/5 BikeMount-7.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
+<div class="gallery">
+  <img src="assets/img/5 BikeMount-1.JPG" />
+  <img src="assets/img/5 BikeMount-2.JPG" />
+  <img src="assets/img/5 BikeMount-3.JPG" />
+  <img src="assets/img/5 BikeMount-4.JPG" />
+  <img src="assets/img/5 BikeMount-5.JPG" />
+  <img src="assets/img/5 BikeMount-6.JPG" />
+  <img src="assets/img/5 BikeMount-7.JPG" />
+  <img src="assets/img/5 BikeMount-8.JPG" />
+</div>
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 6px;
+}
+</style>
+
 
 ---
 
