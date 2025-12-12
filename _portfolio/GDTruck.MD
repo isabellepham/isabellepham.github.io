@@ -1,6 +1,6 @@
 ---
 title: "Generative Design Truck"
-excerpt: "A lightweight, generatively-designed truck hanger featuring an integrated motor mount optimized for both Nylon 12 and ALSi10Mg SLS fabrication."
+excerpt: "A lightweight, generatively-designed truck hanger optimized for both Nylon 12 and ALSi10Mg SLS fabrication."
 header:
   image: /assets/img/6 GDTruck-Banner.JPG
   teaser: /assets/img/6 GDTruck-Banner.JPG
