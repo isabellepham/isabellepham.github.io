@@ -45,7 +45,7 @@ The importance of applying the proper load cases and how to improve this process
 
 | Load Case Name                      | Type                    | Magnitude             | How Computed / Split               | Direction & Application Point           | Notes                                        |
 | ----------------------------------- | ----------------------- | --------------------- | ---------------------------------- | --------------------------------------- | -------------------------------------------- |
-| Gravity | Gravity | 9.807 m/s^2 | Given | Upward on floor that base plate is on | N/A | 
+| Gravity | Gravity | **9.807 m/s^2** | Given | Upward on floor that base plate is on | N/A | 
 | User-applied pivot load | Force | **1500 N upward** | Given (rounded conservative value) | Upward at pivot  | Used for main generative run  |
 | Bearing support vertical reactions  | Bearing Load  | **750 N upward each** | 1500 N / 2 supports  | Upward at each connecting-rod support | Assumes symmetric geometry |
 | Sheering Force (split to supports) | Force | **280 N each**     | 558.5 / 2 (rounded up)    | Left: toward motor; Right: toward pivot | For shock: ×1.5 → 418.9 N, ×2 → 558.5 N each |
