@@ -70,6 +70,16 @@ How I determined which forces to apply (and why)
 
 5. **Apply conservative dynamic factors where appropriate:** For shock or impact cases multiply forces by ×1.5–×2. Do sensitivity runs to understand which loads govern design.
 
+---
+
+# Generated Outcomes - Iterations before FFF Printing
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/8_hajX6IUJg"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
 ___
 
 # Comparison between the Nylon and Aluminum Outcome
@@ -82,16 +92,6 @@ The differences between the Nylon 12 and ALSi10Mg (aluminum) generative design o
 In contrast, the Nylon 12 outcome was significantly more robust and bulky. Nylon is far more flexible and compliant than aluminum, so the generative design tool compensated by adding mass and thickening load-bearing regions. I also noticed that the nylon geometry was much more sensitive to changes in loading conditions. When I increased forces or added additional constraints, the nylon model grew disproportionately in size, as if the algorithm had to over-build the structure to maintain stiffness and prevent deformation. Meanwhile, the aluminum model responded to these same load increases in a different way: rather than simply adding more material, it tended to generate additional connection points and branching structures to redistribute stress efficiently. This led to designs that were still lightweight but strategically reinforced.
 
 Overall, the comparison highlighted how strongly generative design depends on material behavior. Aluminum allowed for minimal, optimized geometries with refined load paths, whereas nylon required heavier, more conservative forms to achieve the same level of performance.
-
----
-
-# Generated Outcomes - Iterations before FFF Printing
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/8_hajX6IUJg"
-frameborder="0"
-allowfullscreen>
-</iframe>
 
 ---
 
