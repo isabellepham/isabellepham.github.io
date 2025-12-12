@@ -85,6 +85,16 @@ Overall, the comparison highlighted how strongly generative design depends on ma
 
 ---
 
+# Generated Outcomes - Iterations before FFF Printing
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/8_hajX6IUJg"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+---
+
 # Critique on Generative Design 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 Critique generative design. How useful is it really? What are the drawbacks? What applications would generative design be most useful in?
@@ -103,16 +113,6 @@ Generative design also has high computational and expertise demands. Generating 
 Additionally, generative structures can behave unpredictably in edge cases. Their organic geometries rely heavily on exact load paths and precise material behavior. Small changes in real-world conditions—such as belt tension, surface imperfections, vibrations, or impact loads—can cause failures that the simulation never accounted for. For consumer-facing hardware where reliability and safety matter, this is a serious concern.
 
 Despite these drawbacks, generative design has clear application areas where its advantages outweigh its limitations. It is especially compelling in aerospace and automotive engineering, where weight reduction translates directly into energy savings, performance improvement, and cost reduction. It also pairs naturally with additive manufacturing, which can produce complex, organic structures that would be impossible using traditional machining. Other strong domains include architecture, robotics, biomechanics, and industrial design—fields where complex load paths or nature-inspired forms can outperform conventional shapes.
-
----
-
-# Generated Outcomes - Iterations before FFF Printing
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/8_hajX6IUJg"
-frameborder="0"
-allowfullscreen>
-</iframe>
 
 ---
 
