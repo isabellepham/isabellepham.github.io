@@ -134,7 +134,7 @@ deck.
 | [6374 Brushless Motor (63 mm x 55 mm)](https://www.amazon.com/Flipsky-Electric-Skateboard-Dustproof-Brushless/dp/B086YN7SSB) | 1 |
 | [90 mm x 52 mm Longboard Wheels](amazon.com/gp/product/B091GGR3RM) | 2 |
 | [Wheel Pulley Set](https://www.amazon.com/gp/product/B07JN246JW?th=1) | 1 | 
-| SLS 3D Printer (Fuse 1 for Nylon 12 / Metal Vendor for ALSi10Mg) | 1 |
+| SLS 3D Printer | 1 |
 | [Calipers](amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW?crid=1C7BPKT5NIPWY&keywords=calipers&qid=1644422896&sprefix=calipers,aps,73&sr=8-4&th=1&linkCode=sl1&tag=drd0cf-20&linkId=73d2c46816e51f3eafe02410811438e6&language=en_US&ref_=as_li_ss_tl) | 1| 
 | Wrench | 1 |
 | Screwdriver | 1 | 
