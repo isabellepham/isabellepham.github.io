@@ -17,11 +17,12 @@ gallery:
   
 ---
 
-I designed a generative longboard truck hanger with an integrated motor mount using Fusion 360. The model was built from essential preserved interfaces—kingpin seat, axle bore, bearing contact points, belt envelope, and motor mounting slots—to give the generative solver freedom to minimize mass while meeting all mechanical and spatial constraints.
+I designed a generative longboard truck hanger with an integrated motor mount using Fusion 360. The model was built from essential preserved interfaces (kingpin seat, bearing contact points, belt envelope, and motor mounting slots) to give the generative solver freedom to minimize mass while meeting all mechanical and spatial constraints.
 
-Two outcomes were produced for Nylon 12 and ALSi10Mg, allowing comparison of how material stiffness and manufacturing constraints influence the resulting topology. After minor refinements for printability, the ALSi10Mg design was fabricated using SLS powder-bed fusion and assembled onto the full longboard to validate axle alignment, belt tensioning, wheel clearance, and motor ground clearance.
+Two outcomes were produced for Nylon 12 and ALSi10Mg, allowing comparison of how material stiffness and manufacturing constraints influence the resulting topology. After minor refinements for printability, the ALSi10Mg design was fabricated using SLS powder-bed fusion and assembled onto the full longboard to validate alignment, belt tensioning, wheel clearance, and motor ground clearance.
 
 ---
+
 # Pairing of Powder Bed Fusion and Generative Design 
 <p style="font-size: 1.1em; color: #666; margin-top: -0.8em; font-style: italic;">
 The unique pairing of powder bed fusion and generative design and their applications in either aerospace or automotive industries. Please research a specific commercial example (not on the slides), where generative design has been used to reduce the number of components in an assembly. 
