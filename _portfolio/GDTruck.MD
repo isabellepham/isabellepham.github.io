@@ -12,8 +12,8 @@ gallery:
   - image_path: assets/img/6 GDTruck-5.JPG
   - image_path: assets/img/6 GDTruck-9.JPG
   - image_path: assets/img/6 GDTruck-6.JPG
-  - image_path: assets/img/6 GDTruck-7.JPG
   - image_path: assets/img/6 GDTruck-8.JPG
+  - image_path: assets/img/6 GDTruck-7.JPG
   
 ---
 
