@@ -4,16 +4,6 @@ excerpt: "An application to improve Vanderbilt Students' dining experience."
 header:
   image: /assets/img/7 DoresDine-Banner.jpg
   teaser: /assets/img/7 DoresDine-Banner.jpg
-gallery:
-  - image_path: assets/img/5 BikeMount-1.JPG
-  - image_path: assets/img/5 BikeMount-2.JPG
-  - image_path: assets/img/5 BikeMount-3.JPG
-  - image_path: assets/img/5 BikeMount-4.JPG
-  - image_path: assets/img/5 BikeMount-5.JPG
-  - image_path: assets/img/5 BikeMount-6.JPG
-  - image_path: assets/img/5 BikeMount-7.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
-  - image_path: assets/img/5 BikeMount-8.JPG
   
 ---
 
@@ -150,34 +140,6 @@ The ongoing pressure to reprioritize also reinforced the importance of the YAGNI
 
 Finally, working with a mobile application introduced unique challenges in User Experience (UX) and User Interface (UI) design. We learned to optimize interactions for touch rather than mouse input, ensuring appropriate target sizes, padding, and spacing. We also recognized that the smaller screen made information hierarchy far more important; avoiding overly nested menus and excessive scrolling became essential to achieving the streamlined experience we set out to create. 
 
-___
-
-
-# How to View DoresDine
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/p2g1acEJ3hk"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen>
-</iframe>
-
----
-
-# Features
-
-* **Generative Lightweight Structural Geometry:** The final hanger integrates both the traditional hanger body and motor mount into a single consolidated component. The generative design engine minimized mass while maintaining stiffness sufficient to support rider weight, resist motor torque, and withstand the forces transmitted through the kingpin and axle.
-* **Integrated Adjustable Motor Mounting System:** The preserved regions include slotted motor-mounting holes enabling ±4 mm of belt tension adjustment. Geometry around the motor region automatically forms efficient load paths, ensuring the motor plate remains rigid under acceleration while avoiding print-region violations of the Fuse 1 SLS build volume.
-* **Optimized for Dual Materials: Nylon 12 & ALSi10Mg:** Two independent generative design studies were run. One on Nylon 12 and one on ALSi10Mg. Comparing both solutions informed how material stiffness influences topology, mass distribution, and manufacturability.
-
----
-
-# 3D Printed Parts
-
-| 3D Printed Part | Purpose / Function |
-|------------------|--------------------|
-| Generative-Designed Truck Hanger (Nylon 12) | Lightweight structural test part for evaluating compliance, geometry, and assembly fit |
-| Generative-Designed Truck Hanger (ALSi10Mg) | Final metal component used for physical longboard assembly testing and load-bearing evaluation |
 
 ---
 
