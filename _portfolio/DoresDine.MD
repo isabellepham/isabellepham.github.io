@@ -15,12 +15,6 @@ DoresDine addresses this by creating a secure mobile application focused on stre
 
 ---
 
-# The List of all user stories 
-
-Insert Response Here
-
----
-
 # Implementation Report
 
 ## Description of Implementation Effort
@@ -140,7 +134,3 @@ The ongoing pressure to reprioritize also reinforced the importance of the YAGNI
 
 Finally, working with a mobile application introduced unique challenges in User Experience (UX) and User Interface (UI) design. We learned to optimize interactions for touch rather than mouse input, ensuring appropriate target sizes, padding, and spacing. We also recognized that the smaller screen made information hierarchy far more important; avoiding overly nested menus and excessive scrolling became essential to achieving the streamlined experience we set out to create. 
 
-
----
-
-{% include gallery caption="Multi Material Pliers Gallery" %}
